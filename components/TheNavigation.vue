@@ -4,6 +4,10 @@ const links = [
         label: 'Startseite',
         to: '/',
     },
+    {
+        label: 'Stücke',
+        to: '/piece',
+    },
 ];
 </script>
 
