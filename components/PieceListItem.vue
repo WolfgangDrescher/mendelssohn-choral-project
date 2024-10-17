@@ -42,7 +42,13 @@ ${(props.filters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : nul
                 lazy
                 unload
                 :lazy-delay="100"
-                :options="{mnumInterval: 1}"
+                :options="{
+                    mnumInterval: 1,
+                    pageMarginLeft: 30,
+                    pageMarginRight: 30,
+                    pageMarginTop: 10,
+                    pageMarginBottom: 10,
+                }"
             />
         </div>
     </UCard>
