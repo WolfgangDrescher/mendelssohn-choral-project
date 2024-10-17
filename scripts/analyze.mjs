@@ -32,9 +32,9 @@ function escapeShell(cmd = '') {
     return '"' + cmd.replace(/(["$`\\])/g, '\\$1') + '"';
 }
 
-getFiles(pathToKernScores).forEach(file => {
+const result = {};
 
-    const result = {};
+getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
     const kern = fs.readFileSync(file, 'utf8');
@@ -131,11 +131,11 @@ getFiles(pathToKernScores).forEach(file => {
         }
 
     });
-
-    fs.writeFileSync(analysisFile, yaml.dump(result, {
-        indent: 4,
-        lineWidth: -1,
-        sortKeys: true,
-    }));
  
 });
+
+fs.writeFileSync(analysisFile, yaml.dump(result, {
+    indent: 4,
+    lineWidth: -1,
+    sortKeys: true,
+}));
