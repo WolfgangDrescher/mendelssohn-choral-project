@@ -1,0 +1,3 @@
+[submodule "mendelssohn-choral-works"]
+	path = mendelssohn-choral-works
+	url = https://github.com/WolfgangDrescher/mendelssohn-choral-works.git
