@@ -59,8 +59,8 @@ getFiles(pathToKernScores).forEach(file => {
     const config = Object.assign({
         id,
         title: referenceRecords.OTL,
-        op: referenceRecords.OPS,
-        nr: referenceRecords.ONM,
+        op: parseInt(referenceRecords.OPS.replaceAll(/\D/g, '')),
+        nr: parseInt(referenceRecords.ONM.replaceAll(/\D/g, '')),
         largerWorkTitle: referenceRecords.OPR,
         localRawFile: `/kern/mendelssohn-choral-works/${id}.krn`,
         composer: 'Felix Mendelssohn',
