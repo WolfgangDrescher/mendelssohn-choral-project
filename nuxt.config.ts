@@ -45,7 +45,7 @@ export default defineNuxtConfig({
     nitro: {
         publicAssets: [
             {
-                baseURL: 'kern/bach-370-chorales',
+                baseURL: 'kern/mendelssohn-choral-works',
                 dir: fileURLToPath(new URL('./mendelssohn-choral-works/kern', import.meta.url)),
                 maxAge: 3600,
             },
