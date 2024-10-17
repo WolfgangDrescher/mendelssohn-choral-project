@@ -7,7 +7,7 @@ useHead({
 </script>
 
 <template>
-    <Container>
+    <UContainer>
         <SectionContainer>
             <section>
                 <Heading>{{ $t('legalNotice') }}</Heading>
@@ -44,5 +44,5 @@ useHead({
                 </div>
             </section>
         </SectionContainer>
-    </Container>
+    </UContainer>
 </template>

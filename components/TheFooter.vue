@@ -4,7 +4,7 @@ const localePath = useLocalePath();
 
 <template>
     <footer class="py-6 md:py-12 bg-primary-500 text-white bg-pattern">
-        <Container>
+        <UContainer>
             <div class="grid md:grid-cols-3 gap-4">
                 <div>
                     <h4 class="text-lg font-bold mb-2">Sitemap</h4>
@@ -22,6 +22,6 @@ const localePath = useLocalePath();
                     </ul>
                 </div>
             </div>
-        </Container>
+        </UContainer>
     </footer>
 </template>

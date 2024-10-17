@@ -1,5 +1,5 @@
 <template>
-    <Container>
+    <UContainer>
         Index
-    </Container>
+    </UContainer>
 </template>
