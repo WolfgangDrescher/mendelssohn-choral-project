@@ -7,7 +7,7 @@ import yaml from 'js-yaml';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pathToKernScores = `${__dirname}/../mendelssohn-choral-works/kern/`;
-const biciniumYamlPath = `${__dirname}/../content/pieces/`;
+const piecesYamlPath = `${__dirname}/../content/pieces/`;
 
 function getIdFromFilename(path) {
     return path.split(/[\\\/]/).pop().replace(/\..+$/, '');
@@ -47,7 +47,7 @@ function getFiles(directory, fileList) {
     return fileList;
 }
 
-execSync(`mkdir -p ${biciniumYamlPath}`);
+execSync(`mkdir -p ${piecesYamlPath}`);
 
 getFiles(pathToKernScores).forEach(file => {
     const id = getIdFromFilename(file);
@@ -67,7 +67,7 @@ getFiles(pathToKernScores).forEach(file => {
     });
 
     const configFilename = `${id}.yaml`;
-    fs.writeFileSync(`${biciniumYamlPath}${configFilename}`, yaml.dump(config, {
+    fs.writeFileSync(`${piecesYamlPath}${configFilename}`, yaml.dump(config, {
         indent: 4,
         lineWidth: -1,
         sortKeys: true,
