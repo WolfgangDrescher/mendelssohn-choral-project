@@ -1,12 +1,15 @@
 <script setup>
+const { t } = useI18n();
+const localePath = useLocalePath();
+
 const links = [
     {
-        label: 'Startseite',
-        to: '/',
+        label: t('home'),
+        to: localePath({name: 'index'}),
     },
     {
-        label: 'Stücke',
-        to: '/piece',
+        label: t('pieces'),
+        to: localePath({name: 'piece'}),
     },
 ];
 </script>
