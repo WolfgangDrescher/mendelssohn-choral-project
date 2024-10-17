@@ -25,6 +25,7 @@ export default defineNuxtConfig({
         '@nuxt/fonts',
         '@nuxtjs/i18n',
         '@pinia/nuxt',
+        '@nuxt/content',
     ],
     i18n: {
         strategy: 'prefix_except_default',
