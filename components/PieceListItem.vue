@@ -6,6 +6,7 @@ const props = defineProps({
         type: Object,
         required: true,
     },
+    filters: Array,
 });
 
 const data = ref(null);
@@ -16,6 +17,11 @@ onMounted(async () => {
         throw new Error(`${response.status} ${response.statusText}`);
     }
     data.value = await response.text();
+});
+
+const formattedData = computed(() => {
+    return data.value ? `${data.value}
+${(props.filters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
 });
 </script>
 
@@ -30,8 +36,8 @@ onMounted(async () => {
         </template>
         <div class="mt-4">
             <VerovioCanvas
-                v-if="data"
-                :data="data"
+                v-if="formattedData"
+                :data="formattedData"
                 view-mode="horizontal"
                 lazy
                 unload
