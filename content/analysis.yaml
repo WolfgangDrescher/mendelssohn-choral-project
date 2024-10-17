@@ -1,0 +1,147 @@
+'479':
+    -
+        deg: '1'
+        id: 59-1-im-gruenen
+        lineNumber: 32
+        myankLines: 26-37
+    -
+        deg: '1'
+        id: 59-1-im-gruenen
+        lineNumber: 33
+        myankLines: 26-37
+    -
+        deg: .
+        id: 59-1-im-gruenen
+        lineNumber: 104
+        myankLines: 98-111
+    -
+        deg: '5'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 30
+        myankLines: 26-33
+    -
+        deg: '5'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 92
+        myankLines: 88-95
+    -
+        deg: '5'
+        id: 59-5-ruhethal
+        lineNumber: 161
+        myankLines: 151-167
+deg3-69:
+    -
+        deg: '3'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 85
+        myankLines: 79-88
+deg4-7:
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 43
+        myankLines: 38-45
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 88
+        myankLines: 83-90
+deg4-down:
+    -
+        deg: '4'
+        id: 59-1-im-gruenen
+        lineNumber: 50
+        myankLines: 43-55
+    -
+        deg: '4'
+        id: 59-1-im-gruenen
+        lineNumber: 55
+        myankLines: 47-60
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 32
+        myankLines: 27-35
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 33
+        myankLines: 28-35
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 59
+        myankLines: 53-65
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 65
+        myankLines: 58-68
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 66
+        myankLines: 59-71
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 71
+        myankLines: 65-75
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 72
+        myankLines: 66-77
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 73
+        myankLines: 66-77
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 74
+        myankLines: 67-77
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 75
+        myankLines: 68-79
+    -
+        deg: '4'
+        id: 59-5-ruhethal
+        lineNumber: 111
+        myankLines: 103-119
+deg5-246:
+    -
+        deg: '5'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 41
+        myankLines: 36-44
+deg5-457:
+    -
+        deg: '5'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 121
+        myankLines: 114-124
+    -
+        deg: '5'
+        id: 59-5-ruhethal
+        lineNumber: 56
+        myankLines: 46-64
+deg5-m6:
+    -
+        deg: '5'
+        id: 59-1-im-gruenen
+        lineNumber: 79
+        myankLines: 73-81
+    -
+        deg: '5'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 109
+        myankLines: 103-112
+    -
+        deg: '5'
+        id: 59-5-ruhethal
+        lineNumber: 124
+        myankLines: 113-131
