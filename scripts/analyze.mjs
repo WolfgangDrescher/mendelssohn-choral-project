@@ -98,7 +98,7 @@ getFiles(pathToKernScores).forEach(file => {
             });
         }
 
-        if (deg === '5' && (hint.includes('m6'))) {
+        if (deg === '5' && (hint.includes('m6') && fb !== '6 4')) {
             (result['deg5-m6'] ??= []).push({
                 id,
                 deg,
