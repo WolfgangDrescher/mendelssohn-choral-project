@@ -212,46 +212,6 @@ deg5-457:
 deg5-m6:
     -
         deg: '5'
-        id: 59-1-im-gruenen
-        lineNumber: 79
-        myankLines: 73-81
-    -
-        deg: '5'
-        id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 95
-        myankLines: 88-103
-    -
-        deg: '5'
-        id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 214
-        myankLines: 202-223
-    -
-        deg: '5'
-        id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 227
-        myankLines: 215-238
-    -
-        deg: '5'
-        id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 246
-        myankLines: 233-253
-    -
-        deg: '5'
-        id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 253
-        myankLines: 243-260
-    -
-        deg: '5'
-        id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 438
-        myankLines: 431-446
-    -
-        deg: '5'
         id: 59-3-abschied-vom-walde
         lineNumber: 109
         myankLines: 103-112
-    -
-        deg: '5'
-        id: 59-5-ruhethal
-        lineNumber: 124
-        myankLines: 113-131
