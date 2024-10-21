@@ -16,6 +16,31 @@
         myankLines: 98-111
     -
         deg: '5'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 62
+        myankLines: 51-70
+    -
+        deg: .
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 185
+        myankLines: 171-197
+    -
+        deg: '1'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 199
+        myankLines: 184-209
+    -
+        deg: '1'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 303
+        myankLines: 291-315
+    -
+        deg: '5'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 405
+        myankLines: 394-413
+    -
+        deg: '5'
         id: 59-3-abschied-vom-walde
         lineNumber: 30
         myankLines: 26-33
@@ -32,10 +57,60 @@
 deg3-69:
     -
         deg: '3'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 33
+        myankLines: 24-41
+    -
+        deg: '3'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 376
+        myankLines: 367-384
+    -
+        deg: '3'
         id: 59-3-abschied-vom-walde
         lineNumber: 85
         myankLines: 79-88
 deg4-7:
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 103
+        myankLines: 94-111
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 111
+        myankLines: 101-118
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 247
+        myankLines: 233-253
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 250
+        myankLines: 239-257
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 330
+        myankLines: 316-339
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 342
+        myankLines: 328-351
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 446
+        myankLines: 437-454
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 454
+        myankLines: 444-461
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
@@ -57,6 +132,11 @@ deg4-down:
         id: 59-1-im-gruenen
         lineNumber: 55
         myankLines: 47-60
+    -
+        deg: '4'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 363
+        myankLines: 346-370
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
@@ -135,6 +215,36 @@ deg5-m6:
         id: 59-1-im-gruenen
         lineNumber: 79
         myankLines: 73-81
+    -
+        deg: '5'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 95
+        myankLines: 88-103
+    -
+        deg: '5'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 214
+        myankLines: 202-223
+    -
+        deg: '5'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 227
+        myankLines: 215-238
+    -
+        deg: '5'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 246
+        myankLines: 233-253
+    -
+        deg: '5'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 253
+        myankLines: 243-260
+    -
+        deg: '5'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 438
+        myankLines: 431-446
     -
         deg: '5'
         id: 59-3-abschied-vom-walde
