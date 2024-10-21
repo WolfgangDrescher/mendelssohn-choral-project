@@ -28,17 +28,12 @@ function getFiles(directory, fileList) {
     return fileList;
 }
 
-function escapeShell(cmd = '') {
-    return '"' + cmd.replace(/(["$`\\])/g, '\\$1') + '"';
-}
-
 const result = {};
 
 getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
-    const kern = fs.readFileSync(file, 'utf8');
-    const stdout = execSync(`echo ${escapeShell(kern)} | lnnr | beat -cp | fb -cn | fb -con --hint | degx -k 1 | extractxx -I **kern | extractxx -I **text | extractxx -I **dynam | ridx -LGTMId`).toString();
+    const stdout = execSync(`cat ${file} | lnnr | beat -cp | fb -cn | fb -con --hint | degx -k 1 | extractxx -I **kern | extractxx -I **text | extractxx -I **dynam | ridx -LGTMId`).toString();
     const lines = stdout.trim().split('\n');
 
     const indexMap = {
