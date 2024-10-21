@@ -19,7 +19,12 @@ onMounted(async () => {
         <div class="flex flex-col gap-8">
 
             <div>
-                <Heading>{{ `${piece.nr}. ${piece.title}` }}</Heading>
+                <Heading>
+                    {{ `${piece.nr}. ${piece.title}` }}
+                    <div class="text-base font-normal">
+                        {{ piece.composer }}, Op. {{ piece.op }} Nr. {{ piece.nr }}
+                    </div>
+                </Heading>
                 <div class="flex gap-2 items-center">
                     <div v-if="prevPiece">
                         <UButton :to="localePath({ name: 'piece-id', params: { id: prevPiece.id }, hash: $route.hash })">
