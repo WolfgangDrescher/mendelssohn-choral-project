@@ -58,6 +58,10 @@ onMounted(async () => {
                 :data="score"
                 :options="{
                     spacingSystem: 15,
+                    pageMarginLeft: 30,
+                    pageMarginRight: 30,
+                    pageMarginTop: 10,
+                    pageMarginBottom: 10,
                 }"
             />
 
