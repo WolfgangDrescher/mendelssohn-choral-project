@@ -44,7 +44,7 @@ getFiles(pathToKernScores).forEach(file => {
         lineNumber: 4,
     }
 
-    const maxBeat = parseInt(lines[lines.length - 1].split('\t')[indexMap.beat], 10);
+    const maxBeat = parseFloat(lines[lines.length - 1].split('\t')[indexMap.beat]);
 
     lines.forEach(line => {
         const tokens = line.split('\t');
@@ -54,7 +54,7 @@ getFiles(pathToKernScores).forEach(file => {
         const deg = tokens[indexMap.deg];
         let lineNumber = tokens[indexMap.lineNumber];
 
-        beat = parseInt(beat, 10);
+        beat = parseFloat(beat);
         lineNumber = parseInt(lineNumber, 10);
 
         const startBeat = Math.max(0, beat - 4);
