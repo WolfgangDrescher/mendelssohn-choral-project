@@ -69,12 +69,12 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
                     <div v-if="prevPiece">
                         <UButton :to="localePath({ name: 'piece-id', params: { id: prevPiece.id }, hash: $route.hash })">
                             <Icon name="heroicons:arrow-left-circle" class="text-xl" />
-                            Vorheriges
+                            {{ $t('previous') }}
                         </UButton>
                     </div>
                     <div v-if="nextPiece">
                         <UButton :to="localePath({ name: 'piece-id', params: { id: nextPiece.id }, hash: $route.hash })">
-                            Nächstes
+                            {{ $t('next') }}
                             <Icon name="heroicons:arrow-right-circle" class="text-xl" />
                         </UButton>
                     </div>
