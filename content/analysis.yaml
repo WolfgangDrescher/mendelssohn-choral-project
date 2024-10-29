@@ -301,3 +301,144 @@ deg5-m6:
         id: 59-6-jagdlied
         lineNumber: 263
         myankLines: 259-265
+deg6-35:
+    -
+        deg: '6'
+        id: 41-1-im-walde
+        lineNumber: 60
+        myankLines: 48-70
+    -
+        deg: '6'
+        id: 41-1-im-walde
+        lineNumber: 97
+        myankLines: 88-105
+    -
+        deg: '6'
+        id: 41-1-im-walde
+        lineNumber: 103
+        myankLines: 94-112
+    -
+        deg: '6'
+        id: 41-2-entflieh-mit-mir
+        lineNumber: 52
+        myankLines: 43-58
+    -
+        deg: '6'
+        id: 41-2-entflieh-mit-mir
+        lineNumber: 76
+        myankLines: 67-83
+    -
+        deg: '6'
+        id: 41-3-es-fiel-ein-reif
+        lineNumber: 113
+        myankLines: 109-118
+    -
+        deg: '6'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 208
+        myankLines: 195-217
+    -
+        deg: '6'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 209
+        myankLines: 196-219
+    -
+        deg: '6'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 210
+        myankLines: 198-220
+    -
+        deg: '6'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 211
+        myankLines: 199-221
+    -
+        deg: '6'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 212
+        myankLines: 200-222
+    -
+        deg: '6'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 241
+        myankLines: 229-250
+    -
+        deg: '6'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 245
+        myankLines: 233-253
+    -
+        deg: '6'
+        id: 59-4-die-nachtigall
+        lineNumber: 181
+        myankLines: 168-192
+    -
+        deg: '6'
+        id: 59-4-die-nachtigall
+        lineNumber: 182
+        myankLines: 171-194
+    -
+        deg: '6'
+        id: 59-5-ruhethal
+        lineNumber: 103
+        myankLines: 94-109
+    -
+        deg: '6'
+        id: 59-5-ruhethal
+        lineNumber: 122
+        myankLines: 111-129
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 6
+        myankLines: 232-249
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 247
+        myankLines: 236-250
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 249
+        myankLines: 7-253
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 252
+        myankLines: 247-254
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 369
+        myankLines: 364-370
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 370
+        myankLines: 365-372
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 372
+        myankLines: 369-374
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 400
+        myankLines: 395-403
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 453
+        myankLines: 448-456
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 521
+        myankLines: 516-524
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 534
+        myankLines: 529-537
