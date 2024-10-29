@@ -33,6 +33,7 @@ const result = {};
 getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
+    console.log(id);
     const stdout = execSync(`cat ${file} | lnnr | beat -cp | fb -cnl | fb -conl --hint | degx -k 1 | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | ridx -LGTMId`).toString();
     const lines = stdout.trim().split('\n');
 
