@@ -60,8 +60,8 @@ getFiles(pathToKernScores).forEach(file => {
 
         const startBeat = Math.max(0, beat - 4);
         const endBeat = Math.min(maxBeat, beat + 4);
-        const startLine = parseInt(lines.find(line => parseInt(line.split('\t')[indexMap.beat], 10) >= startBeat).split('\t')[indexMap.lineNumber], 10);
-        const endLine = parseInt(lines.toReversed().find(line => parseInt(line.split('\t')[indexMap.beat], 10) < endBeat).split('\t')[indexMap.lineNumber], 10);
+        const startLine = parseInt(lines.find(line => parseFloat(line.split('\t')[indexMap.beat]) >= startBeat).split('\t')[indexMap.lineNumber], 10);
+        const endLine = parseInt(lines.toReversed().find(line => parseFloat(line.split('\t')[indexMap.beat]) < endBeat).split('\t')[indexMap.lineNumber], 10);
 
         if ((fb === '9 7 4' || fb === '7 4 2')) {
             (result['479'] ??= []).push({
