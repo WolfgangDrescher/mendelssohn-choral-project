@@ -126,6 +126,15 @@ getFiles(pathToKernScores).forEach(file => {
             });
         }
 
+        if (deg === '5' && (fb.includes('7') && fb.includes('6'))) {
+            (result['deg5-67'] ??= []).push({
+                id,
+                deg,
+                lineNumber,
+                myankLines: `${startLine}-${endLine}`,
+            });
+        }
+
     });
  
 });

@@ -274,6 +274,22 @@ deg5-457:
         id: 59-6-jagdlied
         lineNumber: 429
         myankLines: 422-431
+deg5-67:
+    -
+        deg: '5'
+        id: 41-2-entflieh-mit-mir
+        lineNumber: 31
+        myankLines: 23-38
+    -
+        deg: '5'
+        id: 41-2-entflieh-mit-mir
+        lineNumber: 33
+        myankLines: 25-40
+    -
+        deg: '5'
+        id: 59-4-die-nachtigall
+        lineNumber: 156
+        myankLines: 144-167
 deg5-m6:
     -
         deg: '5'
