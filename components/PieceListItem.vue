@@ -30,7 +30,14 @@ ${(props.filters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : nul
         <template v-slot:header>
             <div class="text-xl font-medium leading-5">
                 <NuxtLink :to="localePath({ name: 'piece-id', params: { id: piece.id } })">
-                    {{ `${piece.nr}. ${piece.title}` }}
+                    <div class="flex">
+                        <div>
+                            {{ piece.title }}
+                        </div>
+                        <div class="ml-auto">
+                            {{ `Op. ${piece.op} № ${piece.nr}` }}
+                        </div>
+                    </div>
                 </NuxtLink>
             </div>
         </template>
