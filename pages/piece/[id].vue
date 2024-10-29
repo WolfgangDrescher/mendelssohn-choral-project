@@ -42,7 +42,6 @@ onMounted(async () => {
             </div>
 
             <div class="flex items-center gap-4">
-                <ScoreOptions />
                 <div class="flex gap-2 ml-auto">
                     <UButton :to="`https://github.com/WolfgangDrescher/mendelssohn-choral-works/blob/master/kern/${piece.id}.krn`" target="_blank">
                         Auf GitHub öffnen
