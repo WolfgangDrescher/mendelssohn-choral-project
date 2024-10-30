@@ -32,10 +32,6 @@ const formattedData = computed(() => {
     if (filters.hideDynamics) {
         usedFilters.push('extract -I "**dynam"');
     }
-    
-    if (filters.pianoReduction) {
-        usedFilters.push('satb2gs');
-    }
 
     if (filters.autobeam) {
         usedFilters.push('autobeam');
@@ -47,6 +43,10 @@ const formattedData = computed(() => {
 
     if (filters.fb) {
         usedFilters.push('fb -canr --above');
+    }
+
+    if (filters.pianoReduction) {
+        usedFilters.push('satb2gs');
     }
 
     return score.value ? `${score.value}
