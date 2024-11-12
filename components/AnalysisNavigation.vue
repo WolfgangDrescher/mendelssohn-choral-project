@@ -33,6 +33,14 @@ const links = [
         label: '④ 7',
         to: localePath({name: 'analysis-deg4-7'}),
     },
+    {
+        label: '⑤ 6 7',
+        to: localePath({name: 'analysis-deg5-67'}),
+    },
+    {
+        label: 'Trugschluss',
+        to: localePath({name: 'analysis-deg6-35'}),
+    },
 ];
 </script>
 
