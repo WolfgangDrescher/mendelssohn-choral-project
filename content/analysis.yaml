@@ -5,6 +5,61 @@
         lineNumber: 28
         myankLines: 18-37
     -
+        deg: .
+        id: 48-1-fruehlingsahnung
+        lineNumber: 176
+        myankLines: 167-184
+    -
+        deg: '4'
+        id: 48-2-die-primel
+        lineNumber: 29
+        myankLines: 18-40
+    -
+        deg: '1'
+        id: 48-2-die-primel
+        lineNumber: 89
+        myankLines: 75-102
+    -
+        deg: .
+        id: 48-2-die-primel
+        lineNumber: 91
+        myankLines: 76-104
+    -
+        deg: '1'
+        id: 48-2-die-primel
+        lineNumber: 103
+        myankLines: 89-116
+    -
+        deg: .
+        id: 48-2-die-primel
+        lineNumber: 105
+        myankLines: 91-117
+    -
+        deg: '1'
+        id: 48-6-herbstlied
+        lineNumber: 28
+        myankLines: 18-42
+    -
+        deg: '1'
+        id: 48-6-herbstlied
+        lineNumber: 29
+        myankLines: 18-42
+    -
+        deg: '1'
+        id: 48-6-herbstlied
+        lineNumber: 180
+        myankLines: 167-196
+    -
+        deg: '1'
+        id: 48-6-herbstlied
+        lineNumber: 181
+        myankLines: 169-197
+    -
+        deg: '1'
+        id: 48-6-herbstlied
+        lineNumber: 289
+        myankLines: 284-293
+    -
         deg: '1'
         id: 59-1-im-gruenen
         lineNumber: 32
@@ -72,6 +127,11 @@
 deg3-69:
     -
         deg: '3'
+        id: 48-1-fruehlingsahnung
+        lineNumber: 57
+        myankLines: 49-64
+    -
+        deg: '3'
         id: 59-2-fruehzeitiger-fruehling
         lineNumber: 33
         myankLines: 24-42
@@ -86,6 +146,51 @@ deg3-69:
         lineNumber: 85
         myankLines: 79-88
 deg4-7:
+    -
+        deg: '4'
+        id: 48-2-die-primel
+        lineNumber: 29
+        myankLines: 18-40
+    -
+        deg: '4'
+        id: 48-2-die-primel
+        lineNumber: 31
+        myankLines: 19-42
+    -
+        deg: '4'
+        id: 48-2-die-primel
+        lineNumber: 127
+        myankLines: 117-129
+    -
+        deg: '4'
+        id: 48-3-fruehlingsfeier
+        lineNumber: 91
+        myankLines: 85-97
+    -
+        deg: '4'
+        id: 48-3-fruehlingsfeier
+        lineNumber: 202
+        myankLines: 196-206
+    -
+        deg: '4'
+        id: 48-6-herbstlied
+        lineNumber: 34
+        myankLines: 21-48
+    -
+        deg: '4'
+        id: 48-6-herbstlied
+        lineNumber: 59
+        myankLines: 43-70
+    -
+        deg: '4'
+        id: 48-6-herbstlied
+        lineNumber: 187
+        myankLines: 173-204
+    -
+        deg: '4'
+        id: 48-6-herbstlied
+        lineNumber: 385
+        myankLines: 381-388
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
@@ -172,6 +277,26 @@ deg4-down:
         id: 41-4-auf-ihrem-grab
         lineNumber: 190
         myankLines: 181-195
+    -
+        deg: '4'
+        id: 48-3-fruehlingsfeier
+        lineNumber: 62
+        myankLines: 56-69
+    -
+        deg: '4'
+        id: 48-3-fruehlingsfeier
+        lineNumber: 81
+        myankLines: 77-87
+    -
+        deg: '4'
+        id: 48-3-fruehlingsfeier
+        lineNumber: 145
+        myankLines: 139-152
+    -
+        deg: '4'
+        id: 48-6-herbstlied
+        lineNumber: 60
+        myankLines: 45-71
     -
         deg: '4'
         id: 59-1-im-gruenen
@@ -261,6 +386,21 @@ deg5-457:
         myankLines: 56-77
     -
         deg: '5'
+        id: 48-3-fruehlingsfeier
+        lineNumber: 31
+        myankLines: 23-38
+    -
+        deg: '5'
+        id: 48-3-fruehlingsfeier
+        lineNumber: 32
+        myankLines: 24-39
+    -
+        deg: '5'
+        id: 48-3-fruehlingsfeier
+        lineNumber: 113
+        myankLines: 105-120
+    -
+        deg: '5'
         id: 59-3-abschied-vom-walde
         lineNumber: 121
         myankLines: 114-124
@@ -291,6 +431,11 @@ deg5-67:
         lineNumber: 156
         myankLines: 144-167
 deg5-m6:
+    -
+        deg: '5'
+        id: 48-6-herbstlied
+        lineNumber: 135
+        myankLines: 118-149
     -
         deg: '5'
         id: 59-3-abschied-vom-walde
@@ -332,6 +477,51 @@ deg6-35:
         id: 41-3-es-fiel-ein-reif
         lineNumber: 113
         myankLines: 109-118
+    -
+        deg: '6'
+        id: 48-1-fruehlingsahnung
+        lineNumber: 75
+        myankLines: 66-81
+    -
+        deg: '6'
+        id: 48-1-fruehlingsahnung
+        lineNumber: 160
+        myankLines: 152-164
+    -
+        deg: '6'
+        id: 48-6-herbstlied
+        lineNumber: 273
+        myankLines: 268-277
+    -
+        deg: '6'
+        id: 48-6-herbstlied
+        lineNumber: 275
+        myankLines: 270-278
+    -
+        deg: '6'
+        id: 48-6-herbstlied
+        lineNumber: 350
+        myankLines: 345-354
+    -
+        deg: '6'
+        id: 48-6-herbstlied
+        lineNumber: 352
+        myankLines: 347-355
+    -
+        deg: '6'
+        id: 48-6-herbstlied
+        lineNumber: 367
+        myankLines: 362-371
+    -
+        deg: '6'
+        id: 48-6-herbstlied
+        lineNumber: 394
+        myankLines: 390-396
+    -
+        deg: '6'
+        id: 48-6-herbstlied
+        lineNumber: 452
+        myankLines: 449-454
     -
         deg: '6'
         id: 59-2-fruehzeitiger-fruehling
