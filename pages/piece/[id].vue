@@ -2,6 +2,14 @@
 const localePath = useLocalePath();
 const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryContent(`/pieces/${id}`).findOne());
+
+if (!piece.value) {
+    throw createError({
+        statusCode: 404,
+        statusMessage: 'Page Not Found',
+    });
+}
+
 const { data: surroundData } = await useAsyncData(`pieces/${id}/surround`, () => queryContent('/pieces').only(['_path', 'id', 'nr']).findSurround(piece.value._path))
 const [prevPiece, nextPiece] = surroundData.value;
 const { data: analysis } = await useAsyncData(`analysis`, () => queryContent(`/analysis`).findOne());
