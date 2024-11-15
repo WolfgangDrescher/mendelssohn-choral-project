@@ -4,6 +4,9 @@ const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryContent(`/pieces/${id}`).findOne());
 const { data: surroundData } = await useAsyncData(`pieces/${id}/surround`, () => queryContent('/pieces').only(['_path', 'id', 'nr']).findSurround(piece.value._path))
 const [prevPiece, nextPiece] = surroundData.value;
+const { data: analysis } = await useAsyncData(`analysis`, () => queryContent(`/analysis`).findOne());
+
+const highlightedLines = Object.entries(toRaw(analysis.value)).flatMap(([key, value]) => value).filter(el => el.id === id).map(el => el.lineNumber);
 
 const score = ref();
 
@@ -14,6 +17,7 @@ const filters = reactive({
     autobeam: false,
     bassstufen: false,
     fb: false,
+    highlightChords: false,
 });
 
 onMounted(async () => {
@@ -23,6 +27,23 @@ onMounted(async () => {
 });
 
 const formattedData = computed(() => {
+
+    function isKernToken(line, includeNullToken = false) {
+        return /\d/.test(line) && !line.startsWith('!') && !line.startsWith('*') && !line.startsWith('=') && !(!includeNullToken && line === '.');
+    }
+
+    const lines = score.value?.trim().split('\n') ?? [];
+
+    if (filters.highlightChords) {
+        lines.push('!!!RDF**kern: @ = marked note color="#ef4444');
+        for (let i = 0; i < lines.length ; i++) {
+            lines[i] = lines[i].split('\t').map((token, index) => {
+                if (isKernToken(token) && highlightedLines.includes(i+1)) return `${token}@`;
+                return token;
+            }).join('\t');
+        }
+    }
+
     const usedFilters = [];
 
     if (filters.hideLyrics) {
@@ -49,7 +70,7 @@ const formattedData = computed(() => {
         usedFilters.push('satb2gs');
     }
 
-    return score.value ? `${score.value}
+    return score.value ? `${lines.join('\n')}
 ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
 });
 </script>
@@ -83,6 +104,7 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
 
             <div class="flex items-center gap-4">
                 <div class="flex gap-6">
+                    <UCheckbox v-model="filters.highlightChords" :label="$t('highlightChords')" />
                     <UCheckbox v-model="filters.hideLyrics" :label="$t('hideLyrics')" />
                     <UCheckbox v-model="filters.hideDynamics" :label="$t('hideDynamics')" />
                     <UCheckbox v-model="filters.pianoReduction" :label="$t('pianoReduction')" />
