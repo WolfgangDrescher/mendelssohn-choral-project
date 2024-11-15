@@ -184,6 +184,41 @@
         id: 59-5-ruhethal
         lineNumber: 161
         myankLines: 152-169
+    -
+        deg: '1'
+        id: 88-2-der-glueckliche
+        lineNumber: 124
+        myankLines: 116-133
+    -
+        deg: '5'
+        id: 88-2-der-glueckliche
+        lineNumber: 289
+        myankLines: 285-293
+    -
+        deg: '1'
+        id: 88-3-hirtenlied
+        lineNumber: 206
+        myankLines: 195-215
+    -
+        deg: .
+        id: 88-5-deutschland
+        lineNumber: 36
+        myankLines: 29-46
+    -
+        deg: .
+        id: 88-5-deutschland
+        lineNumber: 69
+        myankLines: 62-76
+    -
+        deg: '2'
+        id: 88-5-deutschland
+        lineNumber: 192
+        myankLines: 181-195
+    -
+        deg: '5'
+        id: 88-6-der-wandernde-musikant
+        lineNumber: 5
+        myankLines: 143-159
 deg3-69:
     -
         deg: '3'
@@ -341,6 +376,41 @@ deg4-7:
         id: 59-4-die-nachtigall
         lineNumber: 197
         myankLines: 186-210
+    -
+        deg: '4'
+        id: 88-2-der-glueckliche
+        lineNumber: 46
+        myankLines: 37-54
+    -
+        deg: '4'
+        id: 88-2-der-glueckliche
+        lineNumber: 73
+        myankLines: 65-83
+    -
+        deg: '4'
+        id: 88-2-der-glueckliche
+        lineNumber: 300
+        myankLines: 299-304
+    -
+        deg: '4'
+        id: 88-2-der-glueckliche
+        lineNumber: 307
+        myankLines: 304-311
+    -
+        deg: '4'
+        id: 88-3-hirtenlied
+        lineNumber: 78
+        myankLines: 59-5
+    -
+        deg: '4'
+        id: 88-5-deutschland
+        lineNumber: 90
+        myankLines: 83-95
+    -
+        deg: '4'
+        id: 88-5-deutschland
+        lineNumber: 190
+        myankLines: 180-195
 deg4-down:
     -
         deg: '4'
@@ -472,6 +542,26 @@ deg4-down:
         id: 59-5-ruhethal
         lineNumber: 111
         myankLines: 103-119
+    -
+        deg: '4'
+        id: 88-2-der-glueckliche
+        lineNumber: 301
+        myankLines: 299-306
+    -
+        deg: '4'
+        id: 88-2-der-glueckliche
+        lineNumber: 303
+        myankLines: 299-306
+    -
+        deg: '4'
+        id: 88-2-der-glueckliche
+        lineNumber: 308
+        myankLines: 304-314
+    -
+        deg: '4'
+        id: 88-2-der-glueckliche
+        lineNumber: 310
+        myankLines: 306-314
 deg5-246:
     -
         deg: '5'
@@ -524,6 +614,16 @@ deg5-457:
         id: 59-6-jagdlied
         lineNumber: 429
         myankLines: 422-431
+    -
+        deg: '5'
+        id: 88-1-neujahrslied
+        lineNumber: 34
+        myankLines: 29-35
+    -
+        deg: '5'
+        id: 88-1-neujahrslied
+        lineNumber: 47
+        myankLines: 40-52
 deg5-67:
     -
         deg: '5'
@@ -575,6 +675,26 @@ deg5-67:
         id: 59-4-die-nachtigall
         lineNumber: 156
         myankLines: 144-167
+    -
+        deg: '5'
+        id: 88-1-neujahrslied
+        lineNumber: 127
+        myankLines: 122-129
+    -
+        deg: '5'
+        id: 88-2-der-glueckliche
+        lineNumber: 105
+        myankLines: 96-113
+    -
+        deg: '5'
+        id: 88-2-der-glueckliche
+        lineNumber: 293
+        myankLines: 289-296
+    -
+        deg: '5'
+        id: 88-4-die-waldvoegelein
+        lineNumber: 182
+        myankLines: 176-183
 deg5-m6:
     -
         deg: '5'
@@ -606,6 +726,41 @@ deg5-m6:
         id: 59-6-jagdlied
         lineNumber: 263
         myankLines: 259-265
+    -
+        deg: '5'
+        id: 88-1-neujahrslied
+        lineNumber: 127
+        myankLines: 122-129
+    -
+        deg: '5'
+        id: 88-2-der-glueckliche
+        lineNumber: 175
+        myankLines: 168-180
+    -
+        deg: '5'
+        id: 88-3-hirtenlied
+        lineNumber: 5
+        myankLines: 76-110
+    -
+        deg: '5'
+        id: 88-5-deutschland
+        lineNumber: 92
+        myankLines: 85-95
+    -
+        deg: '5'
+        id: 88-5-deutschland
+        lineNumber: 100
+        myankLines: 95-104
+    -
+        deg: '5'
+        id: 88-5-deutschland
+        lineNumber: 102
+        myankLines: 97-NaN
+    -
+        deg: '5'
+        id: 88-6-der-wandernde-musikant
+        lineNumber: 79
+        myankLines: 72-85
 deg6-35:
     -
         deg: '6'
@@ -847,3 +1002,58 @@ deg6-35:
         id: 59-6-jagdlied
         lineNumber: 534
         myankLines: 529-537
+    -
+        deg: '6'
+        id: 88-2-der-glueckliche
+        lineNumber: 35
+        myankLines: 25-43
+    -
+        deg: '6'
+        id: 88-2-der-glueckliche
+        lineNumber: 37
+        myankLines: 28-45
+    -
+        deg: '6'
+        id: 88-4-die-waldvoegelein
+        lineNumber: 55
+        myankLines: 47-63
+    -
+        deg: '6'
+        id: 88-4-die-waldvoegelein
+        lineNumber: 57
+        myankLines: 49-65
+    -
+        deg: '6'
+        id: 88-4-die-waldvoegelein
+        lineNumber: 61
+        myankLines: 52-67
+    -
+        deg: '6'
+        id: 88-4-die-waldvoegelein
+        lineNumber: 64
+        myankLines: 55-71
+    -
+        deg: '6'
+        id: 88-4-die-waldvoegelein
+        lineNumber: 66
+        myankLines: 57-73
+    -
+        deg: '6'
+        id: 88-5-deutschland
+        lineNumber: 6
+        myankLines: 180-195
+    -
+        deg: '6'
+        id: 88-6-der-wandernde-musikant
+        lineNumber: 63
+        myankLines: 53-71
+    -
+        deg: '6'
+        id: 88-6-der-wandernde-musikant
+        lineNumber: 82
+        myankLines: 73-88
+    -
+        deg: '6'
+        id: 88-6-der-wandernde-musikant
+        lineNumber: 164
+        myankLines: 157-167
