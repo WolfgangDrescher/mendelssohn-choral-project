@@ -11,3 +11,8 @@ figuredBassFigures: Generalbassziffern
 previous: Vorheriges
 next: Nächstes
 highlightChords: Akkorde hervorheben
+opNr: 'Op / Nr'
+title: Titel
+key: Tonart
+majorMinor: 'Dur / Moll'
+meter: Taktart
