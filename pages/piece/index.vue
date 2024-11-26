@@ -14,10 +14,12 @@ const pieces = data.value.map(item => {
         meter: item.meter,
         opnr: `${item.op} / ${item.nr}`,
         title: item.title,
+        localRawFile: item.localRawFile,
     };
 });
 
 const columns = [
+    { key: 'audio' },
     { key: 'opnr', label: t('opNr'), sortable: true },
     { key: 'title', label: t('title'), sortable: true },
     { key: 'key', label: t('key'), sortable: true },
@@ -47,6 +49,9 @@ const tabItems = [
             <UTabs :items="tabItems">
                 <template #table="{ item }">
                     <UTable :rows="pieces" :columns="columns" class="mt-8">
+                        <template #audio-data="{ row }">
+                            <MidiPlayer :url="row.localRawFile" class="text-2xl"/>
+                        </template>
                         <template #title-data="{ row }">
                             <NuxtLink :to="localePath({ name: 'piece-id', params: { id: row.id } })">
                                 {{ row.title }}
