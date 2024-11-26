@@ -56,6 +56,8 @@ getFiles(pathToKernScores).forEach(file => {
     const kern = fs.readFileSync(file, 'utf8');
     const referenceRecords = parseHumdrumReferenceRecords(kern);
 
+    const key = kern.match(/\*([a-hA-H][\#\-]*):/)?.[1] ?? null;
+    const meter = kern.match(/\*M(\d+\/\d+)/)?.[1] ?? null;
     const config = Object.assign({
         id,
         title: referenceRecords.OTL,
@@ -64,6 +66,9 @@ getFiles(pathToKernScores).forEach(file => {
         largerWorkTitle: referenceRecords.OPR,
         localRawFile: `/kern/mendelssohn-choral-works/${id}.krn`,
         composer: 'Felix Mendelssohn',
+        key,
+        meter,
+        majorMinor: key === key.toLowerCase() ? 'minor' : 'major',
     });
 
     const configFilename = `${id}.yaml`;
