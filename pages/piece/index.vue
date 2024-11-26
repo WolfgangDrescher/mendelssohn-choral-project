@@ -23,6 +23,7 @@ const columns = [
     { key: 'key', label: t('key'), sortable: true },
     { key: 'majorMinor', label: t('majorMinor'), sortable: true },
     { key: 'meter', label: t('meter'), sortable: true },
+    { key: 'actions' },
 ];
 
 const tabItems = [
@@ -50,6 +51,12 @@ const tabItems = [
                             <NuxtLink :to="localePath({ name: 'piece-id', params: { id: row.id } })">
                                 {{ row.title }}
                             </NuxtLink>
+                        </template>
+                        <template #actions-data="{ row }">
+                            <div class="flex gap-1 justify-end">
+                                <UButton size="sm" color="primary" variant="solid" :label="t('vhv')" :to="`https://verovio.humdrum.org/?file=${encodeURIComponent(`https://github.com/WolfgangDrescher/mendelssohn-choral-works/blob/master/kern/${row.id}.krn`)}`" target="_blank" />
+                                <UButton size="sm" color="primary" variant="solid" :label="t('view')" :to="localePath({ name: 'piece-id', params: { id: row.id } })" />
+                            </div>
                         </template>
                     </UTable>
                 </template>
