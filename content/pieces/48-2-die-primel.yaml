@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 48-2-die-primel
+key: A
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-2-die-primel.krn
+majorMinor: major
+meter: 2/4
 nr: 2
 op: 48
 title: Die Primel

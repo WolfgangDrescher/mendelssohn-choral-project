@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 41-5-mailied
+key: B-
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-5-mailied.krn
+majorMinor: major
+meter: 4/4
 nr: 5
 op: 41
 title: Mailied

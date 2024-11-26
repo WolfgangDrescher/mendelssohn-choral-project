@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 88-1-neujahrslied
+key: E-
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-1-neujahrslied.krn
+majorMinor: major
+meter: 4/4
 nr: 1
 op: 88
 title: Neujahrslied

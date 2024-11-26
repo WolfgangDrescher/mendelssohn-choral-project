@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 48-3-fruehlingsfeier
+key: E
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-3-fruehlingsfeier.krn
+majorMinor: major
+meter: 3/4
 nr: 3
 op: 48
 title: Frühlingsfeier

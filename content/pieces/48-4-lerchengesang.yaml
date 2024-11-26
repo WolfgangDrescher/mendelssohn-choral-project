@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 48-4-lerchengesang
+key: G
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-4-lerchengesang.krn
+majorMinor: major
+meter: 4/4
 nr: 4
 op: 48
 title: Lerchengesang

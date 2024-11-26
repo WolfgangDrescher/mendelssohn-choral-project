@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 48-1-fruehlingsahnung
+key: E
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-1-fruehlingsahnung.krn
+majorMinor: major
+meter: 6/8
 nr: 1
 op: 48
 title: Frühlingsahnung

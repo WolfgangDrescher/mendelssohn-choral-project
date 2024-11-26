@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 41-3-es-fiel-ein-reif
+key: a
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-3-es-fiel-ein-reif.krn
+majorMinor: minor
+meter: 4/4
 nr: 3
 op: 41
 title: Es fiel ein Reif

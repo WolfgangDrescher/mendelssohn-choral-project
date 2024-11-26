@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 88-3-hirtenlied
+key: g
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-3-hirtenlied.krn
+majorMinor: minor
+meter: 2/4
 nr: 3
 op: 88
 title: Hirtenlied

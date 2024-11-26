@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 100-1-andenken
+key: D
 largerWorkTitle: Vier vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/100-1-andenken.krn
+majorMinor: major
+meter: 3/4
 nr: 1
 op: 100
 title: Andenken

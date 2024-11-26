@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 100-4-im-wald
+key: D
 largerWorkTitle: Vier vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/100-4-im-wald.krn
+majorMinor: major
+meter: 4/4
 nr: 4
 op: 100
 title: Im Wald

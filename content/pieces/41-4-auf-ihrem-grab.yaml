@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 41-4-auf-ihrem-grab
+key: E
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-4-auf-ihrem-grab.krn
+majorMinor: major
+meter: 4/4
 nr: 4
 op: 41
 title: Auf ihrem Grab

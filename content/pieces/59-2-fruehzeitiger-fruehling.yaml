@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 59-2-fruehzeitiger-fruehling
+key: G
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/59-2-fruehzeitiger-fruehling.krn
+majorMinor: major
+meter: 3/8
 nr: 2
 op: 59
 title: Frühzeitiger Frühling

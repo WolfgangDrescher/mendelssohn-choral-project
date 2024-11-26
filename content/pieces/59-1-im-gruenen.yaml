@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 59-1-im-gruenen
+key: A
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/59-1-im-gruenen.krn
+majorMinor: major
+meter: 9/8
 nr: 1
 op: 59
 title: Im Grünen

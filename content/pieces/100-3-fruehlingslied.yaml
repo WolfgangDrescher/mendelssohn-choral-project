@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 100-3-fruehlingslied
+key: D
 largerWorkTitle: Vier vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/100-3-fruehlingslied.krn
+majorMinor: major
+meter: 2/4
 nr: 3
 op: 100
 title: Frühlingslied

@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 41-1-im-walde
+key: A
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-1-im-walde.krn
+majorMinor: major
+meter: 2/4
 nr: 1
 op: 41
 title: Im Walde

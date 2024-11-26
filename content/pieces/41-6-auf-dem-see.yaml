@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 41-6-auf-dem-see
+key: C
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-6-auf-dem-see.krn
+majorMinor: major
+meter: 6/8
 nr: 6
 op: 41
 title: Auf dem See

@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 88-4-die-waldvoegelein
+key: F
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-4-die-waldvoegelein.krn
+majorMinor: major
+meter: 4/4
 nr: 4
 op: 88
 title: Die Waldvögelein

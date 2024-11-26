@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 59-5-ruhethal
+key: D
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/59-5-ruhethal.krn
+majorMinor: major
+meter: 2/4
 nr: 5
 op: 59
 title: Ruhethal

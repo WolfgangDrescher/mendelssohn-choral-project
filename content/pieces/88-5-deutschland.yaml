@@ -1,7 +1,10 @@
 composer: Felix Mendelssohn
 id: 88-5-deutschland
+key: a
 largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-5-deutschland.krn
+majorMinor: minor
+meter: 4/4
 nr: 5
 op: 88
 title: Deutschland
