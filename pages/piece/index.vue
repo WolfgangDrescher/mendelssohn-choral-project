@@ -13,7 +13,7 @@ const pieces = data.value.map(item => {
         majorMinor: item.majorMinor,
         meter: item.meter,
         opnr: `${item.op} / ${item.nr}`,
-        title: item.title
+        title: item.title,
     };
 });
 
