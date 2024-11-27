@@ -250,6 +250,7 @@ onKeyStroke('ArrowRight', () => {
             <UButton v-for="(group, index) in chordsGroupById" :key="group.id" @click="loadIndex(index)">
                 {{ `${group.id} (${group.chords.length})` }}
                 <Modal v-if="openModal === group.id" @close="closeModal" :title="group.id">
+                    <MidiPlayer :url="`/kern/mendelssohn-choral-works/${group.id}.krn`" class="text-2xl" />
                     <VerovioCanvas v-if="modalScoreData"  :data="modalScoreData" :scale="35" :page-margin="50" :key="modalScoreData" />
                     <div class="flex gap-4">
                         <UButton v-if="chordsGroupById[index - 1]" @click="loadIndex(index - 1)" class="mr-auto">{{ $t('previous') }}</UButton>
