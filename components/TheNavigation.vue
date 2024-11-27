@@ -15,6 +15,10 @@ const links = [
         label: t('analysis'),
         to: localePath({name: 'analysis'}),
     },
+    {
+        label: t('poems'),
+        to: localePath({name: 'poems'}),
+    },
 ];
 </script>
 
