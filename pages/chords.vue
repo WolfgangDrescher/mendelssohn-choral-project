@@ -217,7 +217,7 @@ onKeyStroke('ArrowRight', () => {
 <template>
     <UContainer>
         <Heading>{{ $t('chords') }}</Heading>
-        <div class="w-3/4 mx-auto">
+        <div>
             <div class="flex gap-4 mb-4">
                 <UFormGroup :label="$t('mode')">
                     <USelectMenu v-model="options.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]"  value-attribute="id" option-attribute="label" size="xs" class="w-40" />
