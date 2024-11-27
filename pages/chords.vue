@@ -6,9 +6,27 @@ const { data: chordsData } = await useAsyncData('/chords', () => queryContent('/
 });
 
 const chords = chordsData.value.chords;
-const uniqueDegs = [...new Set(chords.map(chord => chord.deg))].toSorted();
-const uniqueFb = [...new Set(chords.map(chord => chord.fb))].toSorted();
-const uniqueHint = [...new Set(chords.map(chord => chord.hint))].toSorted();
+const uniqueDegs = [...new Set(chords.map(chord => chord.deg))].toSorted((a, b) => {
+    return a.replaceAll(/\D/g, '') < b.replaceAll(/\D/g, '') ? -1 : 1;
+});
+const uniqueFb = [...new Set(chords.map(chord => chord.fb))].toSorted((a, b) => {
+    const aCount = a.split(' ').length;
+    const bCount = b.split(' ').length;
+    if (aCount === bCount) {
+        return a.localeCompare(b);
+    }
+
+    return aCount - bCount;
+});
+const uniqueHint = [...new Set(chords.map(chord => chord.hint))].toSorted((a, b) => {
+    const aCount = a.split(' ').length;
+    const bCount = b.split(' ').length;
+    if (aCount === bCount) {
+        return a.replaceAll(/\D/g, '').localeCompare(b.replaceAll(/\D/g, ''));
+    }
+
+    return aCount - bCount;
+});
 
 const filteredChords = computed(() => {
     return chords.filter(e => {
@@ -188,7 +206,16 @@ const chordsGroupById = computed(() => {
     }, {})).map(([id, elements]) => ({
         id,
         chords: elements,
-    }));
+    })).sort((a, b) => {
+        const aSplit = a.id.split('-', 2);
+        const bSplit = b.id.split('-', 2);
+        const aNum = parseFloat(aSplit[0]);
+        const bNum = parseFloat(bSplit[0]);
+        if (aNum === bNum) {
+            return aSplit[1].localeCompare(bSplit[1]);
+        }
+        return aNum - bNum;
+    });
 });
 
 function tokenIsDataRecord(line, includeNullToken = false) {
