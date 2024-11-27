@@ -34,42 +34,42 @@
 
         <Subheading>Ludwig Hölty</Subheading>
         <ul>
-            <li href="https://www.projekt-gutenberg.org/arnim/wh3/whkl093d.html"><NuxtLink>Ach wenn ich doch ein Täublein wär</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh3/whkl093d.html">Ach wenn ich doch ein Täublein wär</NuxtLink></li>
         </ul>
 
         <Subheading>Clemens Brentano</Subheading>
         <ul>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap004.html"><NuxtLink>Phantasie</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap017.html"><NuxtLink>[Die Klage, sie wecket]</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap033.html"><NuxtLink>[Die Liebe lehrt]</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap037.html"><NuxtLink>[Lieb und Leid im leichten Leben]</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap044.html"><NuxtLink>[Süßer Mai du Quell des Lebens]</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap056.html"><NuxtLink>[Singet leise, leise, leise]</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap064.html"><NuxtLink>[Die Welt war mir zuwider]</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap117.html"><NuxtLink>[Wenn die Sonne weggegangen]</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/brentano/gedichte/chap125.html"><NuxtLink>[O kühler Wald]</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap004.html">Phantasie</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap017.html">[Die Klage, sie wecket]</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap033.html">[Die Liebe lehrt]</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap037.html">[Lieb und Leid im leichten Leben]</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap044.html">[Süßer Mai du Quell des Lebens]</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap056.html">[Singet leise, leise, leise]</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap064.html">[Die Welt war mir zuwider]</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap117.html">[Wenn die Sonne weggegangen]</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/brentano/gedichte/chap125.html">[O kühler Wald]</NuxtLink></li>
         </ul>
         
         <Subheading>Annette von Droste-Hülshoff</Subheading>
         <ul>
-            <li href="https://www.projekt-gutenberg.org/droste/1844/chap035.html"><NuxtLink>Am Weiher</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/droste/1844/chap053.html"><NuxtLink>Not</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/droste/1844/chap087.html"><NuxtLink>Die Schmiede</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/droste/1844/chap035.html">Am Weiher</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/droste/1844/chap053.html">Not</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/droste/1844/chap087.html">Die Schmiede</NuxtLink></li>
         </ul>
 
         <Subheading>Joseph von Eichendorf</Subheading>
         <ul>
-            <li href="https://www.projekt-gutenberg.org/eichndrf/gedichte/chap002.html"><NuxtLink>Allgemeines Wandern</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/eichndrf/gedichte/chap021.html"><NuxtLink>Die Nacht</NuxtLink></li>
-            <li href="https://www.projekt-gutenberg.org/eichndrf/gedichte/chap027.html"><NuxtLink>Wandernder Dichter</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/eichndrf/gedichte/chap002.html">Allgemeines Wandern</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/eichndrf/gedichte/chap021.html">Die Nacht</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/eichndrf/gedichte/chap027.html">Wandernder Dichter</NuxtLink></li>
         </ul>
 
         <Subheading>Adalbert von Chamisso</Subheading>
         <ul>
-            <li href="http://www.zeno.org/nid/20004646851"><NuxtLink>Morgentau</NuxtLink></li>
-            <li href="http://www.zeno.org/nid/20004647165"><NuxtLink>Sternschnuppe</NuxtLink></li>
-            <li href="http://www.zeno.org/nid/20004647378"><NuxtLink>Die Quelle</NuxtLink></li>
-            <li href="http://www.zeno.org/nid/20004647971"><NuxtLink>Ungewitter</NuxtLink></li>
+            <li><NuxtLink href="http://www.zeno.org/nid/20004646851">Morgentau</NuxtLink></li>
+            <li><NuxtLink href="http://www.zeno.org/nid/20004647165">Sternschnuppe</NuxtLink></li>
+            <li><NuxtLink href="http://www.zeno.org/nid/20004647378">Die Quelle</NuxtLink></li>
+            <li><NuxtLink href="http://www.zeno.org/nid/20004647971">Ungewitter</NuxtLink></li>
         </ul>
     </UContainer>
 </template>
