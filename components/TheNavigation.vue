@@ -16,6 +16,10 @@ const links = [
         to: localePath({name: 'analysis'}),
     },
     {
+        label: t('chords'),
+        to: localePath({name: 'chords'}),
+    },
+    {
         label: t('poems'),
         to: localePath({name: 'poems'}),
     },
