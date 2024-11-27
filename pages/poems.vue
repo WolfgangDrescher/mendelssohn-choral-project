@@ -16,8 +16,7 @@
             <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh1/wh1235b.html">Marienwürmchen</NuxtLink></li>
             <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh1/wh1257.html">Das römische Glas</NuxtLink></li>
             <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh1/wh1306b.html">Jagdglück</NuxtLink></li>
-            <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh1/wh1327.html">wh1327</NuxtLink></li>
-            <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh1/wh1306b.html">Nächtliche Jagd</NuxtLink></li>
+            <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh1/wh1327.html">Nächtliche Jagd</NuxtLink></li>
             <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh1/wh1329.html">Knabe und Veilchen</NuxtLink></li>
             <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh1/wh1374.html">Die schlechte Liebste</NuxtLink></li>
             <li><NuxtLink href="https://www.projekt-gutenberg.org/arnim/wh2/wh2024.html">Soldatenglück</NuxtLink></li>
