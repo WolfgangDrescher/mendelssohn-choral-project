@@ -57,7 +57,7 @@ const formattedData = computed(() => {
 
     if (filters.outerVoices) {
         usedFilters.push('extract -k 1,$');
-        usedFilters.push('fb -icmna');
+        usedFilters.push('fb -icma');
         usedFilters.push('extract -I "**text"');
     }
 
