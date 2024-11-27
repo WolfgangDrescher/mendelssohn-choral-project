@@ -26,6 +26,7 @@ const filters = reactive({
     bassstufen: false,
     fb: false,
     highlightChords: false,
+    outerVoices: false,
 });
 
 onMounted(async () => {
@@ -53,6 +54,12 @@ const formattedData = computed(() => {
     }
 
     const usedFilters = [];
+
+    if (filters.outerVoices) {
+        usedFilters.push('extract -k 1,$');
+        usedFilters.push('fb -icmna');
+        usedFilters.push('extract -I "**text"');
+    }
 
     if (filters.hideLyrics) {
         usedFilters.push('extract -I "**text"');
@@ -112,6 +119,7 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
 
             <div class="flex items-center gap-4">
                 <div class="flex gap-6">
+                    <UCheckbox v-model="filters.outerVoices" :label="$t('Aussenstimmensatz')" />
                     <UCheckbox v-model="filters.highlightChords" :label="$t('highlightChords')" />
                     <UCheckbox v-model="filters.hideLyrics" :label="$t('hideLyrics')" />
                     <UCheckbox v-model="filters.hideDynamics" :label="$t('hideDynamics')" />
