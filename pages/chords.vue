@@ -5,6 +5,8 @@ const { data: chordsData } = await useAsyncData('/chords', () => queryContent('/
     deep: false,
 });
 
+const { t } = useI18n();
+
 const chords = chordsData.value.chords;
 const uniqueDegs = [...new Set(chords.map(chord => chord.deg))].toSorted((a, b) => {
     return a.replaceAll(/\D/g, '') < b.replaceAll(/\D/g, '') ? -1 : 1;
@@ -85,6 +87,7 @@ const fbConfig = computed(() => ({
     type: 'bar',
     data: {
         datasets: [{
+            label: filters.mode === 'fb' ? t('fb') : t('exactIntervals'),
             data: fbGroupedChords.value.map(i => ({ x: i[0], y: i[1] })),
         }],
     },
@@ -98,7 +101,8 @@ const fbConfig = computed(() => ({
         maintainAspectRatio: false,
         plugins: {
             legend: {
-                display: false,
+                // display: false,
+                onClick: (e) => e.stopPropagation(),
             },
             tooltip: {
                 yAlign: 'bottom',
@@ -119,6 +123,7 @@ const degConfig = computed(() => ({
     type: 'bar',
     data: {
         datasets: [{
+            label: t('deg'),
             data: degGroupedChords.value.map(i => ({ x: i[0], y: i[1] })),
         }],
     },
@@ -132,7 +137,8 @@ const degConfig = computed(() => ({
         maintainAspectRatio: false,
         plugins: {
             legend: {
-                display: false,
+                // display: false,
+                onClick: (e) => e.stopPropagation(),
             },
             tooltip: {
                 yAlign: 'bottom',
