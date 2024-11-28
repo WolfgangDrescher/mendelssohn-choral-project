@@ -53,6 +53,14 @@ const options = reactive({
     fb: [],
 });
 
+watch(() => options.mode, (value) => {
+    if (value === 'fb') {
+        options.hint = [];
+    } else if (value === 'hint') {
+        options.fb = [];
+    }
+});
+
 const fbGroupedChords = computed(() => {
     return Object.entries(filteredChords.value.reduce((obj, chord) => {
         const index = options.mode === 'fb' ? chord.fb : chord.hint;
