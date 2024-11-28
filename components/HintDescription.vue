@@ -4,6 +4,6 @@
         <template #M><UKbd size="xs">M</UKbd></template>
         <template #m><UKbd size="xs">m</UKbd></template>
         <template #A><UKbd size="xs">A</UKbd></template>
-        <template #a><UKbd size="xs">a</UKbd></template>
+        <template #d><UKbd size="xs">d</UKbd></template>
     </i18n-t>
 </template>
