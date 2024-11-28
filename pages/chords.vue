@@ -42,28 +42,32 @@ const filteredChords = computed(() => {
             if (hint === null || !hint.length) return true;
             return hint.includes(e.hint);
         };
-        return filterDeg(options.deg) && filterFb(options.fb) && filterHint(options.hint);
+        return filterDeg(filters.deg) && filterFb(filters.fb) && filterHint(filters.hint);
     });
 });
 
-const options = reactive({
+const defaultFilters = {
     mode: 'fb',
     deg: [],
     hint: [],
     fb: [],
+};
+
+const filters = reactive({
+    ...defaultFilters,
 });
 
-watch(() => options.mode, (value) => {
+watch(() => filters.mode, (value) => {
     if (value === 'fb') {
-        options.hint = [];
+        filters.hint = [];
     } else if (value === 'hint') {
-        options.fb = [];
+        filters.fb = [];
     }
 });
 
 const fbGroupedChords = computed(() => {
     return Object.entries(filteredChords.value.reduce((obj, chord) => {
-        const index = options.mode === 'fb' ? chord.fb : chord.hint;
+        const index = filters.mode === 'fb' ? chord.fb : chord.hint;
         obj[index] = (obj[index] ?? 0) + 1;
         return obj;
     }, {})).sort((a, b) => b[1] - a[1]);;
@@ -256,16 +260,16 @@ onKeyStroke('ArrowRight', () => {
             <div>
                 <div class="flex gap-4 mb-4">
                     <UFormGroup :label="$t('mode')">
-                        <USelectMenu v-model="options.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]"  value-attribute="id" option-attribute="label" size="xs" class="w-40" />
+                        <USelectMenu v-model="filters.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]"  value-attribute="id" option-attribute="label" size="xs" class="w-40" />
                     </UFormGroup>
                     <UFormGroup :label="$t('deg')">
-                        <USelectMenu v-model="options.deg" :options="uniqueDegs" multiple size="xs" class="w-32" />
+                        <USelectMenu v-model="filters.deg" :options="uniqueDegs" multiple size="xs" class="w-32" />
                     </UFormGroup>
                     <UFormGroup :label="$t('fb')">
-                        <USelectMenu v-model="options.fb" :options="uniqueFb" multiple searchable size="xs" class="w-32" />
+                        <USelectMenu v-model="filters.fb" :options="uniqueFb" multiple searchable size="xs" class="w-32" />
                     </UFormGroup>
                     <UFormGroup :label="$t('hint')">
-                        <USelectMenu v-model="options.hint" :options="uniqueHint" multiple searchable size="xs" class="w-32" />
+                        <USelectMenu v-model="filters.hint" :options="uniqueHint" multiple searchable size="xs" class="w-32" />
                     </UFormGroup>
                 </div>
                 <HintDescription class="my-4" />
@@ -273,7 +277,7 @@ onKeyStroke('ArrowRight', () => {
             <div class="grid md:grid-cols-3 gap-4">
                 <div class="col-span-2">
                     <div class="h-[300px]">
-                        <Chart :config="fbConfig" @chart-click="(chart, event) => chartClickHandler(options.mode, chart, event)" />
+                        <Chart :config="fbConfig" @chart-click="(chart, event) => chartClickHandler(filters.mode, chart, event)" />
                     </div>
                 </div>
                 <div>
