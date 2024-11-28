@@ -245,19 +245,22 @@ onKeyStroke('ArrowRight', () => {
     <UContainer>
         <Heading>{{ $t('chords') }}</Heading>
         <div>
-            <div class="flex gap-4 mb-4">
-                <UFormGroup :label="$t('mode')">
-                    <USelectMenu v-model="options.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]"  value-attribute="id" option-attribute="label" size="xs" class="w-40" />
-                </UFormGroup>
-                <UFormGroup :label="$t('deg')">
-                    <USelectMenu v-model="options.deg" :options="uniqueDegs" multiple size="xs" class="w-32" />
-                </UFormGroup>
-                <UFormGroup :label="$t('fb')">
-                    <USelectMenu v-model="options.fb" :options="uniqueFb" multiple size="xs" class="w-32" />
-                </UFormGroup>
-                <UFormGroup :label="$t('hint')">
-                    <USelectMenu v-model="options.hint" :options="uniqueHint" multiple size="xs" class="w-32" />
-                </UFormGroup>
+            <div>
+                <div class="flex gap-4 mb-4">
+                    <UFormGroup :label="$t('mode')">
+                        <USelectMenu v-model="options.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]"  value-attribute="id" option-attribute="label" size="xs" class="w-40" />
+                    </UFormGroup>
+                    <UFormGroup :label="$t('deg')">
+                        <USelectMenu v-model="options.deg" :options="uniqueDegs" multiple size="xs" class="w-32" />
+                    </UFormGroup>
+                    <UFormGroup :label="$t('fb')">
+                        <USelectMenu v-model="options.fb" :options="uniqueFb" multiple searchable size="xs" class="w-32" />
+                    </UFormGroup>
+                    <UFormGroup :label="$t('hint')">
+                        <USelectMenu v-model="options.hint" :options="uniqueHint" multiple searchable size="xs" class="w-32" />
+                    </UFormGroup>
+                </div>
+                <HintDescription class="my-4" />
             </div>
             <div class="grid md:grid-cols-3 gap-4">
                 <div class="col-span-2">
