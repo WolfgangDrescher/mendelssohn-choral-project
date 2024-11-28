@@ -251,6 +251,10 @@ onKeyStroke('ArrowLeft', () => {
 onKeyStroke('ArrowRight', () => {
     if (activeIndex !== null) loadIndex(activeIndex + 1);
 });
+
+function resetFilters() {
+    Object.assign(filters, defaultFilters);
+}
 </script>
 
 <template>
@@ -270,6 +274,11 @@ onKeyStroke('ArrowRight', () => {
                     </UFormGroup>
                     <UFormGroup :label="$t('hint')">
                         <USelectMenu v-model="filters.hint" :options="uniqueHint" multiple searchable size="xs" class="w-32" />
+                    </UFormGroup>
+                    <UFormGroup label="&nbsp;">
+                        <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="resetFilters">
+                            {{ $t('reset') }}
+                        </UButton>
                     </UFormGroup>
                 </div>
                 <HintDescription class="my-4" />
