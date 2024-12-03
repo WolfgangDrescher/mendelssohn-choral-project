@@ -118,7 +118,7 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
             </div>
 
             <div class="flex items-center gap-4">
-                <div class="flex gap-6">
+                <div class="flex flex-wrap gap-6">
                     <UCheckbox v-model="filters.outerVoices" :label="$t('Aussenstimmensatz')" />
                     <UCheckbox v-model="filters.highlightChords" :label="$t('highlightChords')" />
                     <UCheckbox v-model="filters.hideLyrics" :label="$t('hideLyrics')" />
