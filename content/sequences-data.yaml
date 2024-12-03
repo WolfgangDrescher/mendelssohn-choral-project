@@ -73,7 +73,7 @@
         startBeat: 59
         endBeat: 73.5
     -
-        labels: [orgelpunkt/gymel]
+        labels: [orgelpunkt, gymel]
         startBeat: 101
         endBeat: 135.5
     -
