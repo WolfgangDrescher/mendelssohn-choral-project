@@ -7,62 +7,77 @@ majorMinor: minor
 meter: 3/8
 modulations:
     -
+        deg: i
         endBeat: 7.5
         key: e
         startBeat: 0
     -
+        deg: III
         endBeat: 11
         key: G
         startBeat: 7.5
     -
+        deg: v
         endBeat: 14.5
         key: b
         startBeat: 11
     -
+        deg: III
         endBeat: 15.5
         key: G
         startBeat: 14.5
     -
+        deg: v
         endBeat: 20
         key: b
         startBeat: 15.5
     -
+        deg: VI
         endBeat: 22
         key: C
         startBeat: 20
     -
+        deg: III
         endBeat: 24.5
         key: G
         startBeat: 22
     -
+        deg: i
         endBeat: 47
         key: e
         startBeat: 24.5
     -
+        deg: VI
         endBeat: 49
         key: C
         startBeat: 47
     -
+        deg: III
         endBeat: 51.5
         key: G
         startBeat: 49
     -
+        deg: i
         endBeat: 59
         key: e
         startBeat: 51.5
     -
+        deg: I
         endBeat: 91
         key: E
         startBeat: 59
     -
+        deg: V
         endBeat: 119
         key: B
         startBeat: 91
     -
+        deg: ii
         endBeat: 135
         key: f#
         startBeat: 119
     -
+        deg: I
         endBeat: 245
         key: E
         startBeat: 135

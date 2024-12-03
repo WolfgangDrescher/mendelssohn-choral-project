@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
+import { romanize } from '../utils/romanize.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -57,10 +58,14 @@ getFiles(pathToKernScores).forEach(file => {
 
     const modulations = [];
 
+    let pieceKey = null;
+
     for (let i = 0; i < lines.length; i += 2) {
         const line = lines[i];
         
         const [, key] = line.match(/\*([A-Ha-h\#\-]+):/);
+        
+        pieceKey ??= key;
 
         const tokens = lines[i + 1].split('\t');
         let beat = tokens[indexMap.beat];
@@ -69,8 +74,17 @@ getFiles(pathToKernScores).forEach(file => {
         beat = parseFloat(beat);
         lineNumber = parseInt(lineNumber, 10);
         
+        const degScore = `**kern
+*${pieceKey}:
+1${key.toLowerCase()}`;
+
+        const stdout = execSync(`echo "${degScore}" | degx | extractxx -i deg | ridx -I`).toString().trim();
+        let deg = romanize(stdout);
+        deg = key === key.toLowerCase() ? deg.toLowerCase() : deg.toUpperCase();
+
         modulations.push({
             key,
+            deg,
             startBeat: beat,
             endBeat: null,
         });

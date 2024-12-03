@@ -7,18 +7,22 @@ majorMinor: major
 meter: 3/8
 modulations:
     -
+        deg: I
         endBeat: 44
         key: A-
         startBeat: 0
     -
+        deg: ii
         endBeat: 48
         key: b-
         startBeat: 44
     -
+        deg: vi
         endBeat: 51.5
         key: f
         startBeat: 48
     -
+        deg: I
         endBeat: 66.5
         key: A-
         startBeat: 51.5

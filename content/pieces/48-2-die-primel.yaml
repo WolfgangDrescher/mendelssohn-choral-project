@@ -7,14 +7,17 @@ majorMinor: major
 meter: 2/4
 modulations:
     -
+        deg: I
         endBeat: 13
         key: A
         startBeat: 0
     -
+        deg: ii
         endBeat: 19
         key: b
         startBeat: 13
     -
+        deg: I
         endBeat: 38
         key: A
         startBeat: 19

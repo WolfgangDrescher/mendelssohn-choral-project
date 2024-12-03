@@ -7,30 +7,37 @@ majorMinor: minor
 meter: 4/4
 modulations:
     -
+        deg: i
         endBeat: 19
         key: a
         startBeat: 0
     -
+        deg: III
         endBeat: 24
         key: C
         startBeat: 19
     -
+        deg: i
         endBeat: 51
         key: a
         startBeat: 24
     -
+        deg: III
         endBeat: 56
         key: C
         startBeat: 51
     -
+        deg: i
         endBeat: 83
         key: a
         startBeat: 56
     -
+        deg: III
         endBeat: 88
         key: C
         startBeat: 83
     -
+        deg: i
         endBeat: 96
         key: a
         startBeat: 88
