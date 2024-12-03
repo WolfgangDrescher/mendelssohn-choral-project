@@ -4,7 +4,7 @@
         startBeat: 0.5
         endBeat: 5
     -
-        labels: ['"quintfall"']
+        labels: ['harmonischer_quintfall']
         startBeat: 16
         endBeat: 23.5
 41-2-entflieh-mit-mir:
@@ -128,7 +128,7 @@
         startBeat: 0
         endBeat: 5
     -
-        labels: ['"quintfall"']
+        labels: ['harmonischer_quintfall']
         startBeat: 13
         endBeat: 22
     -
@@ -136,7 +136,7 @@
         startBeat: 48
         endBeat: 53
     -
-        labels: ['"quintfall"']
+        labels: ['harmonischer_quintfall']
         startBeat: 61
         endBeat: 70
     -
@@ -157,7 +157,7 @@
         startBeat: 40
         endBeat: 79.5
     -
-        labels: ['"quintfall"']
+        labels: ['harmonischer_quintfall']
         startBeat: 56
         endBeat: 62.5
     -
@@ -165,7 +165,7 @@
         startBeat: 82
         endBeat: 90.5
     -
-        labels: ['"quintfall"']
+        labels: ['harmonischer_quintfall']
         startBeat: 96
         endBeat: 102.5
 48-5-morgengebet:
@@ -302,7 +302,7 @@
         startBeat: 0
         endBeat: 9
     -
-        labels: ['"quintfall"']
+        labels: ['harmonischer_quintfall']
         startBeat: 16
         endBeat: 30
 88-2-der-glueckliche:
