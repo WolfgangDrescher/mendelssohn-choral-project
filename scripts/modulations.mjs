@@ -85,7 +85,6 @@ getFiles(pathToKernScores).forEach(file => {
     fs.writeFileSync(configFile, yaml.dump({
         ...doc,
         modulations,
-        maxBeat,
     }, {
         indent: 4,
         lineWidth: -1,
