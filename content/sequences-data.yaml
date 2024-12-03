@@ -205,7 +205,7 @@
         endBeat: 62
 59-2-fruehzeitiger-fruehling:
     -
-        labels: [gymel]
+        labels: [gymel, liegeton]
         startBeat: 12
         endBeat: 16.5
     -
@@ -221,7 +221,7 @@
         startBeat: 104
         endBeat: 107
     -
-        labels: [gymel]
+        labels: [gymel, liegeton]
         startBeat: 136
         endBeat: 140.5
     -
