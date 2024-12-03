@@ -44,7 +44,11 @@ const filteredChords = computed(() => {
             if (hint === null || !hint.length) return true;
             return hint.includes(e.hint);
         };
-        return filterDeg(filters.deg) && filterFb(filters.fb) && filterHint(filters.hint);
+        const filterSearch = (searchStr) => {
+            if (searchStr === null || !searchStr.length) return true;
+            return e.fb.includes(searchStr) || e.hint.includes(searchStr);
+        };
+        return filterDeg(filters.deg) && filterFb(filters.fb) && filterHint(filters.hint) && filterSearch(filters.search);
     });
 });
 
@@ -53,6 +57,7 @@ const defaultFilters = {
     deg: [],
     hint: [],
     fb: [],
+    search: null,
 };
 
 const filters = reactive({
@@ -280,6 +285,9 @@ function resetFilters() {
                     </UFormGroup>
                     <UFormGroup :label="$t('hint')">
                         <USelectMenu v-model="filters.hint" :options="uniqueHint" multiple searchable size="xs" class="w-32" />
+                    </UFormGroup>
+                    <UFormGroup :label="$t('intervalSearch')">
+                        <UInput v-model="filters.search" size="xs" class="w-32" />
                     </UFormGroup>
                     <UFormGroup label="&nbsp;">
                         <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="resetFilters">
