@@ -4,11 +4,14 @@ const props = defineProps({
         type: Array,
         required: true,
     },
+    showKeys: {
+        type: Boolean,
+    },
 });
 
 const groupedByKey = computed(() => {
     return Object.entries(props.modulations.reduce((groups, item) => {
-		const key = item.key;
+		const key = props.showKeys ? item.key : item.deg;
 		if (!groups[key]) {
 			groups[key] = [];
 		}
