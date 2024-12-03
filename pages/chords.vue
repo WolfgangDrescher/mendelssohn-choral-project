@@ -17,7 +17,6 @@ const uniqueFb = [...new Set(chords.map(chord => chord.fb))].toSorted((a, b) => 
     if (aCount === bCount) {
         return a.localeCompare(b);
     }
-
     return aCount - bCount;
 });
 const uniqueHint = [...new Set(chords.map(chord => chord.hint))].toSorted((a, b) => {
@@ -26,7 +25,6 @@ const uniqueHint = [...new Set(chords.map(chord => chord.hint))].toSorted((a, b)
     if (aCount === bCount) {
         return a.replaceAll(/\D/g, '').localeCompare(b.replaceAll(/\D/g, ''));
     }
-
     return aCount - bCount;
 });
 
