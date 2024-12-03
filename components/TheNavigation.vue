@@ -27,6 +27,10 @@ const links = [
         label: t('sequences'),
         to: localePath({name: 'sequences'}),
     },
+    {
+        label: t('modulations'),
+        to: localePath({name: 'modulations'}),
+    },
 ];
 </script>
 
