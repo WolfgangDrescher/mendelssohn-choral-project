@@ -4268,94 +4268,94 @@ chords:
     - {beat: 11.5, fb: 7 4 2, hint: M7 P4 M2, deg: '1', lineNumber: 37, id: 88-5-deutschland}
     - {beat: 12, fb: '3', hint: m3, deg: '1', lineNumber: 1, id: 88-5-deutschland}
     - {beat: 12.5, fb: 6 4 2, hint: m6 P4 M2, deg: '1', lineNumber: 1, id: 88-5-deutschland}
-    - {beat: 13, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 44, id: 88-5-deutschland}
-    - {beat: 13.75, fb: 9 5 3, hint: M9 P5 m3, deg: '1', lineNumber: 45, id: 88-5-deutschland}
-    - {beat: 14, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 46, id: 88-5-deutschland}
-    - {beat: 25, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 65, id: 88-5-deutschland}
-    - {beat: 25.5, fb: 4 2, hint: P4 M2, deg: '1', lineNumber: 66, id: 88-5-deutschland}
-    - {beat: 26, fb: '3', hint: M3, deg: '1', lineNumber: 67, id: 88-5-deutschland}
-    - {beat: 26.5, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 68, id: 88-5-deutschland}
-    - {beat: 27, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 69, id: 88-5-deutschland}
-    - {beat: 27.5, fb: 7 4 2, hint: M7 P4 M2, deg: '1', lineNumber: 70, id: 88-5-deutschland}
-    - {beat: 28, fb: '3', hint: M3, deg: '1', lineNumber: 71, id: 88-5-deutschland}
-    - {beat: 28.5, fb: 6 4 2, hint: m6 P4 M2, deg: '1', lineNumber: 72, id: 88-5-deutschland}
-    - {beat: 29, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 74, id: 88-5-deutschland}
-    - {beat: 29.75, fb: 9 5 3, hint: M9 P5 M3, deg: '1', lineNumber: 75, id: 88-5-deutschland}
-    - {beat: 30, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 76, id: 88-5-deutschland}
-    - {beat: 32, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 78, id: 88-5-deutschland}
-    - {beat: 32.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 79, id: 88-5-deutschland}
-    - {beat: 33, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 81, id: 88-5-deutschland}
-    - {beat: 34.5, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 82, id: 88-5-deutschland}
-    - {beat: 35, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 83, id: 88-5-deutschland}
-    - {beat: 36.5, fb: 6 3, hint: M6 M3, deg: '5', lineNumber: 84, id: 88-5-deutschland}
-    - {beat: 37, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 86, id: 88-5-deutschland}
-    - {beat: 38, fb: '3', hint: M3, deg: '1', lineNumber: 87, id: 88-5-deutschland}
-    - {beat: 40, fb: '3', hint: M3, deg: '3', lineNumber: 90, id: 88-5-deutschland}
-    - {beat: 40.5, fb: 7 2, hint: m7 M2, deg: '4', lineNumber: 91, id: 88-5-deutschland}
-    - {beat: 41, fb: '6', hint: m6, deg: '5', lineNumber: 93, id: 88-5-deutschland}
-    - {beat: 42.5, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 94, id: 88-5-deutschland}
-    - {beat: 43, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 95, id: 88-5-deutschland}
-    - {beat: 44, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 96, id: 88-5-deutschland}
-    - {beat: 45, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 98, id: 88-5-deutschland}
-    - {beat: 46.5, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 99, id: 88-5-deutschland}
-    - {beat: 47, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 100, id: 88-5-deutschland}
-    - {beat: 48, fb: '6', hint: m6, deg: '5', lineNumber: 101, id: 88-5-deutschland}
-    - {beat: 49, fb: '6', hint: m6, deg: '5', lineNumber: 103, id: 88-5-deutschland}
-    - {beat: 50.5, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 104, id: 88-5-deutschland}
-    - {beat: 51, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 105, id: 88-5-deutschland}
+    - {beat: 13, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 46, id: 88-5-deutschland}
+    - {beat: 13.75, fb: 9 5 3, hint: M9 P5 m3, deg: '1', lineNumber: 47, id: 88-5-deutschland}
+    - {beat: 14, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 48, id: 88-5-deutschland}
+    - {beat: 25, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 69, id: 88-5-deutschland}
+    - {beat: 25.5, fb: 4 2, hint: P4 M2, deg: '1', lineNumber: 70, id: 88-5-deutschland}
+    - {beat: 26, fb: '3', hint: M3, deg: '1', lineNumber: 71, id: 88-5-deutschland}
+    - {beat: 26.5, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 72, id: 88-5-deutschland}
+    - {beat: 27, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 73, id: 88-5-deutschland}
+    - {beat: 27.5, fb: 7 4 2, hint: M7 P4 M2, deg: '1', lineNumber: 74, id: 88-5-deutschland}
+    - {beat: 28, fb: '3', hint: M3, deg: '1', lineNumber: 75, id: 88-5-deutschland}
+    - {beat: 28.5, fb: 6 4 2, hint: m6 P4 M2, deg: '1', lineNumber: 76, id: 88-5-deutschland}
+    - {beat: 29, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 78, id: 88-5-deutschland}
+    - {beat: 29.75, fb: 9 5 3, hint: M9 P5 M3, deg: '1', lineNumber: 79, id: 88-5-deutschland}
+    - {beat: 30, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 80, id: 88-5-deutschland}
+    - {beat: 32, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 82, id: 88-5-deutschland}
+    - {beat: 32.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 83, id: 88-5-deutschland}
+    - {beat: 33, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 85, id: 88-5-deutschland}
+    - {beat: 34.5, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 86, id: 88-5-deutschland}
+    - {beat: 35, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 87, id: 88-5-deutschland}
+    - {beat: 36.5, fb: 6 3, hint: M6 M3, deg: '5', lineNumber: 88, id: 88-5-deutschland}
+    - {beat: 37, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 90, id: 88-5-deutschland}
+    - {beat: 38, fb: '3', hint: M3, deg: '1', lineNumber: 91, id: 88-5-deutschland}
+    - {beat: 40, fb: '3', hint: M3, deg: '3', lineNumber: 94, id: 88-5-deutschland}
+    - {beat: 40.5, fb: 7 2, hint: m7 M2, deg: '4', lineNumber: 95, id: 88-5-deutschland}
+    - {beat: 41, fb: '6', hint: m6, deg: '5', lineNumber: 97, id: 88-5-deutschland}
+    - {beat: 42.5, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 98, id: 88-5-deutschland}
+    - {beat: 43, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 99, id: 88-5-deutschland}
+    - {beat: 44, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 100, id: 88-5-deutschland}
+    - {beat: 45, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 102, id: 88-5-deutschland}
+    - {beat: 46.5, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 103, id: 88-5-deutschland}
+    - {beat: 47, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 104, id: 88-5-deutschland}
+    - {beat: 48, fb: '6', hint: m6, deg: '5', lineNumber: 105, id: 88-5-deutschland}
+    - {beat: 49, fb: '6', hint: m6, deg: '5', lineNumber: 107, id: 88-5-deutschland}
+    - {beat: 50.5, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 108, id: 88-5-deutschland}
+    - {beat: 51, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 109, id: 88-5-deutschland}
     - {beat: 52, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 5, id: 88-5-deutschland}
     - {beat: 52.5, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 5, id: 88-5-deutschland}
-    - {beat: 53, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 112, id: 88-5-deutschland}
-    - {beat: 55, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 113, id: 88-5-deutschland}
-    - {beat: 65, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 129, id: 88-5-deutschland}
-    - {beat: 65.5, fb: 5 2, hint: P5 M2, deg: '1', lineNumber: 130, id: 88-5-deutschland}
-    - {beat: 66, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 131, id: 88-5-deutschland}
-    - {beat: 66.5, fb: 5 2, hint: P5 M2, deg: '1', lineNumber: 132, id: 88-5-deutschland}
-    - {beat: 67, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 133, id: 88-5-deutschland}
-    - {beat: 67.5, fb: 5 2, hint: P5 M2, deg: '1', lineNumber: 134, id: 88-5-deutschland}
-    - {beat: 68, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 135, id: 88-5-deutschland}
-    - {beat: 68.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 136, id: 88-5-deutschland}
-    - {beat: 69, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 138, id: 88-5-deutschland}
-    - {beat: 69.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 139, id: 88-5-deutschland}
-    - {beat: 70, fb: '3', hint: m3, deg: '1', lineNumber: 141, id: 88-5-deutschland}
-    - {beat: 70.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 142, id: 88-5-deutschland}
-    - {beat: 71, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 145, id: 88-5-deutschland}
-    - {beat: 71.5, fb: 4 2, hint: P4 M2, deg: '1', lineNumber: 146, id: 88-5-deutschland}
-    - {beat: 72, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 147, id: 88-5-deutschland}
-    - {beat: 72.5, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 148, id: 88-5-deutschland}
-    - {beat: 73, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 150, id: 88-5-deutschland}
-    - {beat: 73.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 151, id: 88-5-deutschland}
-    - {beat: 74, fb: '3', hint: m3, deg: '1', lineNumber: 152, id: 88-5-deutschland}
-    - {beat: 74.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 153, id: 88-5-deutschland}
-    - {beat: 75, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 154, id: 88-5-deutschland}
-    - {beat: 75.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 155, id: 88-5-deutschland}
+    - {beat: 53, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 118, id: 88-5-deutschland}
+    - {beat: 55, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 119, id: 88-5-deutschland}
+    - {beat: 65, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 137, id: 88-5-deutschland}
+    - {beat: 65.5, fb: 5 2, hint: P5 M2, deg: '1', lineNumber: 138, id: 88-5-deutschland}
+    - {beat: 66, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 139, id: 88-5-deutschland}
+    - {beat: 66.5, fb: 5 2, hint: P5 M2, deg: '1', lineNumber: 140, id: 88-5-deutschland}
+    - {beat: 67, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 141, id: 88-5-deutschland}
+    - {beat: 67.5, fb: 5 2, hint: P5 M2, deg: '1', lineNumber: 142, id: 88-5-deutschland}
+    - {beat: 68, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 143, id: 88-5-deutschland}
+    - {beat: 68.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 144, id: 88-5-deutschland}
+    - {beat: 69, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 146, id: 88-5-deutschland}
+    - {beat: 69.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 147, id: 88-5-deutschland}
+    - {beat: 70, fb: '3', hint: m3, deg: '1', lineNumber: 149, id: 88-5-deutschland}
+    - {beat: 70.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 150, id: 88-5-deutschland}
+    - {beat: 71, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 154, id: 88-5-deutschland}
+    - {beat: 71.5, fb: 4 2, hint: P4 M2, deg: '1', lineNumber: 155, id: 88-5-deutschland}
+    - {beat: 72, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 156, id: 88-5-deutschland}
+    - {beat: 72.5, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 157, id: 88-5-deutschland}
+    - {beat: 73, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 159, id: 88-5-deutschland}
+    - {beat: 73.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 160, id: 88-5-deutschland}
+    - {beat: 74, fb: '3', hint: m3, deg: '1', lineNumber: 161, id: 88-5-deutschland}
+    - {beat: 74.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 162, id: 88-5-deutschland}
+    - {beat: 75, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 163, id: 88-5-deutschland}
+    - {beat: 75.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 164, id: 88-5-deutschland}
     - {beat: 76, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 1, id: 88-5-deutschland}
     - {beat: 76.5, fb: 6 4 2, hint: m6 P4 M2, deg: '1', lineNumber: 1, id: 88-5-deutschland}
-    - {beat: 77, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 161, id: 88-5-deutschland}
-    - {beat: 77.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 162, id: 88-5-deutschland}
-    - {beat: 78, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 164, id: 88-5-deutschland}
-    - {beat: 78.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 165, id: 88-5-deutschland}
-    - {beat: 79, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 168, id: 88-5-deutschland}
-    - {beat: 80, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 169, id: 88-5-deutschland}
+    - {beat: 77, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 170, id: 88-5-deutschland}
+    - {beat: 77.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 171, id: 88-5-deutschland}
+    - {beat: 78, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 173, id: 88-5-deutschland}
+    - {beat: 78.5, fb: 5 4 2, hint: P5 P4 M2, deg: '1', lineNumber: 174, id: 88-5-deutschland}
+    - {beat: 79, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 178, id: 88-5-deutschland}
+    - {beat: 80, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 179, id: 88-5-deutschland}
     - {beat: 81, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 1, id: 88-5-deutschland}
     - {beat: 82, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 1, id: 88-5-deutschland}
     - {beat: 82.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 1, id: 88-5-deutschland}
-    - {beat: 83, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 177, id: 88-5-deutschland}
-    - {beat: 84, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 178, id: 88-5-deutschland}
-    - {beat: 85, fb: '3', hint: M3, deg: '3', lineNumber: 180, id: 88-5-deutschland}
-    - {beat: 87, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 181, id: 88-5-deutschland}
-    - {beat: 88, fb: '6', hint: M6, deg: '3', lineNumber: 182, id: 88-5-deutschland}
-    - {beat: 88.5, fb: 7 2, hint: m7 m2, deg: '2', lineNumber: 183, id: 88-5-deutschland}
-    - {beat: 89, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 185, id: 88-5-deutschland}
-    - {beat: 89.5, fb: 6 4 2, hint: M6 P4 M2, deg: '7', lineNumber: 186, id: 88-5-deutschland}
+    - {beat: 83, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 189, id: 88-5-deutschland}
+    - {beat: 84, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 190, id: 88-5-deutschland}
+    - {beat: 85, fb: '3', hint: M3, deg: '3', lineNumber: 192, id: 88-5-deutschland}
+    - {beat: 87, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 193, id: 88-5-deutschland}
+    - {beat: 88, fb: '6', hint: M6, deg: '3', lineNumber: 194, id: 88-5-deutschland}
+    - {beat: 88.5, fb: 7 2, hint: m7 m2, deg: '2', lineNumber: 195, id: 88-5-deutschland}
+    - {beat: 89, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 197, id: 88-5-deutschland}
+    - {beat: 89.5, fb: 6 4 2, hint: M6 P4 M2, deg: '7', lineNumber: 198, id: 88-5-deutschland}
     - {beat: 90, fb: 7 5 3, hint: M7 P5 M3, deg: '6', lineNumber: 6, id: 88-5-deutschland}
     - {beat: 90.5, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 5, id: 88-5-deutschland}
-    - {beat: 91, fb: 7 5 2, hint: m7 P5 M2, deg: '4', lineNumber: 191, id: 88-5-deutschland}
-    - {beat: 91.5, fb: 6 3, hint: M6 M3, deg: '3', lineNumber: 192, id: 88-5-deutschland}
-    - {beat: 92, fb: 7 4 2, hint: m7 P4 m2, deg: '2', lineNumber: 193, id: 88-5-deutschland}
-    - {beat: 92.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 194, id: 88-5-deutschland}
-    - {beat: 93, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 196, id: 88-5-deutschland}
-    - {beat: 95, fb: '3', hint: m3, deg: '1', lineNumber: 197, id: 88-5-deutschland}
+    - {beat: 91, fb: 7 5 2, hint: m7 P5 M2, deg: '4', lineNumber: 203, id: 88-5-deutschland}
+    - {beat: 91.5, fb: 6 3, hint: M6 M3, deg: '3', lineNumber: 204, id: 88-5-deutschland}
+    - {beat: 92, fb: 7 4 2, hint: m7 P4 m2, deg: '2', lineNumber: 205, id: 88-5-deutschland}
+    - {beat: 92.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 206, id: 88-5-deutschland}
+    - {beat: 93, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 208, id: 88-5-deutschland}
+    - {beat: 95, fb: '3', hint: m3, deg: '1', lineNumber: 209, id: 88-5-deutschland}
     - {beat: 0, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 19, id: 88-6-der-wandernde-musikant}
     - {beat: 0.5, fb: '3', hint: M3, deg: '1', lineNumber: 21, id: 88-6-der-wandernde-musikant}
     - {beat: 1.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 22, id: 88-6-der-wandernde-musikant}

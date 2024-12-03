@@ -233,17 +233,17 @@
         deg: .
         id: 88-5-deutschland
         lineNumber: 37
-        myankLines: 30-47
+        myankLines: 30-49
     -
         deg: .
         id: 88-5-deutschland
-        lineNumber: 70
-        myankLines: 63-77
+        lineNumber: 74
+        myankLines: 67-81
     -
         deg: '2'
         id: 88-5-deutschland
-        lineNumber: 193
-        myankLines: 182-196
+        lineNumber: 205
+        myankLines: 194-208
     -
         deg: '5'
         id: 88-6-der-wandernde-musikant
@@ -469,13 +469,13 @@ deg4-7:
     -
         deg: '4'
         id: 88-5-deutschland
-        lineNumber: 91
-        myankLines: 84-96
+        lineNumber: 95
+        myankLines: 88-100
     -
         deg: '4'
         id: 88-5-deutschland
-        lineNumber: 191
-        myankLines: 181-196
+        lineNumber: 203
+        myankLines: 193-208
 deg4-down:
     -
         deg: '4'
@@ -874,18 +874,18 @@ deg5-m6:
     -
         deg: '5'
         id: 88-5-deutschland
-        lineNumber: 93
-        myankLines: 86-96
+        lineNumber: 97
+        myankLines: 90-100
     -
         deg: '5'
         id: 88-5-deutschland
-        lineNumber: 101
-        myankLines: 96-105
+        lineNumber: 105
+        myankLines: 100-109
     -
         deg: '5'
         id: 88-5-deutschland
-        lineNumber: 103
-        myankLines: 98-NaN
+        lineNumber: 107
+        myankLines: 102-NaN
     -
         deg: '5'
         id: 88-6-der-wandernde-musikant
@@ -1286,7 +1286,7 @@ deg6-35:
         deg: '6'
         id: 88-5-deutschland
         lineNumber: 6
-        myankLines: 181-196
+        myankLines: 193-208
     -
         deg: '6'
         id: 88-6-der-wandernde-musikant

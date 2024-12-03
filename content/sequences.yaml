@@ -10,7 +10,7 @@ sequences:
         endBeat: 23.5
         endLine: 81
         id: 41-1-im-walde
-        labels: ['"quintfall"']
+        labels: [harmonischer_quintfall]
         startBeat: 16
         startLine: 61
     -
@@ -24,7 +24,7 @@ sequences:
         endBeat: 69
         endLine: 118
         id: 41-3-es-fiel-ein-reif
-        labels: [romanesca_bass]
+        labels: [romanesca]
         startBeat: 65
         startLine: 112
     -
@@ -115,14 +115,14 @@ sequences:
         endBeat: 73.5
         endLine: 161
         id: 41-6-auf-dem-see
-        labels: [gymel, fauxbourdon, '"dezimensatz"']
+        labels: [gymel, fauxbourdon]
         startBeat: 59
         startLine: 128
     -
         endBeat: 135.5
         endLine: 246
         id: 41-6-auf-dem-see
-        labels: [orgelpunkt/gymel]
+        labels: [orgelpunkt, gymel]
         startBeat: 101
         startLine: 205
     -
@@ -164,7 +164,7 @@ sequences:
         endBeat: 319.5
         endLine: 510
         id: 41-6-auf-dem-see
-        labels: [gymel, fauxbourdon, '"dezimensatz"']
+        labels: [gymel, fauxbourdon]
         startBeat: 305
         startLine: 477
     -
@@ -213,7 +213,7 @@ sequences:
         endBeat: 22
         endLine: 60
         id: 48-3-fruehlingsfeier
-        labels: ['"quintfall"']
+        labels: [harmonischer_quintfall]
         startBeat: 13
         startLine: 44
     -
@@ -227,7 +227,7 @@ sequences:
         endBeat: 70
         endLine: 143
         id: 48-3-fruehlingsfeier
-        labels: ['"quintfall"']
+        labels: [harmonischer_quintfall]
         startBeat: 61
         startLine: 126
     -
@@ -262,7 +262,7 @@ sequences:
         endBeat: 62.5
         endLine: 130
         id: 48-4-lerchengesang
-        labels: ['"quintfall"']
+        labels: [harmonischer_quintfall]
         startBeat: 56
         startLine: 118
     -
@@ -276,7 +276,7 @@ sequences:
         endBeat: 102.5
         endLine: 210
         id: 48-4-lerchengesang
-        labels: ['"quintfall"']
+        labels: [harmonischer_quintfall]
         startBeat: 96
         startLine: 198
     -
@@ -338,7 +338,7 @@ sequences:
         endBeat: 16.5
         endLine: 59
         id: 59-2-fruehzeitiger-fruehling
-        labels: [gymel]
+        labels: [gymel, liegeton]
         startBeat: 12
         startLine: 47
     -
@@ -365,7 +365,7 @@ sequences:
         endBeat: 140.5
         endLine: 402
         id: 59-2-fruehzeitiger-fruehling
-        labels: [gymel]
+        labels: [gymel, liegeton]
         startBeat: 136
         startLine: 390
     -
@@ -498,7 +498,7 @@ sequences:
         endBeat: 30
         endLine: 61
         id: 88-1-neujahrslied
-        labels: ['"quintfall"']
+        labels: [harmonischer_quintfall]
         startBeat: 16
         startLine: 39
     -
