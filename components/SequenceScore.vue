@@ -36,7 +36,16 @@ ${(filters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
 <template>
     <UCard>
         <template #header>
-            {{ piece.title }}
+            <NuxtLink :to="localePath({ name: 'piece-id', params: { id: piece.id } })">
+                <div class="flex">
+                    <div>
+                        {{ piece.title }}
+                    </div>
+                    <div class="ml-auto">
+                        {{ `Op. ${piece.op} № ${piece.nr}` }}
+                    </div>
+                </div>
+            </NuxtLink>
         </template>
         <div class="flex flex-wrap gap-2 mb-4">
             <UBadge v-for="label in sequence.labels">{{ label }}</UBadge>
