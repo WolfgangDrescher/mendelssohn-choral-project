@@ -5,6 +5,27 @@ largerWorkTitle: Vier vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/100-4-im-wald.krn
 majorMinor: major
 meter: 4/4
+modulations:
+    -
+        endBeat: 48
+        key: D
+        startBeat: 0
+    -
+        endBeat: 77
+        key: A
+        startBeat: 48
+    -
+        endBeat: 115
+        key: D
+        startBeat: 77
+    -
+        endBeat: 119
+        key: b
+        startBeat: 115
+    -
+        endBeat: 128
+        key: D
+        startBeat: 119
 nr: 4
 op: 100
 title: Im Wald

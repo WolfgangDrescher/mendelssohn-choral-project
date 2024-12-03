@@ -5,6 +5,67 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-6-herbstlied.krn
 majorMinor: minor
 meter: 3/8
+modulations:
+    -
+        endBeat: 7.5
+        key: e
+        startBeat: 0
+    -
+        endBeat: 11
+        key: G
+        startBeat: 7.5
+    -
+        endBeat: 14.5
+        key: b
+        startBeat: 11
+    -
+        endBeat: 15.5
+        key: G
+        startBeat: 14.5
+    -
+        endBeat: 20
+        key: b
+        startBeat: 15.5
+    -
+        endBeat: 22
+        key: C
+        startBeat: 20
+    -
+        endBeat: 24.5
+        key: G
+        startBeat: 22
+    -
+        endBeat: 47
+        key: e
+        startBeat: 24.5
+    -
+        endBeat: 49
+        key: C
+        startBeat: 47
+    -
+        endBeat: 51.5
+        key: G
+        startBeat: 49
+    -
+        endBeat: 59
+        key: e
+        startBeat: 51.5
+    -
+        endBeat: 91
+        key: E
+        startBeat: 59
+    -
+        endBeat: 119
+        key: B
+        startBeat: 91
+    -
+        endBeat: 135
+        key: f#
+        startBeat: 119
+    -
+        endBeat: 245
+        key: E
+        startBeat: 135
 nr: 6
 op: 48
 title: Herbstlied

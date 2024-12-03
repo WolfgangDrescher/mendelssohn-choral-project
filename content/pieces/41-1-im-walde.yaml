@@ -5,6 +5,23 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-1-im-walde.krn
 majorMinor: major
 meter: 2/4
+modulations:
+    -
+        endBeat: 16
+        key: A
+        startBeat: 0
+    -
+        endBeat: 20.5
+        key: c#
+        startBeat: 16
+    -
+        endBeat: 24.5
+        key: f#
+        startBeat: 20.5
+    -
+        endBeat: 44
+        key: A
+        startBeat: 24.5
 nr: 1
 op: 41
 title: Im Walde

@@ -5,6 +5,51 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-1-neujahrslied.krn
 majorMinor: major
 meter: 4/4
+modulations:
+    -
+        endBeat: 16
+        key: E-
+        startBeat: 0
+    -
+        endBeat: 24
+        key: c
+        startBeat: 16
+    -
+        endBeat: 35
+        key: f
+        startBeat: 24
+    -
+        endBeat: 36
+        key: B-
+        startBeat: 35
+    -
+        endBeat: 52
+        key: E-
+        startBeat: 36
+    -
+        endBeat: 60
+        key: A-
+        startBeat: 52
+    -
+        endBeat: 70
+        key: E-
+        startBeat: 60
+    -
+        endBeat: 78
+        key: c
+        startBeat: 70
+    -
+        endBeat: 91
+        key: f
+        startBeat: 78
+    -
+        endBeat: 92
+        key: B-
+        startBeat: 91
+    -
+        endBeat: 108
+        key: E-
+        startBeat: 92
 nr: 1
 op: 88
 title: Neujahrslied

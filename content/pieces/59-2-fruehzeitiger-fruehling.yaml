@@ -5,6 +5,63 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/59-2-fruehzeitiger-fruehling.krn
 majorMinor: major
 meter: 3/8
+modulations:
+    -
+        endBeat: 18
+        key: G
+        startBeat: 0
+    -
+        endBeat: 30
+        key: C
+        startBeat: 18
+    -
+        endBeat: 36
+        key: a
+        startBeat: 30
+    -
+        endBeat: 61
+        key: G
+        startBeat: 36
+    -
+        endBeat: 73
+        key: e
+        startBeat: 61
+    -
+        endBeat: 96
+        key: b
+        startBeat: 73
+    -
+        endBeat: 109
+        key: C
+        startBeat: 96
+    -
+        endBeat: 114
+        key: a
+        startBeat: 109
+    -
+        endBeat: 142
+        key: G
+        startBeat: 114
+    -
+        endBeat: 154
+        key: C
+        startBeat: 142
+    -
+        endBeat: 160
+        key: a
+        startBeat: 154
+    -
+        endBeat: 172
+        key: G
+        startBeat: 160
+    -
+        endBeat: 182.5
+        key: C
+        startBeat: 172
+    -
+        endBeat: 196
+        key: G
+        startBeat: 182.5
 nr: 2
 op: 59
 title: Frühzeitiger Frühling

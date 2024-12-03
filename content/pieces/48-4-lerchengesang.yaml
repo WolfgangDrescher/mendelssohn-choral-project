@@ -5,6 +5,27 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-4-lerchengesang.krn
 majorMinor: major
 meter: 4/4
+modulations:
+    -
+        endBeat: 60
+        key: G
+        startBeat: 0
+    -
+        endBeat: 63.5
+        key: C
+        startBeat: 60
+    -
+        endBeat: 100
+        key: G
+        startBeat: 63.5
+    -
+        endBeat: 103.5
+        key: C
+        startBeat: 100
+    -
+        endBeat: 148.5
+        key: G
+        startBeat: 103.5
 nr: 4
 op: 48
 title: Lerchengesang

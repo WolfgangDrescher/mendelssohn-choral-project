@@ -5,6 +5,35 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-3-es-fiel-ein-reif.krn
 majorMinor: minor
 meter: 4/4
+modulations:
+    -
+        endBeat: 19
+        key: a
+        startBeat: 0
+    -
+        endBeat: 24
+        key: C
+        startBeat: 19
+    -
+        endBeat: 51
+        key: a
+        startBeat: 24
+    -
+        endBeat: 56
+        key: C
+        startBeat: 51
+    -
+        endBeat: 83
+        key: a
+        startBeat: 56
+    -
+        endBeat: 88
+        key: C
+        startBeat: 83
+    -
+        endBeat: 96
+        key: a
+        startBeat: 88
 nr: 3
 op: 41
 title: Es fiel ein Reif

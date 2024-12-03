@@ -5,6 +5,23 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/59-1-im-gruenen.krn
 majorMinor: major
 meter: 9/8
+modulations:
+    -
+        endBeat: 20
+        key: A
+        startBeat: 0
+    -
+        endBeat: 36
+        key: E
+        startBeat: 20
+    -
+        endBeat: 45
+        key: b
+        startBeat: 36
+    -
+        endBeat: 63
+        key: A
+        startBeat: 45
 nr: 1
 op: 59
 title: Im Grünen

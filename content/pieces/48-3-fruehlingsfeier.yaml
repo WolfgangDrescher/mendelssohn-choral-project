@@ -5,6 +5,51 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-3-fruehlingsfeier.krn
 majorMinor: major
 meter: 3/4
+modulations:
+    -
+        endBeat: 7
+        key: E
+        startBeat: 0
+    -
+        endBeat: 13
+        key: B
+        startBeat: 7
+    -
+        endBeat: 19
+        key: E
+        startBeat: 13
+    -
+        endBeat: 23
+        key: A
+        startBeat: 19
+    -
+        endBeat: 55
+        key: E
+        startBeat: 23
+    -
+        endBeat: 61
+        key: B
+        startBeat: 55
+    -
+        endBeat: 67
+        key: E
+        startBeat: 61
+    -
+        endBeat: 71
+        key: A
+        startBeat: 67
+    -
+        endBeat: 88
+        key: E
+        startBeat: 71
+    -
+        endBeat: 93
+        key: c#
+        startBeat: 88
+    -
+        endBeat: 114
+        key: E
+        startBeat: 93
 nr: 3
 op: 48
 title: Frühlingsfeier

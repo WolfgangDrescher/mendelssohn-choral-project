@@ -5,6 +5,27 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-4-die-waldvoegelein.krn
 majorMinor: major
 meter: 4/4
+modulations:
+    -
+        endBeat: 24.5
+        key: F
+        startBeat: 0
+    -
+        endBeat: 32.5
+        key: C
+        startBeat: 24.5
+    -
+        endBeat: 54.5
+        key: F
+        startBeat: 32.5
+    -
+        endBeat: 63.5
+        key: C
+        startBeat: 54.5
+    -
+        endBeat: 88
+        key: F
+        startBeat: 63.5
 nr: 4
 op: 88
 title: Die Waldvögelein

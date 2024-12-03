@@ -5,6 +5,59 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-4-auf-ihrem-grab.krn
 majorMinor: major
 meter: 4/4
+modulations:
+    -
+        endBeat: 4
+        key: E
+        startBeat: 0
+    -
+        endBeat: 7.5
+        key: B
+        startBeat: 4
+    -
+        endBeat: 16
+        key: E
+        startBeat: 7.5
+    -
+        endBeat: 24
+        key: B
+        startBeat: 16
+    -
+        endBeat: 32
+        key: E
+        startBeat: 24
+    -
+        endBeat: 40
+        key: B
+        startBeat: 32
+    -
+        endBeat: 52
+        key: E
+        startBeat: 40
+    -
+        endBeat: 55.5
+        key: B
+        startBeat: 52
+    -
+        endBeat: 63.5
+        key: E
+        startBeat: 55.5
+    -
+        endBeat: 72
+        key: B
+        startBeat: 63.5
+    -
+        endBeat: 79.5
+        key: E
+        startBeat: 72
+    -
+        endBeat: 88
+        key: B
+        startBeat: 79.5
+    -
+        endBeat: 96
+        key: E
+        startBeat: 88
 nr: 4
 op: 41
 title: Auf ihrem Grab

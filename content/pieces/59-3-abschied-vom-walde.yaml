@@ -5,6 +5,39 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/59-3-abschied-vom-walde.krn
 majorMinor: major
 meter: 4/4
+modulations:
+    -
+        endBeat: 33
+        key: E-
+        startBeat: 0
+    -
+        endBeat: 37
+        key: B-
+        startBeat: 33
+    -
+        endBeat: 41
+        key: c
+        startBeat: 37
+    -
+        endBeat: 47
+        key: d
+        startBeat: 41
+    -
+        endBeat: 49
+        key: g
+        startBeat: 47
+    -
+        endBeat: 67
+        key: E-
+        startBeat: 49
+    -
+        endBeat: 75
+        key: c
+        startBeat: 67
+    -
+        endBeat: 85
+        key: E-
+        startBeat: 75
 nr: 3
 op: 59
 title: Abschied vom Walde

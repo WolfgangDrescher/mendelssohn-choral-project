@@ -5,6 +5,39 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-6-der-wandernde-musikant.krn
 majorMinor: major
 meter: 6/8
+modulations:
+    -
+        endBeat: 27.5
+        key: E-
+        startBeat: 0
+    -
+        endBeat: 32
+        key: B-
+        startBeat: 27.5
+    -
+        endBeat: 35
+        key: g
+        startBeat: 32
+    -
+        endBeat: 42
+        key: B-
+        startBeat: 35
+    -
+        endBeat: 48.5
+        key: b-
+        startBeat: 42
+    -
+        endBeat: 60.5
+        key: A-
+        startBeat: 48.5
+    -
+        endBeat: 68
+        key: f
+        startBeat: 60.5
+    -
+        endBeat: 105.5
+        key: E-
+        startBeat: 68
 nr: 6
 op: 88
 title: Der wandernde Musikant

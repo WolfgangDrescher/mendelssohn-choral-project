@@ -5,6 +5,47 @@ largerWorkTitle: Vier vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/100-1-andenken.krn
 majorMinor: major
 meter: 3/4
+modulations:
+    -
+        endBeat: 13
+        key: D
+        startBeat: 0
+    -
+        endBeat: 15.5
+        key: e
+        startBeat: 13
+    -
+        endBeat: 60
+        key: D
+        startBeat: 15.5
+    -
+        endBeat: 73.5
+        key: b
+        startBeat: 60
+    -
+        endBeat: 87.5
+        key: f#
+        startBeat: 73.5
+    -
+        endBeat: 99.5
+        key: A
+        startBeat: 87.5
+    -
+        endBeat: 102.5
+        key: b
+        startBeat: 99.5
+    -
+        endBeat: 111.5
+        key: D
+        startBeat: 102.5
+    -
+        endBeat: 114.5
+        key: b
+        startBeat: 111.5
+    -
+        endBeat: 120.5
+        key: D
+        startBeat: 114.5
 nr: 1
 op: 100
 title: Andenken

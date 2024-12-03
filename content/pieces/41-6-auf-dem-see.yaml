@@ -5,6 +5,67 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-6-auf-dem-see.krn
 majorMinor: major
 meter: 6/8
+modulations:
+    -
+        endBeat: 22.5
+        key: C
+        startBeat: 0
+    -
+        endBeat: 47
+        key: G
+        startBeat: 22.5
+    -
+        endBeat: 57.5
+        key: C
+        startBeat: 47
+    -
+        endBeat: 59
+        key: F
+        startBeat: 57.5
+    -
+        endBeat: 107
+        key: C
+        startBeat: 59
+    -
+        endBeat: 125
+        key: a
+        startBeat: 107
+    -
+        endBeat: 212
+        key: A
+        startBeat: 125
+    -
+        endBeat: 224
+        key: a
+        startBeat: 212
+    -
+        endBeat: 236
+        key: a
+        startBeat: 224
+    -
+        endBeat: 242
+        key: C
+        startBeat: 236
+    -
+        endBeat: 268.5
+        key: C
+        startBeat: 242
+    -
+        endBeat: 293
+        key: G
+        startBeat: 268.5
+    -
+        endBeat: 303.5
+        key: C
+        startBeat: 293
+    -
+        endBeat: 305
+        key: F
+        startBeat: 303.5
+    -
+        endBeat: 359
+        key: C
+        startBeat: 305
 nr: 6
 op: 41
 title: Auf dem See

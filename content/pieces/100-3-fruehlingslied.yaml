@@ -5,6 +5,19 @@ largerWorkTitle: Vier vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/100-3-fruehlingslied.krn
 majorMinor: major
 meter: 2/4
+modulations:
+    -
+        endBeat: 17
+        key: D
+        startBeat: 0
+    -
+        endBeat: 26
+        key: b
+        startBeat: 17
+    -
+        endBeat: 48
+        key: D
+        startBeat: 26
 nr: 3
 op: 100
 title: Frühlingslied

@@ -5,6 +5,35 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-1-fruehlingsahnung.krn
 majorMinor: major
 meter: 6/8
+modulations:
+    -
+        endBeat: 27
+        key: E
+        startBeat: 0
+    -
+        endBeat: 36
+        key: B
+        startBeat: 27
+    -
+        endBeat: 42
+        key: E
+        startBeat: 36
+    -
+        endBeat: 51
+        key: B
+        startBeat: 42
+    -
+        endBeat: 57
+        key: E
+        startBeat: 51
+    -
+        endBeat: 78
+        key: A
+        startBeat: 57
+    -
+        endBeat: 123
+        key: E
+        startBeat: 78
 nr: 1
 op: 48
 title: Frühlingsahnung

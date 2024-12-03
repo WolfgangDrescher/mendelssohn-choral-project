@@ -5,6 +5,39 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/48-5-morgengebet.krn
 majorMinor: major
 meter: 4/4
+modulations:
+    -
+        endBeat: 13
+        key: C
+        startBeat: 0
+    -
+        endBeat: 22
+        key: a
+        startBeat: 13
+    -
+        endBeat: 25
+        key: G
+        startBeat: 22
+    -
+        endBeat: 61
+        key: C
+        startBeat: 25
+    -
+        endBeat: 65
+        key: d
+        startBeat: 61
+    -
+        endBeat: 70
+        key: a
+        startBeat: 65
+    -
+        endBeat: 73
+        key: G
+        startBeat: 70
+    -
+        endBeat: 97
+        key: C
+        startBeat: 73
 nr: 5
 op: 48
 title: Morgengebet

@@ -5,6 +5,47 @@ largerWorkTitle: Vier vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/100-2-lob-des-fruehlings.krn
 majorMinor: major
 meter: 4/4
+modulations:
+    -
+        endBeat: 36
+        key: A
+        startBeat: 0
+    -
+        endBeat: 41
+        key: D
+        startBeat: 36
+    -
+        endBeat: 44
+        key: b
+        startBeat: 41
+    -
+        endBeat: 72
+        key: A
+        startBeat: 44
+    -
+        endBeat: 88
+        key: b
+        startBeat: 72
+    -
+        endBeat: 96
+        key: f#
+        startBeat: 88
+    -
+        endBeat: 104
+        key: A
+        startBeat: 96
+    -
+        endBeat: 109
+        key: D
+        startBeat: 104
+    -
+        endBeat: 112
+        key: b
+        startBeat: 109
+    -
+        endBeat: 164
+        key: A
+        startBeat: 112
 nr: 2
 op: 100
 title: Lob des Frühlings

@@ -5,6 +5,43 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/59-5-ruhethal.krn
 majorMinor: major
 meter: 2/4
+modulations:
+    -
+        endBeat: 17
+        key: D
+        startBeat: 0
+    -
+        endBeat: 23
+        key: b
+        startBeat: 17
+    -
+        endBeat: 30
+        key: c#
+        startBeat: 23
+    -
+        endBeat: 37
+        key: D
+        startBeat: 30
+    -
+        endBeat: 43
+        key: e
+        startBeat: 37
+    -
+        endBeat: 48
+        key: b
+        startBeat: 43
+    -
+        endBeat: 64
+        key: D
+        startBeat: 48
+    -
+        endBeat: 66
+        key: b
+        startBeat: 64
+    -
+        endBeat: 71
+        key: D
+        startBeat: 66
 nr: 5
 op: 59
 title: Ruhethal

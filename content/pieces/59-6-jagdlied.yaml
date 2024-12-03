@@ -5,6 +5,23 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/59-6-jagdlied.krn
 majorMinor: minor
 meter: 4/4
+modulations:
+    -
+        endBeat: 59
+        key: b
+        startBeat: 0
+    -
+        endBeat: 81
+        key: D
+        startBeat: 59
+    -
+        endBeat: 156
+        key: b
+        startBeat: 81
+    -
+        endBeat: 328
+        key: B
+        startBeat: 156
 nr: 6
 op: 59
 title: Jagdlied
