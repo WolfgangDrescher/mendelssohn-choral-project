@@ -1,0 +1,642 @@
+sequences:
+    -
+        endBeat: 5
+        endLine: 32
+        id: 41-1-im-walde
+        labels: [orgelpunkt]
+        startBeat: 0.5
+        startLine: 21
+    -
+        endBeat: 23.5
+        endLine: 81
+        id: 41-1-im-walde
+        labels: ['"quintfall"']
+        startBeat: 16
+        startLine: 61
+    -
+        endBeat: 11
+        endLine: 41
+        id: 41-2-entflieh-mit-mir
+        labels: [orgelpunkt]
+        startBeat: 6
+        startLine: 30
+    -
+        endBeat: 69
+        endLine: 118
+        id: 41-3-es-fiel-ein-reif
+        labels: [romanesca_bass]
+        startBeat: 65
+        startLine: 112
+    -
+        endBeat: 15
+        endLine: 53
+        id: 41-4-auf-ihrem-grab
+        labels: [orgelpunkt]
+        startBeat: 7.5
+        startLine: 36
+    -
+        endBeat: 22
+        endLine: 66
+        id: 41-4-auf-ihrem-grab
+        labels: [orgelpunkt]
+        startBeat: 16
+        startLine: 56
+    -
+        endBeat: 27
+        endLine: 74
+        id: 41-4-auf-ihrem-grab
+        labels: [dezimensatz]
+        startBeat: 24
+        startLine: 70
+    -
+        endBeat: 38
+        endLine: 94
+        id: 41-4-auf-ihrem-grab
+        labels: [orgelpunkt]
+        startBeat: 32
+        startLine: 82
+    -
+        endBeat: 43
+        endLine: 102
+        id: 41-4-auf-ihrem-grab
+        labels: [dezimensatz]
+        startBeat: 40
+        startLine: 98
+    -
+        endBeat: 61.5
+        endLine: 138
+        id: 41-4-auf-ihrem-grab
+        labels: [orgelpunkt]
+        startBeat: 55.5
+        startLine: 125
+    -
+        endBeat: 70
+        endLine: 156
+        id: 41-4-auf-ihrem-grab
+        labels: [orgelpunkt]
+        startBeat: 64
+        startLine: 145
+    -
+        endBeat: 75
+        endLine: 165
+        id: 41-4-auf-ihrem-grab
+        labels: [dezimensatz]
+        startBeat: 72
+        startLine: 160
+    -
+        endBeat: 86
+        endLine: 187
+        id: 41-4-auf-ihrem-grab
+        labels: [orgelpunkt]
+        startBeat: 80
+        startLine: 174
+    -
+        endBeat: 91
+        endLine: 196
+        id: 41-4-auf-ihrem-grab
+        labels: [dezimensatz]
+        startBeat: 88
+        startLine: 191
+    -
+        endBeat: 21.5
+        endLine: 56
+        id: 41-6-auf-dem-see
+        labels: [romanesca]
+        startBeat: 17
+        startLine: 49
+    -
+        endBeat: 55.5
+        endLine: 118
+        id: 41-6-auf-dem-see
+        labels: [orgelpunkt]
+        startBeat: 33
+        startLine: 80
+    -
+        endBeat: 73.5
+        endLine: 161
+        id: 41-6-auf-dem-see
+        labels: [gymel, fauxbourdon, '"dezimensatz"']
+        startBeat: 59
+        startLine: 128
+    -
+        endBeat: 135.5
+        endLine: 246
+        id: 41-6-auf-dem-see
+        labels: [orgelpunkt/gymel]
+        startBeat: 101
+        startLine: 205
+    -
+        endBeat: 153.5
+        endLine: 263
+        id: 41-6-auf-dem-see
+        labels: [gymel]
+        startBeat: 149
+        startLine: 258
+    -
+        endBeat: 165.5
+        endLine: 276
+        id: 41-6-auf-dem-see
+        labels: [gymel]
+        startBeat: 161
+        startLine: 272
+    -
+        endBeat: 212
+        endLine: 326
+        id: 41-6-auf-dem-see
+        labels: [liegeton]
+        startBeat: 188
+        startLine: 299
+    -
+        endBeat: 267.5
+        endLine: 406
+        id: 41-6-auf-dem-see
+        labels: [romanesca]
+        startBeat: 263
+        startLine: 399
+    -
+        endBeat: 301.5
+        endLine: 467
+        id: 41-6-auf-dem-see
+        labels: [orgelpunkt]
+        startBeat: 279
+        startLine: 429
+    -
+        endBeat: 319.5
+        endLine: 510
+        id: 41-6-auf-dem-see
+        labels: [gymel, fauxbourdon, '"dezimensatz"']
+        startBeat: 305
+        startLine: 477
+    -
+        endBeat: 4.5
+        endLine: 25
+        id: 48-1-fruehlingsahnung
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 19
+    -
+        endBeat: 20.5
+        endLine: 50
+        id: 48-1-fruehlingsahnung
+        labels: [gymel, fauxbourdon]
+        startBeat: 15
+        startLine: 43
+    -
+        endBeat: 52.5
+        endLine: 108
+        id: 48-1-fruehlingsahnung
+        labels: [orgelpunkt]
+        startBeat: 48
+        startLine: 100
+    -
+        endBeat: 58.5
+        endLine: 117
+        id: 48-1-fruehlingsahnung
+        labels: [orgelpunkt]
+        startBeat: 54
+        startLine: 110
+    -
+        endBeat: 30
+        endLine: 111
+        id: 48-2-die-primel
+        labels: [orgelpunkt]
+        startBeat: 21
+        startLine: 80
+    -
+        endBeat: 5
+        endLine: 28
+        id: 48-3-fruehlingsfeier
+        labels: [gymel, dezimensatz]
+        startBeat: 0
+        startLine: 19
+    -
+        endBeat: 22
+        endLine: 60
+        id: 48-3-fruehlingsfeier
+        labels: ['"quintfall"']
+        startBeat: 13
+        startLine: 44
+    -
+        endBeat: 53
+        endLine: 110
+        id: 48-3-fruehlingsfeier
+        labels: [gymel, dezimensatz]
+        startBeat: 48
+        startLine: 101
+    -
+        endBeat: 70
+        endLine: 143
+        id: 48-3-fruehlingsfeier
+        labels: ['"quintfall"']
+        startBeat: 61
+        startLine: 126
+    -
+        endBeat: 107
+        endLine: 203
+        id: 48-3-fruehlingsfeier
+        labels: [liegeton]
+        startBeat: 98
+        startLine: 189
+    -
+        endBeat: 38.5
+        endLine: 81
+        id: 48-4-lerchengesang
+        labels: [gymel]
+        startBeat: 0
+        startLine: 20
+    -
+        endBeat: 79.5
+        endLine: 163
+        id: 48-4-lerchengesang
+        labels: [gymel]
+        startBeat: 40
+        startLine: 84
+    -
+        endBeat: 79.5
+        endLine: 163
+        id: 48-4-lerchengesang
+        labels: [gymel]
+        startBeat: 40
+        startLine: 84
+    -
+        endBeat: 62.5
+        endLine: 130
+        id: 48-4-lerchengesang
+        labels: ['"quintfall"']
+        startBeat: 56
+        startLine: 118
+    -
+        endBeat: 90.5
+        endLine: 186
+        id: 48-4-lerchengesang
+        labels: [orgelpunkt]
+        startBeat: 82
+        startLine: 168
+    -
+        endBeat: 102.5
+        endLine: 210
+        id: 48-4-lerchengesang
+        labels: ['"quintfall"']
+        startBeat: 96
+        startLine: 198
+    -
+        endBeat: 4
+        endLine: 25
+        id: 48-5-morgengebet
+        labels: [romanesca]
+        startBeat: 1
+        startLine: 22
+    -
+        endBeat: 3.5
+        endLine: 32
+        id: 48-6-herbstlied
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 19
+    -
+        endBeat: 42.5
+        endLine: 184
+        id: 48-6-herbstlied
+        labels: [orgelpunkt]
+        startBeat: 39
+        startLine: 170
+    -
+        endBeat: 75
+        endLine: 273
+        id: 48-6-herbstlied
+        labels: [orgelpunkt]
+        startBeat: 59
+        startLine: 254
+    -
+        endBeat: 114
+        endLine: 321
+        id: 48-6-herbstlied
+        labels: [orgelpunkt]
+        startBeat: 99
+        startLine: 302
+    -
+        endBeat: 11
+        endLine: 37
+        id: 59-1-im-gruenen
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 19
+    -
+        endBeat: 51.5
+        endLine: 97
+        id: 59-1-im-gruenen
+        labels: [fonte]
+        startBeat: 36
+        startLine: 76
+    -
+        endBeat: 62
+        endLine: 113
+        id: 59-1-im-gruenen
+        labels: [orgelpunkt]
+        startBeat: 52
+    -
+        endBeat: 16.5
+        endLine: 59
+        id: 59-2-fruehzeitiger-fruehling
+        labels: [gymel]
+        startBeat: 12
+        startLine: 47
+    -
+        endBeat: 58.5
+        endLine: 161
+        id: 59-2-fruehzeitiger-fruehling
+        labels: [orgelpunkt]
+        startBeat: 47
+    -
+        endBeat: 83
+        endLine: 238
+        id: 59-2-fruehzeitiger-fruehling
+        labels: [orgelpunkt]
+        startBeat: 75
+        startLine: 215
+    -
+        endBeat: 107
+        endLine: 308
+        id: 59-2-fruehzeitiger-fruehling
+        labels: [orgelpunkt]
+        startBeat: 104
+        startLine: 298
+    -
+        endBeat: 140.5
+        endLine: 402
+        id: 59-2-fruehzeitiger-fruehling
+        labels: [gymel]
+        startBeat: 136
+        startLine: 390
+    -
+        endBeat: 194.5
+        endLine: 537
+        id: 59-2-fruehzeitiger-fruehling
+        labels: [orgelpunkt]
+        startBeat: 172
+        startLine: 476
+    -
+        endBeat: 10
+        endLine: 32
+        id: 59-3-abschied-vom-walde
+        labels: [orgelpunkt]
+        startBeat: 5
+        startLine: 27
+    -
+        endBeat: 47
+        endLine: 80
+        id: 59-3-abschied-vom-walde
+        labels: [monte]
+        startBeat: 32
+        startLine: 56
+    -
+        endBeat: 43
+        endLine: 158
+        id: 59-4-die-nachtigall
+        labels: [orgelpunkt]
+        startBeat: 38
+        startLine: 144
+    -
+        endBeat: 9
+        endLine: 42
+        id: 59-5-ruhethal
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 20
+    -
+        endBeat: 28
+        endLine: 88
+        id: 59-5-ruhethal
+        labels: [monte]
+        startBeat: 17
+        startLine: 62
+    -
+        endBeat: 16
+        endLine: 64
+        id: 59-6-jagdlied
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 20
+    -
+        endBeat: 40
+        endLine: 105
+        id: 59-6-jagdlied
+        labels: [liegeton]
+        startBeat: 24
+        startLine: 77
+    -
+        endBeat: 60
+        endLine: 152
+        id: 59-6-jagdlied
+        labels: [romanesca]
+        startBeat: 57.5
+        startLine: 138
+    -
+        endBeat: 76
+        endLine: 204
+        id: 59-6-jagdlied
+        labels: [orgelpunkt]
+        startBeat: 60
+        startLine: 152
+    -
+        endBeat: 92
+        endLine: 248
+        id: 59-6-jagdlied
+        labels: [terzfall]
+        startBeat: 81
+        startLine: 216
+    -
+        endBeat: 128
+        endLine: 299
+        id: 59-6-jagdlied
+        labels: [orgelpunkt]
+        startBeat: 113
+        startLine: 269
+    -
+        endBeat: 152
+        endLine: 344
+        id: 59-6-jagdlied
+        labels: [liegeton]
+        startBeat: 136
+        startLine: 312
+    -
+        endBeat: 168
+        endLine: 363
+        id: 59-6-jagdlied
+        labels: [orgelpunkt]
+        startBeat: 156
+        startLine: 349
+    -
+        endBeat: 234
+        endLine: 431
+        id: 59-6-jagdlied
+        labels: [orgelpunkt]
+        startBeat: 219
+        startLine: 411
+    -
+        endBeat: 248
+        endLine: 447
+        id: 59-6-jagdlied
+        labels: [orgelpunkt]
+        startBeat: 236
+        startLine: 434
+    -
+        endBeat: 300
+        endLine: 520
+        id: 59-6-jagdlied
+        labels: [orgelpunkt]
+        startBeat: 264
+        startLine: 463
+    -
+        endBeat: 9
+        endLine: 31
+        id: 88-1-neujahrslied
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 21
+    -
+        endBeat: 30
+        endLine: 61
+        id: 88-1-neujahrslied
+        labels: ['"quintfall"']
+        startBeat: 16
+        startLine: 39
+    -
+        endBeat: 7.5
+        endLine: 36
+        id: 88-2-der-glueckliche
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 19
+    -
+        endBeat: 52.5
+        endLine: 134
+        id: 88-2-der-glueckliche
+        labels: [liegeton]
+        startBeat: 40.5
+        startLine: 108
+    -
+        endBeat: 82.5
+        endLine: 189
+        id: 88-2-der-glueckliche
+        labels: [orgelpunkt]
+        startBeat: 73.5
+        startLine: 176
+    -
+        endBeat: 127.5
+        endLine: 265
+        id: 88-2-der-glueckliche
+        labels: [orgelpunkt]
+        startBeat: 117
+        startLine: 253
+    -
+        endBeat: 6.5
+        endLine: 37
+        id: 88-3-hirtenlied
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 19
+    -
+        endBeat: 14.5
+        endLine: 65
+        id: 88-3-hirtenlied
+        labels: [liegeton]
+        startBeat: 7
+        startLine: 38
+    -
+        endBeat: 33.5
+        endLine: 134
+        id: 88-3-hirtenlied
+        labels: [orgelpunkt]
+        startBeat: 28
+        startLine: 120
+    -
+        endBeat: 62.5
+        endLine: 219
+        id: 88-3-hirtenlied
+        labels: [orgelpunkt]
+        startBeat: 26
+        startLine: 113
+    -
+        endBeat: 85
+        endLine: 186
+        id: 88-4-die-waldvoegelein
+        labels: [orgelpunkt]
+        startBeat: 70.5
+        startLine: 156
+    -
+        endBeat: 55
+        endLine: 119
+        id: 88-5-deutschland
+        labels: [orgelpunkt]
+        startBeat: 41
+        startLine: 97
+    -
+        endBeat: 84
+        endLine: 190
+        id: 88-5-deutschland
+        labels: [orgelpunkt]
+        startBeat: 65
+        startLine: 137
+    -
+        endBeat: 5
+        endLine: 27
+        id: 100-1-andenken
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 18
+    -
+        endBeat: 14
+        id: 100-1-andenken
+        labels: [orgelpunkt]
+        startBeat: 24.5
+        startLine: 62
+    -
+        endBeat: 18.5
+        endLine: 45
+        id: 100-2-lob-des-fruehlings
+        labels: [orgelpunkt]
+        startBeat: 0
+        startLine: 20
+    -
+        endBeat: 78
+        endLine: 137
+        id: 100-2-lob-des-fruehlings
+        labels: [orgelpunkt]
+        startBeat: 64
+        startLine: 112
+    -
+        endBeat: 138
+        endLine: 227
+        id: 100-2-lob-des-fruehlings
+        labels: [romanesca, orgelpunkt]
+        startBeat: 132
+        startLine: 219
+    -
+        endBeat: 154
+        endLine: 248
+        id: 100-2-lob-des-fruehlings
+        labels: [romanesca]
+        startBeat: 148
+        startLine: 240
+    -
+        endBeat: 15
+        endLine: 56
+        id: 100-3-fruehlingslied
+        labels: [orgelpunkt]
+        startBeat: 7
+        startLine: 37
+    -
+        endBeat: 47
+        endLine: 138
+        id: 100-3-fruehlingslied
+        labels: [orgelpunkt]
+        startBeat: 43
+        startLine: 128
+    -
+        endBeat: 29
+        endLine: 60
+        id: 100-4-im-wald
+        labels: [orgelpunkt]
+        startBeat: 16
+        startLine: 40
