@@ -69,7 +69,7 @@
         startBeat: 33
         endBeat: 55.5
     -
-        labels: [gymel, fauxbourdon, '"dezimensatz"']
+        labels: [gymel, fauxbourdon]
         startBeat: 59
         endBeat: 73.5
     -
@@ -97,7 +97,7 @@
         startBeat: 279
         endBeat: 301.5
     -
-        labels: [gymel, fauxbourdon, '"dezimensatz"']
+        labels: [gymel, fauxbourdon]
         startBeat: 305
         endBeat: 319.5
 48-1-fruehlingsahnung:
