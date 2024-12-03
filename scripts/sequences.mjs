@@ -17,7 +17,7 @@ const data = yaml.load(fs.readFileSync(sourceFile, 'utf8'));
 Object.entries(data).forEach(([id, value]) => {
 
     console.log(id);
-    
+
     const beatMap = {};
 
     const stdout = execSync(`cat ${kernDir}${id}.krn | lnnr | beat -cp | extractxx -s 1,$ | ridx -LGTMId`).toString();
@@ -27,8 +27,6 @@ Object.entries(data).forEach(([id, value]) => {
         const lineNumber = parseInt(tokens[1], 10);
         beatMap[beat] = lineNumber;
     });
-
-    console.log(beatMap);
 
     (value ?? []).forEach((item) => {
         sequences.push({
