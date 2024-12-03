@@ -117,8 +117,16 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
                 </div>
             </div>
 
-            <div class="flex items-center gap-4">
-                <div class="flex flex-wrap gap-6">
+            <div class="flex flex-col md:flex-row items-center gap-4">
+                <div class="shrink-0 flex gap-2 ml-auto md:order-2">
+                    <UButton :to="`https://github.com/WolfgangDrescher/mendelssohn-choral-works/blob/master/kern/${piece.id}.krn`" target="_blank">
+                        Auf GitHub öffnen
+                    </UButton>
+                    <UButton :to="`https://verovio.humdrum.org/?file=${encodeURIComponent(`https://github.com/WolfgangDrescher/mendelssohn-choral-works/blob/master/kern/${piece.id}.krn`)}`" target="_blank">
+                        Im VHV öffnen
+                    </UButton>
+                </div>
+                <div class="flex grow-0 flex-wrap gap-6 md:order-1">
                     <UCheckbox v-model="filters.outerVoices" :label="$t('Aussenstimmensatz')" />
                     <UCheckbox v-model="filters.highlightChords" :label="$t('highlightChords')" />
                     <UCheckbox v-model="filters.hideLyrics" :label="$t('hideLyrics')" />
@@ -127,14 +135,6 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
                     <UCheckbox v-model="filters.autobeam" :label="$t('autobeam')" />
                     <UCheckbox v-model="filters.bassstufen" :label="$t('bassstufen')" />
                     <UCheckbox v-model="filters.fb" :label="$t('figuredBassFigures')" />
-                </div>
-                <div class="flex gap-2 ml-auto">
-                    <UButton :to="`https://github.com/WolfgangDrescher/mendelssohn-choral-works/blob/master/kern/${piece.id}.krn`" target="_blank">
-                        Auf GitHub öffnen
-                    </UButton>
-                    <UButton :to="`https://verovio.humdrum.org/?file=${encodeURIComponent(`https://github.com/WolfgangDrescher/mendelssohn-choral-works/blob/master/kern/${piece.id}.krn`)}`" target="_blank">
-                        Im VHV öffnen
-                    </UButton>
                 </div>
             </div>
 
