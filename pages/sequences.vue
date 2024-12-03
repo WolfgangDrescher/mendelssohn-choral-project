@@ -12,7 +12,6 @@ const uniqueSequences = [...new Set(sequences.value.flatMap(sequence => sequence
 const filteredSequences = computed(() => {
     return sequences.value.filter(elem => {
         const filterLabel = (label) => {
-            console.log(elem.labels, label)
             if (label === null || !label.length) return true;
             return elem.labels.includes(label);
         };
