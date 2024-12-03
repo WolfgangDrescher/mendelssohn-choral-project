@@ -150,6 +150,13 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
                 }"
             />
 
+            <UCard>
+                <template #header>
+                    {{ $t('modulations') }}
+                </template>
+                <ModulationMap :modulations="piece.modulations" />
+            </UCard>
+
         </div>
     </UContainer>
 </template>
