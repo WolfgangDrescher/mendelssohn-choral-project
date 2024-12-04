@@ -283,7 +283,7 @@ function resetFilters() {
             <div>
                 <div class="flex gap-4 mb-4">
                     <UFormGroup :label="$t('mode')">
-                        <USelectMenu v-model="filters.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]"  value-attribute="id" option-attribute="label" size="xs" class="w-40" />
+                        <USelectMenu v-model="filters.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]" value-attribute="id" option-attribute="label" size="xs" class="w-40" />
                     </UFormGroup>
                     <UFormGroup :label="$t('deg')">
                         <USelectMenu v-model="filters.deg" :options="uniqueDegs" multiple size="xs" class="w-32" />
