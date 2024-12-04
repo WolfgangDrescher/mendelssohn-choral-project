@@ -8,6 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pathToKernScores = `${__dirname}/../mendelssohn-choral-works/kern/`;
 const dataFile = `${__dirname}/../content/chords.yaml`;
+const sequencesData = `${__dirname}/../content/sequences-data.yaml`;
 
 function getIdFromFilename(path) {
     return path.split(/[\\\/]/).pop().replace(/\..+$/, '');
@@ -45,6 +46,10 @@ getFiles(pathToKernScores).forEach(file => {
         lineNumber: 4,
     }
 
+    let {[id]: sequences} = yaml.load(fs.readFileSync(sequencesData, 'utf8'))
+    sequences ??= [];
+    const pedalPoints = sequences.filter(seq => seq.labels.includes('orgelpunkt'));
+
     lines.forEach(line => {
         const tokens = line.split('\t');
         let beat = tokens[indexMap.beat];
@@ -55,7 +60,9 @@ getFiles(pathToKernScores).forEach(file => {
         
         beat = parseFloat(beat);
         lineNumber = parseInt(lineNumber, 10);
-        
+
+        const isPartOfPedal = !!pedalPoints.filter(pp => beat >= pp.startBeat && beat <= pp.endBeat).length;
+
         if (fb === '.') {
             return;
         }
@@ -67,6 +74,7 @@ getFiles(pathToKernScores).forEach(file => {
             deg,
             lineNumber,
             id,
+            isPartOfPedal,
         });
     });
  
