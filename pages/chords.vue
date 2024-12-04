@@ -308,6 +308,11 @@ function resetFilters() {
                 </div>
                 <HintDescription class="my-4" />
             </div>
+
+            <div class="my-4">
+                {{ filteredChords.length }} / {{ chords.length }}
+            </div>
+
             <div class="grid md:grid-cols-3 gap-4">
                 <div class="col-span-2">
                     <div class="h-[300px]">
