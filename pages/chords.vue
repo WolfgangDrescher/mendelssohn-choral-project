@@ -294,7 +294,7 @@ function resetFilters() {
                     <UFormGroup :label="$t('hint')">
                         <USelectMenu v-model="filters.hint" :options="uniqueHint" multiple searchable size="xs" class="w-32" />
                     </UFormGroup>
-                    <UFormGroup :label="$t('intervalSearch')">
+                    <UFormGroup :label="$t('intervalSearch')" :help="$t('largeFiguresFirst')">
                         <UInput v-model="filters.search" size="xs" class="w-32" />
                     </UFormGroup>
                     <UFormGroup :label="$t('pedalPoint')">
