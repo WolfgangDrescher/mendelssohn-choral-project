@@ -33,3 +33,7 @@ reset: Zurücksetzen
 intervalSearch: Intervallsuche
 sequences: Satzmodelle
 modulations: Modulationen
+pedalPoint: Orgelpunkt
+exclude: Ausschliessen
+isolate: Isolieren
+ignore: Ignorieren

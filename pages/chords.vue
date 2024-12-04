@@ -46,7 +46,16 @@ const filteredChords = computed(() => {
             if (searchStr === null || !searchStr.length) return true;
             return e.fb.includes(searchStr) || e.hint.includes(searchStr);
         };
-        return filterDeg(filters.deg) && filterFb(filters.fb) && filterHint(filters.hint) && filterSearch(filters.search);
+        const filterIgnorePedalPoints = (pedalPoint) => {
+            if (pedalPoint === null || pedalPoint === 'ignore') return true;
+            return (pedalPoint === 'isolate' && e.isPartOfPedal) || (pedalPoint === 'exclude' && !e.isPartOfPedal);
+        };
+        return filterDeg(filters.deg)
+            && filterFb(filters.fb)
+            && filterHint(filters.hint)
+            && filterSearch(filters.search)
+            && filterIgnorePedalPoints(filters.pedalPoint)
+        ;
     });
 });
 
@@ -56,6 +65,7 @@ const defaultFilters = {
     hint: [],
     fb: [],
     search: null,
+    pedalPoint: 'ignore',
 };
 
 const filters = reactive({
@@ -286,6 +296,9 @@ function resetFilters() {
                     </UFormGroup>
                     <UFormGroup :label="$t('intervalSearch')">
                         <UInput v-model="filters.search" size="xs" class="w-32" />
+                    </UFormGroup>
+                    <UFormGroup :label="$t('pedalPoint')">
+                        <USelectMenu v-model="filters.pedalPoint" :options="[{id: 'ignore', label: $t('ignore')},  {id: 'exclude', label: $t('exclude')}, {id: 'isolate', label: $t('isolate')}]" value-attribute="id" option-attribute="label" class="w-32" />
                     </UFormGroup>
                     <UFormGroup label="&nbsp;">
                         <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="resetFilters">
