@@ -115,7 +115,7 @@ sequences:
         endBeat: 73.5
         endLine: 161
         id: 41-6-auf-dem-see
-        labels: [gymel, fauxbourdon]
+        labels: [gymel, fauxbourdon, liegeton]
         startBeat: 59
         startLine: 128
     -
@@ -164,7 +164,7 @@ sequences:
         endBeat: 319.5
         endLine: 510
         id: 41-6-auf-dem-see
-        labels: [gymel, fauxbourdon]
+        labels: [gymel, fauxbourdon, liegeton]
         startBeat: 305
         startLine: 477
     -
