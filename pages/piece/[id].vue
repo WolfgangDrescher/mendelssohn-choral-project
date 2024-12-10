@@ -20,16 +20,7 @@ const highlightedLines = Object.entries(toRaw(analysis.value)).flatMap(([key, va
 
 const score = ref();
 
-const filters = reactive({
-    hideLyrics: false,
-    hideDynamics: false,
-    pianoReduction: false,
-    autobeam: false,
-    bassstufen: false,
-    fb: false,
-    highlightChords: false,
-    outerVoices: false,
-});
+const filters = usePieceFilterStore();
 
 onMounted(async () => {
     const response = await fetch(piece.value.localRawFile);
