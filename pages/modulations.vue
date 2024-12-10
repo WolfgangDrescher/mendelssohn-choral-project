@@ -92,7 +92,7 @@ const filteredTransition = computed(() => {
     <UContainer>
         <Heading>{{ $t('modulations') }}</Heading>
 
-        <UTabs :items="tabItems" :default-index="1">
+        <UTabs :items="tabItems">
 
             <template #minimap>
                 <div class="my-4 flex grow-0 flex-wrap gap-6 md:order-1">
