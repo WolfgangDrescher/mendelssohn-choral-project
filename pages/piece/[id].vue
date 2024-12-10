@@ -71,7 +71,7 @@ const formattedData = computed(() => {
     }
 
     if (filters.fb) {
-        usedFilters.push('fb -canr --above');
+        usedFilters.push('fb -canrl --above');
     }
 
     if (filters.pianoReduction) {
