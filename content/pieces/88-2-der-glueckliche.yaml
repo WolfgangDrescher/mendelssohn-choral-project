@@ -5,47 +5,6 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-2-der-glueckliche.krn
 majorMinor: major
 meter: 6/8
-modulations:
-    -
-        deg: I
-        endBeat: 55.5
-        key: G
-        startBeat: 0
-    -
-        deg: vi
-        endBeat: 67.5
-        key: e
-        startBeat: 55.5
-    -
-        deg: iii
-        endBeat: 84
-        key: b
-        startBeat: 67.5
-    -
-        deg: vii
-        endBeat: 103.5
-        key: f#
-        startBeat: 84
-    -
-        deg: I
-        endBeat: 145.5
-        key: G
-        startBeat: 103.5
-    -
-        deg: IV
-        endBeat: 154.5
-        key: C
-        startBeat: 145.5
-    -
-        deg: ii
-        endBeat: 168
-        key: a
-        startBeat: 154.5
-    -
-        deg: I
-        endBeat: 214.5
-        key: G
-        startBeat: 168
 nr: 2
 op: 88
 title: Der Glückliche

@@ -5,57 +5,6 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/88-3-hirtenlied.krn
 majorMinor: minor
 meter: 2/4
-modulations:
-    -
-        deg: i
-        endBeat: 18
-        key: g
-        startBeat: 0
-    -
-        deg: III
-        endBeat: 21.5
-        key: B-
-        startBeat: 18
-    -
-        deg: i
-        endBeat: 28
-        key: g
-        startBeat: 21.5
-    -
-        deg: I
-        endBeat: 35.5
-        key: G
-        startBeat: 28
-    -
-        deg: V
-        endBeat: 43.5
-        key: D
-        startBeat: 35.5
-    -
-        deg: IV
-        endBeat: 50
-        key: C
-        startBeat: 43.5
-    -
-        deg: I
-        endBeat: 63.5
-        key: G
-        startBeat: 50
-    -
-        deg: V
-        endBeat: 71.5
-        key: D
-        startBeat: 63.5
-    -
-        deg: IV
-        endBeat: 78
-        key: C
-        startBeat: 71.5
-    -
-        deg: I
-        endBeat: 92.5
-        key: G
-        startBeat: 78
 nr: 3
 op: 88
 title: Hirtenlied

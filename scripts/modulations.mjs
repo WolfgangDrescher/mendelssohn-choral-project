@@ -8,7 +8,7 @@ import { romanize } from '../utils/romanize.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pathToKernScores = `${__dirname}/../mendelssohn-choral-works/kern/`;
-const piecesYamlPath = `${__dirname}/../content/pieces/`;
+const modulationsYamlPath = `${__dirname}/../content/modulations.yaml`;
 
 function getIdFromFilename(path) {
     return path.split(/[\\\/]/).pop().replace(/\..+$/, '');
@@ -28,6 +28,8 @@ function getFiles(directory, fileList) {
     }
     return fileList;
 }
+
+const pieces = {};
 
 getFiles(pathToKernScores).forEach(file => {
 
@@ -92,17 +94,14 @@ getFiles(pathToKernScores).forEach(file => {
 
     modulations.forEach((modulation, index) => {
         modulation.endBeat = modulations[index + 1]?.startBeat ?? maxBeat;
-    })
-    
-    const configFile = `${piecesYamlPath}${id}.yaml`;
-    const doc = yaml.load(fs.readFileSync(configFile, 'utf8'));
-    fs.writeFileSync(configFile, yaml.dump({
-        ...doc,
-        modulations,
-    }, {
-        indent: 4,
-        lineWidth: -1,
-        sortKeys: true,
-    }));
+    });
+
+    pieces[id] = modulations;
 
 });
+
+fs.writeFileSync(modulationsYamlPath, yaml.dump(pieces, {
+    indent: 4,
+    lineWidth: -1,
+    sortKeys: true,
+}));

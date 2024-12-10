@@ -5,42 +5,6 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-5-mailied.krn
 majorMinor: major
 meter: 4/4
-modulations:
-    -
-        deg: I
-        endBeat: 18.5
-        key: B-
-        startBeat: 0
-    -
-        deg: V
-        endBeat: 32
-        key: F
-        startBeat: 18.5
-    -
-        deg: I
-        endBeat: 72
-        key: B-
-        startBeat: 32
-    -
-        deg: iii
-        endBeat: 136
-        key: d
-        startBeat: 72
-    -
-        deg: I
-        endBeat: 154.5
-        key: B-
-        startBeat: 136
-    -
-        deg: V
-        endBeat: 168
-        key: F
-        startBeat: 154.5
-    -
-        deg: I
-        endBeat: 208
-        key: B-
-        startBeat: 168
 nr: 5
 op: 41
 title: Mailied

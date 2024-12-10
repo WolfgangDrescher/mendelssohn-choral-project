@@ -5,32 +5,6 @@ largerWorkTitle: Sechs vierstimmige Lieder
 localRawFile: /kern/mendelssohn-choral-works/41-2-entflieh-mit-mir.krn
 majorMinor: major
 meter: 6/8
-modulations:
-    -
-        deg: I
-        endBeat: 15
-        key: E
-        startBeat: 0
-    -
-        deg: vi
-        endBeat: 18.5
-        key: c#
-        startBeat: 15
-    -
-        deg: I
-        endBeat: 27
-        key: E
-        startBeat: 18.5
-    -
-        deg: vi
-        endBeat: 31.5
-        key: c#
-        startBeat: 27
-    -
-        deg: I
-        endBeat: 42
-        key: E
-        startBeat: 31.5
 nr: 2
 op: 41
 title: Entflieh mit mir

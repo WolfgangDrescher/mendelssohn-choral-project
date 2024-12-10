@@ -1,5 +1,6 @@
 <script setup>
 const { data } = await useAsyncData('pieces', () => queryContent('/pieces').find());
+const { data: modulationsData } = await useAsyncData(`modulations`, () => queryContent(`/modulations`).findOne());
 const localePath = useLocalePath();
 </script>
 
@@ -20,7 +21,7 @@ const localePath = useLocalePath();
                         </div>
                     </NuxtLink>
                 </template>
-                <ModulationMap :modulations="piece.modulations" />
+                <ModulationMap :modulations="modulationsData[piece.id]" />
             </UCard>
         </div>
     </UContainer>

@@ -1,0 +1,1108 @@
+100-1-andenken:
+    -
+        deg: I
+        endBeat: 13
+        key: D
+        startBeat: 0
+    -
+        deg: ii
+        endBeat: 15.5
+        key: e
+        startBeat: 13
+    -
+        deg: I
+        endBeat: 60
+        key: D
+        startBeat: 15.5
+    -
+        deg: vi
+        endBeat: 73.5
+        key: b
+        startBeat: 60
+    -
+        deg: iii
+        endBeat: 87.5
+        key: f#
+        startBeat: 73.5
+    -
+        deg: V
+        endBeat: 99.5
+        key: A
+        startBeat: 87.5
+    -
+        deg: vi
+        endBeat: 102.5
+        key: b
+        startBeat: 99.5
+    -
+        deg: I
+        endBeat: 111.5
+        key: D
+        startBeat: 102.5
+    -
+        deg: vi
+        endBeat: 114.5
+        key: b
+        startBeat: 111.5
+    -
+        deg: I
+        endBeat: 120.5
+        key: D
+        startBeat: 114.5
+100-2-lob-des-fruehlings:
+    -
+        deg: I
+        endBeat: 36
+        key: A
+        startBeat: 0
+    -
+        deg: IV
+        endBeat: 41
+        key: D
+        startBeat: 36
+    -
+        deg: ii
+        endBeat: 44
+        key: b
+        startBeat: 41
+    -
+        deg: I
+        endBeat: 72
+        key: A
+        startBeat: 44
+    -
+        deg: ii
+        endBeat: 88
+        key: b
+        startBeat: 72
+    -
+        deg: vi
+        endBeat: 96
+        key: f#
+        startBeat: 88
+    -
+        deg: I
+        endBeat: 104
+        key: A
+        startBeat: 96
+    -
+        deg: IV
+        endBeat: 109
+        key: D
+        startBeat: 104
+    -
+        deg: ii
+        endBeat: 112
+        key: b
+        startBeat: 109
+    -
+        deg: I
+        endBeat: 164
+        key: A
+        startBeat: 112
+100-3-fruehlingslied:
+    -
+        deg: I
+        endBeat: 17
+        key: D
+        startBeat: 0
+    -
+        deg: vi
+        endBeat: 26
+        key: b
+        startBeat: 17
+    -
+        deg: I
+        endBeat: 48
+        key: D
+        startBeat: 26
+100-4-im-wald:
+    -
+        deg: I
+        endBeat: 48
+        key: D
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 77
+        key: A
+        startBeat: 48
+    -
+        deg: I
+        endBeat: 115
+        key: D
+        startBeat: 77
+    -
+        deg: vi
+        endBeat: 119
+        key: b
+        startBeat: 115
+    -
+        deg: I
+        endBeat: 128
+        key: D
+        startBeat: 119
+41-1-im-walde:
+    -
+        deg: I
+        endBeat: 16
+        key: A
+        startBeat: 0
+    -
+        deg: iii
+        endBeat: 20.5
+        key: c#
+        startBeat: 16
+    -
+        deg: vi
+        endBeat: 24.5
+        key: f#
+        startBeat: 20.5
+    -
+        deg: I
+        endBeat: 44
+        key: A
+        startBeat: 24.5
+41-2-entflieh-mit-mir:
+    -
+        deg: I
+        endBeat: 15
+        key: E
+        startBeat: 0
+    -
+        deg: vi
+        endBeat: 18.5
+        key: c#
+        startBeat: 15
+    -
+        deg: I
+        endBeat: 27
+        key: E
+        startBeat: 18.5
+    -
+        deg: vi
+        endBeat: 31.5
+        key: c#
+        startBeat: 27
+    -
+        deg: I
+        endBeat: 42
+        key: E
+        startBeat: 31.5
+41-3-es-fiel-ein-reif:
+    -
+        deg: i
+        endBeat: 19
+        key: a
+        startBeat: 0
+    -
+        deg: III
+        endBeat: 24
+        key: C
+        startBeat: 19
+    -
+        deg: i
+        endBeat: 51
+        key: a
+        startBeat: 24
+    -
+        deg: III
+        endBeat: 56
+        key: C
+        startBeat: 51
+    -
+        deg: i
+        endBeat: 83
+        key: a
+        startBeat: 56
+    -
+        deg: III
+        endBeat: 88
+        key: C
+        startBeat: 83
+    -
+        deg: i
+        endBeat: 96
+        key: a
+        startBeat: 88
+41-4-auf-ihrem-grab:
+    -
+        deg: I
+        endBeat: 4
+        key: E
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 7.5
+        key: B
+        startBeat: 4
+    -
+        deg: I
+        endBeat: 16
+        key: E
+        startBeat: 7.5
+    -
+        deg: V
+        endBeat: 24
+        key: B
+        startBeat: 16
+    -
+        deg: I
+        endBeat: 32
+        key: E
+        startBeat: 24
+    -
+        deg: V
+        endBeat: 40
+        key: B
+        startBeat: 32
+    -
+        deg: I
+        endBeat: 52
+        key: E
+        startBeat: 40
+    -
+        deg: V
+        endBeat: 55.5
+        key: B
+        startBeat: 52
+    -
+        deg: I
+        endBeat: 63.5
+        key: E
+        startBeat: 55.5
+    -
+        deg: V
+        endBeat: 72
+        key: B
+        startBeat: 63.5
+    -
+        deg: I
+        endBeat: 79.5
+        key: E
+        startBeat: 72
+    -
+        deg: V
+        endBeat: 88
+        key: B
+        startBeat: 79.5
+    -
+        deg: I
+        endBeat: 96
+        key: E
+        startBeat: 88
+41-5-mailied:
+    -
+        deg: I
+        endBeat: 18.5
+        key: B-
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 32
+        key: F
+        startBeat: 18.5
+    -
+        deg: I
+        endBeat: 72
+        key: B-
+        startBeat: 32
+    -
+        deg: iii
+        endBeat: 136
+        key: d
+        startBeat: 72
+    -
+        deg: I
+        endBeat: 154.5
+        key: B-
+        startBeat: 136
+    -
+        deg: V
+        endBeat: 168
+        key: F
+        startBeat: 154.5
+    -
+        deg: I
+        endBeat: 208
+        key: B-
+        startBeat: 168
+41-6-auf-dem-see:
+    -
+        deg: I
+        endBeat: 22.5
+        key: C
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 47
+        key: G
+        startBeat: 22.5
+    -
+        deg: I
+        endBeat: 57.5
+        key: C
+        startBeat: 47
+    -
+        deg: IV
+        endBeat: 59
+        key: F
+        startBeat: 57.5
+    -
+        deg: I
+        endBeat: 107
+        key: C
+        startBeat: 59
+    -
+        deg: vi
+        endBeat: 125
+        key: a
+        startBeat: 107
+    -
+        deg: VI
+        endBeat: 212
+        key: A
+        startBeat: 125
+    -
+        deg: vi
+        endBeat: 224
+        key: a
+        startBeat: 212
+    -
+        deg: vi
+        endBeat: 236
+        key: a
+        startBeat: 224
+    -
+        deg: I
+        endBeat: 242
+        key: C
+        startBeat: 236
+    -
+        deg: I
+        endBeat: 268.5
+        key: C
+        startBeat: 242
+    -
+        deg: V
+        endBeat: 293
+        key: G
+        startBeat: 268.5
+    -
+        deg: I
+        endBeat: 303.5
+        key: C
+        startBeat: 293
+    -
+        deg: IV
+        endBeat: 305
+        key: F
+        startBeat: 303.5
+    -
+        deg: I
+        endBeat: 359
+        key: C
+        startBeat: 305
+48-1-fruehlingsahnung:
+    -
+        deg: I
+        endBeat: 27
+        key: E
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 36
+        key: B
+        startBeat: 27
+    -
+        deg: I
+        endBeat: 42
+        key: E
+        startBeat: 36
+    -
+        deg: V
+        endBeat: 51
+        key: B
+        startBeat: 42
+    -
+        deg: I
+        endBeat: 57
+        key: E
+        startBeat: 51
+    -
+        deg: IV
+        endBeat: 78
+        key: A
+        startBeat: 57
+    -
+        deg: I
+        endBeat: 123
+        key: E
+        startBeat: 78
+48-2-die-primel:
+    -
+        deg: I
+        endBeat: 13
+        key: A
+        startBeat: 0
+    -
+        deg: ii
+        endBeat: 19
+        key: b
+        startBeat: 13
+    -
+        deg: I
+        endBeat: 38
+        key: A
+        startBeat: 19
+48-3-fruehlingsfeier:
+    -
+        deg: I
+        endBeat: 7
+        key: E
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 13
+        key: B
+        startBeat: 7
+    -
+        deg: I
+        endBeat: 19
+        key: E
+        startBeat: 13
+    -
+        deg: IV
+        endBeat: 23
+        key: A
+        startBeat: 19
+    -
+        deg: I
+        endBeat: 55
+        key: E
+        startBeat: 23
+    -
+        deg: V
+        endBeat: 61
+        key: B
+        startBeat: 55
+    -
+        deg: I
+        endBeat: 67
+        key: E
+        startBeat: 61
+    -
+        deg: IV
+        endBeat: 71
+        key: A
+        startBeat: 67
+    -
+        deg: I
+        endBeat: 88
+        key: E
+        startBeat: 71
+    -
+        deg: vi
+        endBeat: 93
+        key: c#
+        startBeat: 88
+    -
+        deg: I
+        endBeat: 114
+        key: E
+        startBeat: 93
+48-4-lerchengesang:
+    -
+        deg: I
+        endBeat: 60
+        key: G
+        startBeat: 0
+    -
+        deg: IV
+        endBeat: 63.5
+        key: C
+        startBeat: 60
+    -
+        deg: I
+        endBeat: 100
+        key: G
+        startBeat: 63.5
+    -
+        deg: IV
+        endBeat: 103.5
+        key: C
+        startBeat: 100
+    -
+        deg: I
+        endBeat: 148.5
+        key: G
+        startBeat: 103.5
+48-5-morgengebet:
+    -
+        deg: I
+        endBeat: 13
+        key: C
+        startBeat: 0
+    -
+        deg: vi
+        endBeat: 22
+        key: a
+        startBeat: 13
+    -
+        deg: V
+        endBeat: 25
+        key: G
+        startBeat: 22
+    -
+        deg: I
+        endBeat: 61
+        key: C
+        startBeat: 25
+    -
+        deg: ii
+        endBeat: 65
+        key: d
+        startBeat: 61
+    -
+        deg: vi
+        endBeat: 70
+        key: a
+        startBeat: 65
+    -
+        deg: V
+        endBeat: 73
+        key: G
+        startBeat: 70
+    -
+        deg: I
+        endBeat: 97
+        key: C
+        startBeat: 73
+48-6-herbstlied:
+    -
+        deg: i
+        endBeat: 7.5
+        key: e
+        startBeat: 0
+    -
+        deg: III
+        endBeat: 11
+        key: G
+        startBeat: 7.5
+    -
+        deg: v
+        endBeat: 14.5
+        key: b
+        startBeat: 11
+    -
+        deg: III
+        endBeat: 15.5
+        key: G
+        startBeat: 14.5
+    -
+        deg: v
+        endBeat: 20
+        key: b
+        startBeat: 15.5
+    -
+        deg: VI
+        endBeat: 22
+        key: C
+        startBeat: 20
+    -
+        deg: III
+        endBeat: 24.5
+        key: G
+        startBeat: 22
+    -
+        deg: i
+        endBeat: 47
+        key: e
+        startBeat: 24.5
+    -
+        deg: VI
+        endBeat: 49
+        key: C
+        startBeat: 47
+    -
+        deg: III
+        endBeat: 51.5
+        key: G
+        startBeat: 49
+    -
+        deg: i
+        endBeat: 59
+        key: e
+        startBeat: 51.5
+    -
+        deg: I
+        endBeat: 91
+        key: E
+        startBeat: 59
+    -
+        deg: V
+        endBeat: 119
+        key: B
+        startBeat: 91
+    -
+        deg: ii
+        endBeat: 135
+        key: f#
+        startBeat: 119
+    -
+        deg: I
+        endBeat: 245
+        key: E
+        startBeat: 135
+59-1-im-gruenen:
+    -
+        deg: I
+        endBeat: 20
+        key: A
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 36
+        key: E
+        startBeat: 20
+    -
+        deg: ii
+        endBeat: 45
+        key: b
+        startBeat: 36
+    -
+        deg: I
+        endBeat: 63
+        key: A
+        startBeat: 45
+59-2-fruehzeitiger-fruehling:
+    -
+        deg: I
+        endBeat: 18
+        key: G
+        startBeat: 0
+    -
+        deg: IV
+        endBeat: 30
+        key: C
+        startBeat: 18
+    -
+        deg: ii
+        endBeat: 36
+        key: a
+        startBeat: 30
+    -
+        deg: I
+        endBeat: 61
+        key: G
+        startBeat: 36
+    -
+        deg: vi
+        endBeat: 73
+        key: e
+        startBeat: 61
+    -
+        deg: iii
+        endBeat: 96
+        key: b
+        startBeat: 73
+    -
+        deg: IV
+        endBeat: 109
+        key: C
+        startBeat: 96
+    -
+        deg: ii
+        endBeat: 114
+        key: a
+        startBeat: 109
+    -
+        deg: I
+        endBeat: 142
+        key: G
+        startBeat: 114
+    -
+        deg: IV
+        endBeat: 154
+        key: C
+        startBeat: 142
+    -
+        deg: ii
+        endBeat: 160
+        key: a
+        startBeat: 154
+    -
+        deg: I
+        endBeat: 172
+        key: G
+        startBeat: 160
+    -
+        deg: IV
+        endBeat: 182.5
+        key: C
+        startBeat: 172
+    -
+        deg: I
+        endBeat: 196
+        key: G
+        startBeat: 182.5
+59-3-abschied-vom-walde:
+    -
+        deg: I
+        endBeat: 33
+        key: E-
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 37
+        key: B-
+        startBeat: 33
+    -
+        deg: vi
+        endBeat: 41
+        key: c
+        startBeat: 37
+    -
+        deg: vii
+        endBeat: 47
+        key: d
+        startBeat: 41
+    -
+        deg: iii
+        endBeat: 49
+        key: g
+        startBeat: 47
+    -
+        deg: I
+        endBeat: 67
+        key: E-
+        startBeat: 49
+    -
+        deg: vi
+        endBeat: 75
+        key: c
+        startBeat: 67
+    -
+        deg: I
+        endBeat: 85
+        key: E-
+        startBeat: 75
+59-4-die-nachtigall:
+    -
+        deg: I
+        endBeat: 44
+        key: A-
+        startBeat: 0
+    -
+        deg: ii
+        endBeat: 48
+        key: b-
+        startBeat: 44
+    -
+        deg: vi
+        endBeat: 51.5
+        key: f
+        startBeat: 48
+    -
+        deg: I
+        endBeat: 66.5
+        key: A-
+        startBeat: 51.5
+59-5-ruhethal:
+    -
+        deg: I
+        endBeat: 17
+        key: D
+        startBeat: 0
+    -
+        deg: vi
+        endBeat: 23
+        key: b
+        startBeat: 17
+    -
+        deg: vii
+        endBeat: 30
+        key: c#
+        startBeat: 23
+    -
+        deg: I
+        endBeat: 37
+        key: D
+        startBeat: 30
+    -
+        deg: ii
+        endBeat: 43
+        key: e
+        startBeat: 37
+    -
+        deg: vi
+        endBeat: 48
+        key: b
+        startBeat: 43
+    -
+        deg: I
+        endBeat: 64
+        key: D
+        startBeat: 48
+    -
+        deg: vi
+        endBeat: 66
+        key: b
+        startBeat: 64
+    -
+        deg: I
+        endBeat: 71
+        key: D
+        startBeat: 66
+59-6-jagdlied:
+    -
+        deg: i
+        endBeat: 59
+        key: b
+        startBeat: 0
+    -
+        deg: III
+        endBeat: 81
+        key: D
+        startBeat: 59
+    -
+        deg: i
+        endBeat: 156
+        key: b
+        startBeat: 81
+    -
+        deg: I
+        endBeat: 328
+        key: B
+        startBeat: 156
+88-1-neujahrslied:
+    -
+        deg: I
+        endBeat: 16
+        key: E-
+        startBeat: 0
+    -
+        deg: vi
+        endBeat: 24
+        key: c
+        startBeat: 16
+    -
+        deg: ii
+        endBeat: 35
+        key: f
+        startBeat: 24
+    -
+        deg: V
+        endBeat: 36
+        key: B-
+        startBeat: 35
+    -
+        deg: I
+        endBeat: 52
+        key: E-
+        startBeat: 36
+    -
+        deg: IV
+        endBeat: 60
+        key: A-
+        startBeat: 52
+    -
+        deg: I
+        endBeat: 70
+        key: E-
+        startBeat: 60
+    -
+        deg: vi
+        endBeat: 78
+        key: c
+        startBeat: 70
+    -
+        deg: ii
+        endBeat: 91
+        key: f
+        startBeat: 78
+    -
+        deg: V
+        endBeat: 92
+        key: B-
+        startBeat: 91
+    -
+        deg: I
+        endBeat: 108
+        key: E-
+        startBeat: 92
+88-2-der-glueckliche:
+    -
+        deg: I
+        endBeat: 55.5
+        key: G
+        startBeat: 0
+    -
+        deg: vi
+        endBeat: 67.5
+        key: e
+        startBeat: 55.5
+    -
+        deg: iii
+        endBeat: 84
+        key: b
+        startBeat: 67.5
+    -
+        deg: vii
+        endBeat: 103.5
+        key: f#
+        startBeat: 84
+    -
+        deg: I
+        endBeat: 145.5
+        key: G
+        startBeat: 103.5
+    -
+        deg: IV
+        endBeat: 154.5
+        key: C
+        startBeat: 145.5
+    -
+        deg: ii
+        endBeat: 168
+        key: a
+        startBeat: 154.5
+    -
+        deg: I
+        endBeat: 214.5
+        key: G
+        startBeat: 168
+88-3-hirtenlied:
+    -
+        deg: i
+        endBeat: 18
+        key: g
+        startBeat: 0
+    -
+        deg: III
+        endBeat: 21.5
+        key: B-
+        startBeat: 18
+    -
+        deg: i
+        endBeat: 28
+        key: g
+        startBeat: 21.5
+    -
+        deg: I
+        endBeat: 35.5
+        key: G
+        startBeat: 28
+    -
+        deg: V
+        endBeat: 43.5
+        key: D
+        startBeat: 35.5
+    -
+        deg: IV
+        endBeat: 50
+        key: C
+        startBeat: 43.5
+    -
+        deg: I
+        endBeat: 63.5
+        key: G
+        startBeat: 50
+    -
+        deg: V
+        endBeat: 71.5
+        key: D
+        startBeat: 63.5
+    -
+        deg: IV
+        endBeat: 78
+        key: C
+        startBeat: 71.5
+    -
+        deg: I
+        endBeat: 92.5
+        key: G
+        startBeat: 78
+88-4-die-waldvoegelein:
+    -
+        deg: I
+        endBeat: 24.5
+        key: F
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 32.5
+        key: C
+        startBeat: 24.5
+    -
+        deg: I
+        endBeat: 54.5
+        key: F
+        startBeat: 32.5
+    -
+        deg: V
+        endBeat: 63.5
+        key: C
+        startBeat: 54.5
+    -
+        deg: I
+        endBeat: 88
+        key: F
+        startBeat: 63.5
+88-5-deutschland:
+    -
+        deg: i
+        endBeat: 23
+        key: a
+        startBeat: 0
+    -
+        deg: III
+        endBeat: 40
+        key: C
+        startBeat: 23
+    -
+        deg: i
+        endBeat: 96
+        key: a
+        startBeat: 40
+88-6-der-wandernde-musikant:
+    -
+        deg: I
+        endBeat: 27.5
+        key: E-
+        startBeat: 0
+    -
+        deg: V
+        endBeat: 32
+        key: B-
+        startBeat: 27.5
+    -
+        deg: iii
+        endBeat: 35
+        key: g
+        startBeat: 32
+    -
+        deg: V
+        endBeat: 42
+        key: B-
+        startBeat: 35
+    -
+        deg: v
+        endBeat: 48.5
+        key: b-
+        startBeat: 42
+    -
+        deg: IV
+        endBeat: 60.5
+        key: A-
+        startBeat: 48.5
+    -
+        deg: ii
+        endBeat: 68
+        key: f
+        startBeat: 60.5
+    -
+        deg: I
+        endBeat: 105.5
+        key: E-
+        startBeat: 68
