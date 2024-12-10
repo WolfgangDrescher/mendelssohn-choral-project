@@ -1,7 +1,7 @@
 <script setup>
 import { onKeyStroke } from '@vueuse/core';
 
-const { data: chordsData } = await useAsyncData('/chords', () => queryContent('/chords').findOne(), {
+const { data: chordsData } = await useAsyncData('chords', () => queryContent('/chords').findOne(), {
     deep: false,
 });
 

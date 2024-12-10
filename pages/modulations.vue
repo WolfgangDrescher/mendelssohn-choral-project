@@ -1,7 +1,7 @@
 <script setup>
 const { data } = await useAsyncData('pieces', () => queryContent('/pieces').find());
 const { data: modulationsData } = await useAsyncData(`modulations`, () => queryContent(`/modulations`).findOne(), {deep: false });
-const { data: sequencesData } = await useAsyncData(`sequencesData`, () => queryContent(`/sequences-data`).findOne(), {deep: false });
+const { data: sequencesData } = await useAsyncData(`sequences-data`, () => queryContent(`/sequences-data`).findOne(), {deep: false });
 const { data: transitionsData } = await useAsyncData(`transitions`, () => queryContent(`/transitions`).findOne(), {deep: false });
 const localePath = useLocalePath();
 

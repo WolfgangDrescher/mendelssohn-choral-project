@@ -1,5 +1,5 @@
 <script setup>
-const { data: sequencesData } = await useAsyncData('/sequences', () => queryContent('/sequences').findOne(), {
+const { data: sequencesData } = await useAsyncData('sequences', () => queryContent('/sequences').findOne(), {
     deep: false,
 });
 
