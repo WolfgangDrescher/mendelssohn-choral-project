@@ -155,7 +155,7 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
                 <template #header>
                     {{ $t('modulations') }}
                 </template>
-                <ModulationMap :modulations="modulationsData[piece.id]" />
+                <PieceMap :modulations="modulationsData[piece.id]" />
             </UCard>
 
         </div>

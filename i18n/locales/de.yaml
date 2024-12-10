@@ -38,3 +38,5 @@ exclude: Ausschliessen
 isolate: Isolieren
 ignore: Ignorieren
 largeFiguresFirst: Grosse Zahlen zuerst
+showKeys: Tonarten anzeigen
+hideSequences: Sequenzen ausblenden
