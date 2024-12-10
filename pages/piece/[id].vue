@@ -112,6 +112,7 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
 
             <div class="flex flex-col md:flex-row items-center gap-4">
                 <div class="shrink-0 flex gap-2 ml-auto md:order-2">
+                    <MidiPlayer :url="piece.localRawFile" class="text-2xl"/>
                     <UButton :to="`https://github.com/WolfgangDrescher/mendelssohn-choral-works/blob/master/kern/${piece.id}.krn`" target="_blank">
                         Auf GitHub öffnen
                     </UButton>
