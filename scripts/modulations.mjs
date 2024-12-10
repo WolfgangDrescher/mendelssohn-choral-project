@@ -9,6 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pathToKernScores = `${__dirname}/../mendelssohn-choral-works/kern/`;
 const modulationsYamlPath = `${__dirname}/../content/modulations.yaml`;
+const transitionsYamlPath = `${__dirname}/../content/transitions.yaml`;
 
 function getIdFromFilename(path) {
     return path.split(/[\\\/]/).pop().replace(/\..+$/, '');
@@ -129,10 +130,13 @@ for (const currentDeg in transitionsMap) {
     }
 }
 
-fs.writeFileSync(modulationsYamlPath, yaml.dump({
-    pieces,
-    transitions,
-}, {
+fs.writeFileSync(modulationsYamlPath, yaml.dump(pieces, {
+    indent: 4,
+    lineWidth: -1,
+    sortKeys: true,
+}));
+
+fs.writeFileSync(transitionsYamlPath, yaml.dump({transitions}, {
     indent: 4,
     lineWidth: -1,
     sortKeys: true,
