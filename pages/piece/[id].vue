@@ -3,6 +3,7 @@ const localePath = useLocalePath();
 const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryContent(`/pieces/${id}`).findOne());
 const { data: modulationsData } = await useAsyncData(`modulations`, () => queryContent(`/modulations`).findOne());
+const { data: sequencesData } = await useAsyncData(`sequences-data`, () => queryContent(`/sequences-data`).findOne());
 
 if (!piece.value) {
     throw createError({
@@ -155,7 +156,7 @@ ${(usedFilters ?? []).map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
                 <template #header>
                     {{ $t('modulations') }}
                 </template>
-                <PieceMap :modulations="modulationsData[piece.id]" />
+                <PieceMap :modulations="modulationsData?.[piece.id]" :sequences="sequencesData?.[piece.id]" />
             </UCard>
 
         </div>
