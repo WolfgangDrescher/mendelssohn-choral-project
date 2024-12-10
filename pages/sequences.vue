@@ -45,6 +45,9 @@ function resetFilters() {
                 </UButton>
             </UFormGroup>
         </div>
+        <div class="my-4">
+            {{ filteredSequences.length }} / {{ sequencesData.sequences.length }}
+        </div>
         <div class="grid md:grid-cols-2 gap-4">
             <SequenceScore v-for="sequence in filteredSequences" :key="`${sequence.id}${sequence.startBeat}${sequence.startBeat}`" :sequence="sequence" />
         </div>
