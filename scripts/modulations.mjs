@@ -100,7 +100,39 @@ getFiles(pathToKernScores).forEach(file => {
 
 });
 
-fs.writeFileSync(modulationsYamlPath, yaml.dump(pieces, {
+const transitionsMap = {};
+
+for (const piece in pieces) {
+    const degs = pieces[piece];
+
+    for (let i = 0; i < degs.length - 1; i++) {
+        const currentDeg = degs[i].deg;
+        const nextDeg = degs[i + 1].deg;
+        const nextStartBeat = degs[i + 1].startBeat;
+
+        transitionsMap[currentDeg] ??= {};
+        transitionsMap[currentDeg][nextDeg] ??= [0, []];
+        transitionsMap[currentDeg][nextDeg][0]++;
+        transitionsMap[currentDeg][nextDeg][1].push([piece, nextStartBeat])
+    }
+}
+
+const transitions = [];
+for (const currentDeg in transitionsMap) {
+    for (const nextDeg in transitionsMap[currentDeg]) {
+        transitions.push({
+            currentDeg,
+            nextDeg,
+            count: transitionsMap[currentDeg][nextDeg][0],
+            items: transitionsMap[currentDeg][nextDeg][1].map(item => ({id: item[0], beat: item[1]})),
+        });
+    }
+}
+
+fs.writeFileSync(modulationsYamlPath, yaml.dump({
+    pieces,
+    transitions,
+}, {
     indent: 4,
     lineWidth: -1,
     sortKeys: true,

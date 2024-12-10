@@ -1,0 +1,770 @@
+transitions:
+    -
+        count: 6
+        currentDeg: I
+        items:
+            -
+                beat: 13
+                id: 100-1-andenken
+            -
+                beat: 72
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 13
+                id: 48-2-die-primel
+            -
+                beat: 61
+                id: 48-5-morgengebet
+            -
+                beat: 44
+                id: 59-4-die-nachtigall
+            -
+                beat: 37
+                id: 59-5-ruhethal
+        nextDeg: ii
+    -
+        count: 16
+        currentDeg: I
+        items:
+            -
+                beat: 60
+                id: 100-1-andenken
+            -
+                beat: 111.5
+                id: 100-1-andenken
+            -
+                beat: 17
+                id: 100-3-fruehlingslied
+            -
+                beat: 115
+                id: 100-4-im-wald
+            -
+                beat: 15
+                id: 41-2-entflieh-mit-mir
+            -
+                beat: 27
+                id: 41-2-entflieh-mit-mir
+            -
+                beat: 107
+                id: 41-6-auf-dem-see
+            -
+                beat: 88
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 13
+                id: 48-5-morgengebet
+            -
+                beat: 61
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 67
+                id: 59-3-abschied-vom-walde
+            -
+                beat: 17
+                id: 59-5-ruhethal
+            -
+                beat: 64
+                id: 59-5-ruhethal
+            -
+                beat: 16
+                id: 88-1-neujahrslied
+            -
+                beat: 70
+                id: 88-1-neujahrslied
+            -
+                beat: 55.5
+                id: 88-2-der-glueckliche
+        nextDeg: vi
+    -
+        count: 14
+        currentDeg: I
+        items:
+            -
+                beat: 36
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 104
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 57.5
+                id: 41-6-auf-dem-see
+            -
+                beat: 303.5
+                id: 41-6-auf-dem-see
+            -
+                beat: 57
+                id: 48-1-fruehlingsahnung
+            -
+                beat: 19
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 67
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 60
+                id: 48-4-lerchengesang
+            -
+                beat: 100
+                id: 48-4-lerchengesang
+            -
+                beat: 18
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 142
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 172
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 52
+                id: 88-1-neujahrslied
+            -
+                beat: 145.5
+                id: 88-2-der-glueckliche
+        nextDeg: IV
+    -
+        count: 23
+        currentDeg: I
+        items:
+            -
+                beat: 48
+                id: 100-4-im-wald
+            -
+                beat: 4
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 16
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 32
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 52
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 63.5
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 79.5
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 18.5
+                id: 41-5-mailied
+            -
+                beat: 154.5
+                id: 41-5-mailied
+            -
+                beat: 22.5
+                id: 41-6-auf-dem-see
+            -
+                beat: 268.5
+                id: 41-6-auf-dem-see
+            -
+                beat: 27
+                id: 48-1-fruehlingsahnung
+            -
+                beat: 42
+                id: 48-1-fruehlingsahnung
+            -
+                beat: 7
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 55
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 91
+                id: 48-6-herbstlied
+            -
+                beat: 20
+                id: 59-1-im-gruenen
+            -
+                beat: 33
+                id: 59-3-abschied-vom-walde
+            -
+                beat: 35.5
+                id: 88-3-hirtenlied
+            -
+                beat: 63.5
+                id: 88-3-hirtenlied
+            -
+                beat: 24.5
+                id: 88-4-die-waldvoegelein
+            -
+                beat: 54.5
+                id: 88-4-die-waldvoegelein
+            -
+                beat: 27.5
+                id: 88-6-der-wandernde-musikant
+        nextDeg: V
+    -
+        count: 2
+        currentDeg: I
+        items:
+            -
+                beat: 16
+                id: 41-1-im-walde
+            -
+                beat: 72
+                id: 41-5-mailied
+        nextDeg: iii
+    -
+        count: 1
+        currentDeg: I
+        items:
+            -
+                beat: 242
+                id: 41-6-auf-dem-see
+        nextDeg: I
+    -
+        count: 11
+        currentDeg: ii
+        items:
+            -
+                beat: 15.5
+                id: 100-1-andenken
+            -
+                beat: 44
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 112
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 19
+                id: 48-2-die-primel
+            -
+                beat: 135
+                id: 48-6-herbstlied
+            -
+                beat: 45
+                id: 59-1-im-gruenen
+            -
+                beat: 36
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 114
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 160
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 168
+                id: 88-2-der-glueckliche
+            -
+                beat: 68
+                id: 88-6-der-wandernde-musikant
+        nextDeg: I
+    -
+        count: 4
+        currentDeg: ii
+        items:
+            -
+                beat: 88
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 65
+                id: 48-5-morgengebet
+            -
+                beat: 48
+                id: 59-4-die-nachtigall
+            -
+                beat: 43
+                id: 59-5-ruhethal
+        nextDeg: vi
+    -
+        count: 2
+        currentDeg: ii
+        items:
+            -
+                beat: 35
+                id: 88-1-neujahrslied
+            -
+                beat: 91
+                id: 88-1-neujahrslied
+        nextDeg: V
+    -
+        count: 3
+        currentDeg: vi
+        items:
+            -
+                beat: 73.5
+                id: 100-1-andenken
+            -
+                beat: 73
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 67.5
+                id: 88-2-der-glueckliche
+        nextDeg: iii
+    -
+        count: 14
+        currentDeg: vi
+        items:
+            -
+                beat: 102.5
+                id: 100-1-andenken
+            -
+                beat: 114.5
+                id: 100-1-andenken
+            -
+                beat: 96
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 26
+                id: 100-3-fruehlingslied
+            -
+                beat: 119
+                id: 100-4-im-wald
+            -
+                beat: 24.5
+                id: 41-1-im-walde
+            -
+                beat: 18.5
+                id: 41-2-entflieh-mit-mir
+            -
+                beat: 31.5
+                id: 41-2-entflieh-mit-mir
+            -
+                beat: 236
+                id: 41-6-auf-dem-see
+            -
+                beat: 93
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 75
+                id: 59-3-abschied-vom-walde
+            -
+                beat: 51.5
+                id: 59-4-die-nachtigall
+            -
+                beat: 48
+                id: 59-5-ruhethal
+            -
+                beat: 66
+                id: 59-5-ruhethal
+        nextDeg: I
+    -
+        count: 1
+        currentDeg: vi
+        items:
+            -
+                beat: 125
+                id: 41-6-auf-dem-see
+        nextDeg: VI
+    -
+        count: 1
+        currentDeg: vi
+        items:
+            -
+                beat: 224
+                id: 41-6-auf-dem-see
+        nextDeg: vi
+    -
+        count: 2
+        currentDeg: vi
+        items:
+            -
+                beat: 22
+                id: 48-5-morgengebet
+            -
+                beat: 70
+                id: 48-5-morgengebet
+        nextDeg: V
+    -
+        count: 2
+        currentDeg: vi
+        items:
+            -
+                beat: 41
+                id: 59-3-abschied-vom-walde
+            -
+                beat: 23
+                id: 59-5-ruhethal
+        nextDeg: vii
+    -
+        count: 2
+        currentDeg: vi
+        items:
+            -
+                beat: 24
+                id: 88-1-neujahrslied
+            -
+                beat: 78
+                id: 88-1-neujahrslied
+        nextDeg: ii
+    -
+        count: 2
+        currentDeg: iii
+        items:
+            -
+                beat: 87.5
+                id: 100-1-andenken
+            -
+                beat: 35
+                id: 88-6-der-wandernde-musikant
+        nextDeg: V
+    -
+        count: 1
+        currentDeg: iii
+        items:
+            -
+                beat: 20.5
+                id: 41-1-im-walde
+        nextDeg: vi
+    -
+        count: 2
+        currentDeg: iii
+        items:
+            -
+                beat: 136
+                id: 41-5-mailied
+            -
+                beat: 49
+                id: 59-3-abschied-vom-walde
+        nextDeg: I
+    -
+        count: 1
+        currentDeg: iii
+        items:
+            -
+                beat: 96
+                id: 59-2-fruehzeitiger-fruehling
+        nextDeg: IV
+    -
+        count: 1
+        currentDeg: iii
+        items:
+            -
+                beat: 84
+                id: 88-2-der-glueckliche
+        nextDeg: vii
+    -
+        count: 2
+        currentDeg: V
+        items:
+            -
+                beat: 99.5
+                id: 100-1-andenken
+            -
+                beat: 37
+                id: 59-3-abschied-vom-walde
+        nextDeg: vi
+    -
+        count: 21
+        currentDeg: V
+        items:
+            -
+                beat: 77
+                id: 100-4-im-wald
+            -
+                beat: 7.5
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 24
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 40
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 55.5
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 72
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 88
+                id: 41-4-auf-ihrem-grab
+            -
+                beat: 32
+                id: 41-5-mailied
+            -
+                beat: 168
+                id: 41-5-mailied
+            -
+                beat: 47
+                id: 41-6-auf-dem-see
+            -
+                beat: 293
+                id: 41-6-auf-dem-see
+            -
+                beat: 36
+                id: 48-1-fruehlingsahnung
+            -
+                beat: 51
+                id: 48-1-fruehlingsahnung
+            -
+                beat: 13
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 61
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 25
+                id: 48-5-morgengebet
+            -
+                beat: 73
+                id: 48-5-morgengebet
+            -
+                beat: 36
+                id: 88-1-neujahrslied
+            -
+                beat: 92
+                id: 88-1-neujahrslied
+            -
+                beat: 32.5
+                id: 88-4-die-waldvoegelein
+            -
+                beat: 63.5
+                id: 88-4-die-waldvoegelein
+        nextDeg: I
+    -
+        count: 2
+        currentDeg: V
+        items:
+            -
+                beat: 119
+                id: 48-6-herbstlied
+            -
+                beat: 36
+                id: 59-1-im-gruenen
+        nextDeg: ii
+    -
+        count: 2
+        currentDeg: V
+        items:
+            -
+                beat: 43.5
+                id: 88-3-hirtenlied
+            -
+                beat: 71.5
+                id: 88-3-hirtenlied
+        nextDeg: IV
+    -
+        count: 1
+        currentDeg: V
+        items:
+            -
+                beat: 32
+                id: 88-6-der-wandernde-musikant
+        nextDeg: iii
+    -
+        count: 1
+        currentDeg: V
+        items:
+            -
+                beat: 42
+                id: 88-6-der-wandernde-musikant
+        nextDeg: v
+    -
+        count: 7
+        currentDeg: IV
+        items:
+            -
+                beat: 41
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 109
+                id: 100-2-lob-des-fruehlings
+            -
+                beat: 30
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 109
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 154
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 154.5
+                id: 88-2-der-glueckliche
+            -
+                beat: 60.5
+                id: 88-6-der-wandernde-musikant
+        nextDeg: ii
+    -
+        count: 11
+        currentDeg: IV
+        items:
+            -
+                beat: 59
+                id: 41-6-auf-dem-see
+            -
+                beat: 305
+                id: 41-6-auf-dem-see
+            -
+                beat: 78
+                id: 48-1-fruehlingsahnung
+            -
+                beat: 23
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 71
+                id: 48-3-fruehlingsfeier
+            -
+                beat: 63.5
+                id: 48-4-lerchengesang
+            -
+                beat: 103.5
+                id: 48-4-lerchengesang
+            -
+                beat: 182.5
+                id: 59-2-fruehzeitiger-fruehling
+            -
+                beat: 60
+                id: 88-1-neujahrslied
+            -
+                beat: 50
+                id: 88-3-hirtenlied
+            -
+                beat: 78
+                id: 88-3-hirtenlied
+        nextDeg: I
+    -
+        count: 7
+        currentDeg: i
+        items:
+            -
+                beat: 19
+                id: 41-3-es-fiel-ein-reif
+            -
+                beat: 51
+                id: 41-3-es-fiel-ein-reif
+            -
+                beat: 83
+                id: 41-3-es-fiel-ein-reif
+            -
+                beat: 7.5
+                id: 48-6-herbstlied
+            -
+                beat: 59
+                id: 59-6-jagdlied
+            -
+                beat: 18
+                id: 88-3-hirtenlied
+            -
+                beat: 23
+                id: 88-5-deutschland
+        nextDeg: III
+    -
+        count: 1
+        currentDeg: i
+        items:
+            -
+                beat: 47
+                id: 48-6-herbstlied
+        nextDeg: VI
+    -
+        count: 3
+        currentDeg: i
+        items:
+            -
+                beat: 59
+                id: 48-6-herbstlied
+            -
+                beat: 156
+                id: 59-6-jagdlied
+            -
+                beat: 28
+                id: 88-3-hirtenlied
+        nextDeg: I
+    -
+        count: 8
+        currentDeg: III
+        items:
+            -
+                beat: 24
+                id: 41-3-es-fiel-ein-reif
+            -
+                beat: 56
+                id: 41-3-es-fiel-ein-reif
+            -
+                beat: 88
+                id: 41-3-es-fiel-ein-reif
+            -
+                beat: 24.5
+                id: 48-6-herbstlied
+            -
+                beat: 51.5
+                id: 48-6-herbstlied
+            -
+                beat: 81
+                id: 59-6-jagdlied
+            -
+                beat: 21.5
+                id: 88-3-hirtenlied
+            -
+                beat: 40
+                id: 88-5-deutschland
+        nextDeg: i
+    -
+        count: 2
+        currentDeg: III
+        items:
+            -
+                beat: 11
+                id: 48-6-herbstlied
+            -
+                beat: 15.5
+                id: 48-6-herbstlied
+        nextDeg: v
+    -
+        count: 1
+        currentDeg: VI
+        items:
+            -
+                beat: 212
+                id: 41-6-auf-dem-see
+        nextDeg: vi
+    -
+        count: 2
+        currentDeg: VI
+        items:
+            -
+                beat: 22
+                id: 48-6-herbstlied
+            -
+                beat: 49
+                id: 48-6-herbstlied
+        nextDeg: III
+    -
+        count: 1
+        currentDeg: v
+        items:
+            -
+                beat: 14.5
+                id: 48-6-herbstlied
+        nextDeg: III
+    -
+        count: 1
+        currentDeg: v
+        items:
+            -
+                beat: 20
+                id: 48-6-herbstlied
+        nextDeg: VI
+    -
+        count: 1
+        currentDeg: v
+        items:
+            -
+                beat: 48.5
+                id: 88-6-der-wandernde-musikant
+        nextDeg: IV
+    -
+        count: 1
+        currentDeg: vii
+        items:
+            -
+                beat: 47
+                id: 59-3-abschied-vom-walde
+        nextDeg: iii
+    -
+        count: 2
+        currentDeg: vii
+        items:
+            -
+                beat: 30
+                id: 59-5-ruhethal
+            -
+                beat: 103.5
+                id: 88-2-der-glueckliche
+        nextDeg: I
