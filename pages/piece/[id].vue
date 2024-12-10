@@ -48,7 +48,7 @@ const formattedData = computed(() => {
     if (filters.highlightChords) {
         lines.push('!!!RDF**kern: @ = marked note color="#ef4444');
         for (let i = 0; i < lines.length ; i++) {
-            lines[i] = lines[i].split('\t').map((token, index) => {
+            lines[i] = lines[i].split('\t').map((token) => {
                 if (isKernToken(token) && highlightedLines.includes(i+1)) return `${token}@`;
                 return token;
             }).join('\t');
