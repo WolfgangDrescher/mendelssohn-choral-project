@@ -40,7 +40,7 @@ function getLeft(startBeat) {
                 width: `${getWidth(sequence.startBeat, sequence.endBeat)}%`,
                 left: `${getLeft(sequence.startBeat)}%`,
             }">
-                <UTooltip :text="sequence.labels.join(', ')" :popper="{ placement: 'top' }" class="w-full h-full bg-gray-400 rounded px-2 flex items-center">
+                <UTooltip :text="sequence.labels.join(', ')" :popper="{ placement: 'top' }" class="w-full h-full bg-gray-400 rounded px-2 flex items-center hover:bg-primary-400 hover:shadow">
                     <div class="text-ellipsis overflow-hidden text-nowrap">
                         {{ sequence.labels[0] }}
                     </div>
@@ -52,9 +52,9 @@ function getLeft(startBeat) {
                 width: `${getWidth(segment.startBeat, segment.endBeat)}%`,
                 left: `${getLeft(segment.startBeat)}%`,
             }">
-                <div class="w-full h-full bg-gray-200 rounded px-2 flex items-center">
+                <UTooltip :text="segment.key" :popper="{ placement: 'top' }" class="w-full h-full bg-gray-200 rounded px-2 flex items-center hover:bg-primary-400 hover:shadow">
                     {{ group[0] }}
-                </div>
+                </UTooltip>
             </div>
         </div>
     </div>
