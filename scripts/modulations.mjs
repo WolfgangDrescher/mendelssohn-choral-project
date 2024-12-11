@@ -90,11 +90,14 @@ getFiles(pathToKernScores).forEach(file => {
             deg,
             startBeat: beat,
             endBeat: null,
+            startLine: lineNumber,
+            endLine: null,
         });
     }
 
     modulations.forEach((modulation, index) => {
         modulation.endBeat = modulations[index + 1]?.startBeat ?? maxBeat;
+        modulation.endLine = modulations[index + 1]?.startLine ?? lines.length;
     });
 
     pieces[id] = modulations;
@@ -110,11 +113,12 @@ for (const piece in pieces) {
         const currentDeg = degs[i].deg;
         const nextDeg = degs[i + 1].deg;
         const nextStartBeat = degs[i + 1].startBeat;
+        const nextStartLine = degs[i + 1].startLine;
 
         transitionsMap[currentDeg] ??= {};
         transitionsMap[currentDeg][nextDeg] ??= [0, []];
         transitionsMap[currentDeg][nextDeg][0]++;
-        transitionsMap[currentDeg][nextDeg][1].push([piece, nextStartBeat])
+        transitionsMap[currentDeg][nextDeg][1].push([piece, nextStartBeat, nextStartLine])
     }
 }
 
@@ -125,7 +129,7 @@ for (const currentDeg in transitionsMap) {
             currentDeg,
             nextDeg,
             count: transitionsMap[currentDeg][nextDeg][0],
-            items: transitionsMap[currentDeg][nextDeg][1].map(item => ({id: item[0], beat: item[1]})),
+            items: transitionsMap[currentDeg][nextDeg][1].map(item => ({id: item[0], beat: item[1], lineNumber: item[2]})),
         });
     }
 }

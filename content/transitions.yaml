@@ -6,21 +6,27 @@ transitions:
             -
                 beat: 13
                 id: 100-1-andenken
+                lineNumber: 40
             -
                 beat: 72
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 125
             -
                 beat: 13
                 id: 48-2-die-primel
+                lineNumber: 60
             -
                 beat: 61
                 id: 48-5-morgengebet
+                lineNumber: 122
             -
                 beat: 44
                 id: 59-4-die-nachtigall
+                lineNumber: 161
             -
                 beat: 37
                 id: 59-5-ruhethal
+                lineNumber: 107
         nextDeg: ii
     -
         count: 16
@@ -29,51 +35,67 @@ transitions:
             -
                 beat: 60
                 id: 100-1-andenken
+                lineNumber: 127
             -
                 beat: 111.5
                 id: 100-1-andenken
+                lineNumber: 226
             -
                 beat: 17
                 id: 100-3-fruehlingslied
+                lineNumber: 61
             -
                 beat: 115
                 id: 100-4-im-wald
+                lineNumber: 176
             -
                 beat: 15
                 id: 41-2-entflieh-mit-mir
+                lineNumber: 48
             -
                 beat: 27
                 id: 41-2-entflieh-mit-mir
+                lineNumber: 72
             -
                 beat: 107
                 id: 41-6-auf-dem-see
+                lineNumber: 212
             -
                 beat: 88
                 id: 48-3-fruehlingsfeier
+                lineNumber: 173
             -
                 beat: 13
                 id: 48-5-morgengebet
+                lineNumber: 39
             -
                 beat: 61
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 170
             -
                 beat: 67
                 id: 59-3-abschied-vom-walde
+                lineNumber: 107
             -
                 beat: 17
                 id: 59-5-ruhethal
+                lineNumber: 62
             -
                 beat: 64
                 id: 59-5-ruhethal
+                lineNumber: 170
             -
                 beat: 16
                 id: 88-1-neujahrslied
+                lineNumber: 39
             -
                 beat: 70
                 id: 88-1-neujahrslied
+                lineNumber: 109
             -
                 beat: 55.5
                 id: 88-2-der-glueckliche
+                lineNumber: 141
         nextDeg: vi
     -
         count: 14
@@ -82,45 +104,59 @@ transitions:
             -
                 beat: 36
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 71
             -
                 beat: 104
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 178
             -
                 beat: 57.5
                 id: 41-6-auf-dem-see
+                lineNumber: 123
             -
                 beat: 303.5
                 id: 41-6-auf-dem-see
+                lineNumber: 472
             -
                 beat: 57
                 id: 48-1-fruehlingsahnung
+                lineNumber: 115
             -
                 beat: 19
                 id: 48-3-fruehlingsfeier
+                lineNumber: 55
             -
                 beat: 67
                 id: 48-3-fruehlingsfeier
+                lineNumber: 137
             -
                 beat: 60
                 id: 48-4-lerchengesang
+                lineNumber: 125
             -
                 beat: 100
                 id: 48-4-lerchengesang
+                lineNumber: 205
             -
                 beat: 18
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 62
             -
                 beat: 142
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 405
             -
                 beat: 172
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 476
             -
                 beat: 52
                 id: 88-1-neujahrslied
+                lineNumber: 89
             -
                 beat: 145.5
                 id: 88-2-der-glueckliche
+                lineNumber: 289
         nextDeg: IV
     -
         count: 23
@@ -129,72 +165,95 @@ transitions:
             -
                 beat: 48
                 id: 100-4-im-wald
+                lineNumber: 85
             -
                 beat: 4
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 28
             -
                 beat: 16
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 56
             -
                 beat: 32
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 82
             -
                 beat: 52
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 117
             -
                 beat: 63.5
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 144
             -
                 beat: 79.5
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 173
             -
                 beat: 18.5
                 id: 41-5-mailied
+                lineNumber: 59
             -
                 beat: 154.5
                 id: 41-5-mailied
+                lineNumber: 279
             -
                 beat: 22.5
                 id: 41-6-auf-dem-see
+                lineNumber: 59
             -
                 beat: 268.5
                 id: 41-6-auf-dem-see
+                lineNumber: 409
             -
                 beat: 27
                 id: 48-1-fruehlingsahnung
+                lineNumber: 65
             -
                 beat: 42
                 id: 48-1-fruehlingsahnung
+                lineNumber: 92
             -
                 beat: 7
                 id: 48-3-fruehlingsfeier
+                lineNumber: 32
             -
                 beat: 55
                 id: 48-3-fruehlingsfeier
+                lineNumber: 114
             -
                 beat: 91
                 id: 48-6-herbstlied
+                lineNumber: 293
             -
                 beat: 20
                 id: 59-1-im-gruenen
+                lineNumber: 51
             -
                 beat: 33
                 id: 59-3-abschied-vom-walde
+                lineNumber: 59
             -
                 beat: 35.5
                 id: 88-3-hirtenlied
+                lineNumber: 141
             -
                 beat: 63.5
                 id: 88-3-hirtenlied
+                lineNumber: 222
             -
                 beat: 24.5
                 id: 88-4-die-waldvoegelein
+                lineNumber: 70
             -
                 beat: 54.5
                 id: 88-4-die-waldvoegelein
+                lineNumber: 130
             -
                 beat: 27.5
                 id: 88-6-der-wandernde-musikant
+                lineNumber: 72
         nextDeg: V
     -
         count: 2
@@ -203,9 +262,11 @@ transitions:
             -
                 beat: 16
                 id: 41-1-im-walde
+                lineNumber: 61
             -
                 beat: 72
                 id: 41-5-mailied
+                lineNumber: 160
         nextDeg: iii
     -
         count: 1
@@ -214,6 +275,7 @@ transitions:
             -
                 beat: 242
                 id: 41-6-auf-dem-see
+                lineNumber: 363
         nextDeg: I
     -
         count: 11
@@ -222,36 +284,47 @@ transitions:
             -
                 beat: 15.5
                 id: 100-1-andenken
+                lineNumber: 44
             -
                 beat: 44
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 85
             -
                 beat: 112
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 192
             -
                 beat: 19
                 id: 48-2-die-primel
+                lineNumber: 75
             -
                 beat: 135
                 id: 48-6-herbstlied
+                lineNumber: 345
             -
                 beat: 45
                 id: 59-1-im-gruenen
+                lineNumber: 87
             -
                 beat: 36
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 102
             -
                 beat: 114
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 329
             -
                 beat: 160
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 445
             -
                 beat: 168
                 id: 88-2-der-glueckliche
+                lineNumber: 318
             -
                 beat: 68
                 id: 88-6-der-wandernde-musikant
+                lineNumber: 143
         nextDeg: I
     -
         count: 4
@@ -260,15 +333,19 @@ transitions:
             -
                 beat: 88
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 154
             -
                 beat: 65
                 id: 48-5-morgengebet
+                lineNumber: 129
             -
                 beat: 48
                 id: 59-4-die-nachtigall
+                lineNumber: 174
             -
                 beat: 43
                 id: 59-5-ruhethal
+                lineNumber: 123
         nextDeg: vi
     -
         count: 2
@@ -277,9 +354,11 @@ transitions:
             -
                 beat: 35
                 id: 88-1-neujahrslied
+                lineNumber: 68
             -
                 beat: 91
                 id: 88-1-neujahrslied
+                lineNumber: 136
         nextDeg: V
     -
         count: 3
@@ -288,12 +367,15 @@ transitions:
             -
                 beat: 73.5
                 id: 100-1-andenken
+                lineNumber: 155
             -
                 beat: 73
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 209
             -
                 beat: 67.5
                 id: 88-2-der-glueckliche
+                lineNumber: 167
         nextDeg: iii
     -
         count: 14
@@ -302,45 +384,59 @@ transitions:
             -
                 beat: 102.5
                 id: 100-1-andenken
+                lineNumber: 209
             -
                 beat: 114.5
                 id: 100-1-andenken
+                lineNumber: 233
             -
                 beat: 96
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 164
             -
                 beat: 26
                 id: 100-3-fruehlingslied
+                lineNumber: 86
             -
                 beat: 119
                 id: 100-4-im-wald
+                lineNumber: 181
             -
                 beat: 24.5
                 id: 41-1-im-walde
+                lineNumber: 84
             -
                 beat: 18.5
                 id: 41-2-entflieh-mit-mir
+                lineNumber: 56
             -
                 beat: 31.5
                 id: 41-2-entflieh-mit-mir
+                lineNumber: 82
             -
                 beat: 236
                 id: 41-6-auf-dem-see
+                lineNumber: 355
             -
                 beat: 93
                 id: 48-3-fruehlingsfeier
+                lineNumber: 181
             -
                 beat: 75
                 id: 59-3-abschied-vom-walde
+                lineNumber: 118
             -
                 beat: 51.5
                 id: 59-4-die-nachtigall
+                lineNumber: 186
             -
                 beat: 48
                 id: 59-5-ruhethal
+                lineNumber: 134
             -
                 beat: 66
                 id: 59-5-ruhethal
+                lineNumber: 174
         nextDeg: I
     -
         count: 1
@@ -349,6 +445,7 @@ transitions:
             -
                 beat: 125
                 id: 41-6-auf-dem-see
+                lineNumber: 234
         nextDeg: VI
     -
         count: 1
@@ -357,6 +454,7 @@ transitions:
             -
                 beat: 224
                 id: 41-6-auf-dem-see
+                lineNumber: 340
         nextDeg: vi
     -
         count: 2
@@ -365,9 +463,11 @@ transitions:
             -
                 beat: 22
                 id: 48-5-morgengebet
+                lineNumber: 56
             -
                 beat: 70
                 id: 48-5-morgengebet
+                lineNumber: 140
         nextDeg: V
     -
         count: 2
@@ -376,9 +476,11 @@ transitions:
             -
                 beat: 41
                 id: 59-3-abschied-vom-walde
+                lineNumber: 72
             -
                 beat: 23
                 id: 59-5-ruhethal
+                lineNumber: 77
         nextDeg: vii
     -
         count: 2
@@ -387,9 +489,11 @@ transitions:
             -
                 beat: 24
                 id: 88-1-neujahrslied
+                lineNumber: 52
             -
                 beat: 78
                 id: 88-1-neujahrslied
+                lineNumber: 120
         nextDeg: ii
     -
         count: 2
@@ -398,9 +502,11 @@ transitions:
             -
                 beat: 87.5
                 id: 100-1-andenken
+                lineNumber: 181
             -
                 beat: 35
                 id: 88-6-der-wandernde-musikant
+                lineNumber: 86
         nextDeg: V
     -
         count: 1
@@ -409,6 +515,7 @@ transitions:
             -
                 beat: 20.5
                 id: 41-1-im-walde
+                lineNumber: 75
         nextDeg: vi
     -
         count: 2
@@ -417,9 +524,11 @@ transitions:
             -
                 beat: 136
                 id: 41-5-mailied
+                lineNumber: 242
             -
                 beat: 49
                 id: 59-3-abschied-vom-walde
+                lineNumber: 84
         nextDeg: I
     -
         count: 1
@@ -428,6 +537,7 @@ transitions:
             -
                 beat: 96
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 273
         nextDeg: IV
     -
         count: 1
@@ -436,6 +546,7 @@ transitions:
             -
                 beat: 84
                 id: 88-2-der-glueckliche
+                lineNumber: 191
         nextDeg: vii
     -
         count: 2
@@ -444,9 +555,11 @@ transitions:
             -
                 beat: 99.5
                 id: 100-1-andenken
+                lineNumber: 203
             -
                 beat: 37
                 id: 59-3-abschied-vom-walde
+                lineNumber: 66
         nextDeg: vi
     -
         count: 21
@@ -455,66 +568,87 @@ transitions:
             -
                 beat: 77
                 id: 100-4-im-wald
+                lineNumber: 128
             -
                 beat: 7.5
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 36
             -
                 beat: 24
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 70
             -
                 beat: 40
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 98
             -
                 beat: 55.5
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 125
             -
                 beat: 72
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 160
             -
                 beat: 88
                 id: 41-4-auf-ihrem-grab
+                lineNumber: 191
             -
                 beat: 32
                 id: 41-5-mailied
+                lineNumber: 85
             -
                 beat: 168
                 id: 41-5-mailied
+                lineNumber: 304
             -
                 beat: 47
                 id: 41-6-auf-dem-see
+                lineNumber: 105
             -
                 beat: 293
                 id: 41-6-auf-dem-see
+                lineNumber: 454
             -
                 beat: 36
                 id: 48-1-fruehlingsahnung
+                lineNumber: 82
             -
                 beat: 51
                 id: 48-1-fruehlingsahnung
+                lineNumber: 106
             -
                 beat: 13
                 id: 48-3-fruehlingsfeier
+                lineNumber: 44
             -
                 beat: 61
                 id: 48-3-fruehlingsfeier
+                lineNumber: 126
             -
                 beat: 25
                 id: 48-5-morgengebet
+                lineNumber: 63
             -
                 beat: 73
                 id: 48-5-morgengebet
+                lineNumber: 147
             -
                 beat: 36
                 id: 88-1-neujahrslied
+                lineNumber: 71
             -
                 beat: 92
                 id: 88-1-neujahrslied
+                lineNumber: 139
             -
                 beat: 32.5
                 id: 88-4-die-waldvoegelein
+                lineNumber: 89
             -
                 beat: 63.5
                 id: 88-4-die-waldvoegelein
+                lineNumber: 141
         nextDeg: I
     -
         count: 2
@@ -523,9 +657,11 @@ transitions:
             -
                 beat: 119
                 id: 48-6-herbstlied
+                lineNumber: 327
             -
                 beat: 36
                 id: 59-1-im-gruenen
+                lineNumber: 76
         nextDeg: ii
     -
         count: 2
@@ -534,9 +670,11 @@ transitions:
             -
                 beat: 43.5
                 id: 88-3-hirtenlied
+                lineNumber: 165
             -
                 beat: 71.5
                 id: 88-3-hirtenlied
+                lineNumber: 245
         nextDeg: IV
     -
         count: 1
@@ -545,6 +683,7 @@ transitions:
             -
                 beat: 32
                 id: 88-6-der-wandernde-musikant
+                lineNumber: 80
         nextDeg: iii
     -
         count: 1
@@ -553,6 +692,7 @@ transitions:
             -
                 beat: 42
                 id: 88-6-der-wandernde-musikant
+                lineNumber: 97
         nextDeg: v
     -
         count: 7
@@ -561,24 +701,31 @@ transitions:
             -
                 beat: 41
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 80
             -
                 beat: 109
                 id: 100-2-lob-des-fruehlings
+                lineNumber: 187
             -
                 beat: 30
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 89
             -
                 beat: 109
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 315
             -
                 beat: 154
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 432
             -
                 beat: 154.5
                 id: 88-2-der-glueckliche
+                lineNumber: 300
             -
                 beat: 60.5
                 id: 88-6-der-wandernde-musikant
+                lineNumber: 131
         nextDeg: ii
     -
         count: 11
@@ -587,36 +734,47 @@ transitions:
             -
                 beat: 59
                 id: 41-6-auf-dem-see
+                lineNumber: 128
             -
                 beat: 305
                 id: 41-6-auf-dem-see
+                lineNumber: 477
             -
                 beat: 78
                 id: 48-1-fruehlingsahnung
+                lineNumber: 145
             -
                 beat: 23
                 id: 48-3-fruehlingsfeier
+                lineNumber: 62
             -
                 beat: 71
                 id: 48-3-fruehlingsfeier
+                lineNumber: 145
             -
                 beat: 63.5
                 id: 48-4-lerchengesang
+                lineNumber: 132
             -
                 beat: 103.5
                 id: 48-4-lerchengesang
+                lineNumber: 212
             -
                 beat: 182.5
                 id: 59-2-fruehzeitiger-fruehling
+                lineNumber: 505
             -
                 beat: 60
                 id: 88-1-neujahrslied
+                lineNumber: 99
             -
                 beat: 50
                 id: 88-3-hirtenlied
+                lineNumber: 183
             -
                 beat: 78
                 id: 88-3-hirtenlied
+                lineNumber: 262
         nextDeg: I
     -
         count: 7
@@ -625,24 +783,31 @@ transitions:
             -
                 beat: 19
                 id: 41-3-es-fiel-ein-reif
+                lineNumber: 47
             -
                 beat: 51
                 id: 41-3-es-fiel-ein-reif
+                lineNumber: 92
             -
                 beat: 83
                 id: 41-3-es-fiel-ein-reif
+                lineNumber: 138
             -
                 beat: 7.5
                 id: 48-6-herbstlied
+                lineNumber: 46
             -
                 beat: 59
                 id: 59-6-jagdlied
+                lineNumber: 4
             -
                 beat: 18
                 id: 88-3-hirtenlied
+                lineNumber: 16
             -
                 beat: 23
                 id: 88-5-deutschland
+                lineNumber: 66
         nextDeg: III
     -
         count: 1
@@ -651,6 +816,7 @@ transitions:
             -
                 beat: 47
                 id: 48-6-herbstlied
+                lineNumber: 204
         nextDeg: VI
     -
         count: 3
@@ -659,12 +825,15 @@ transitions:
             -
                 beat: 59
                 id: 48-6-herbstlied
+                lineNumber: 254
             -
                 beat: 156
                 id: 59-6-jagdlied
+                lineNumber: 349
             -
                 beat: 28
                 id: 88-3-hirtenlied
+                lineNumber: 120
         nextDeg: I
     -
         count: 8
@@ -673,27 +842,35 @@ transitions:
             -
                 beat: 24
                 id: 41-3-es-fiel-ein-reif
+                lineNumber: 53
             -
                 beat: 56
                 id: 41-3-es-fiel-ein-reif
+                lineNumber: 99
             -
                 beat: 88
                 id: 41-3-es-fiel-ein-reif
+                lineNumber: 144
             -
                 beat: 24.5
                 id: 48-6-herbstlied
+                lineNumber: 115
             -
                 beat: 51.5
                 id: 48-6-herbstlied
+                lineNumber: 227
             -
                 beat: 81
                 id: 59-6-jagdlied
+                lineNumber: 216
             -
                 beat: 21.5
                 id: 88-3-hirtenlied
+                lineNumber: 8
             -
                 beat: 40
                 id: 88-5-deutschland
+                lineNumber: 94
         nextDeg: i
     -
         count: 2
@@ -702,9 +879,11 @@ transitions:
             -
                 beat: 11
                 id: 48-6-herbstlied
+                lineNumber: 60
             -
                 beat: 15.5
                 id: 48-6-herbstlied
+                lineNumber: 75
         nextDeg: v
     -
         count: 1
@@ -713,6 +892,7 @@ transitions:
             -
                 beat: 212
                 id: 41-6-auf-dem-see
+                lineNumber: 326
         nextDeg: vi
     -
         count: 2
@@ -721,9 +901,11 @@ transitions:
             -
                 beat: 22
                 id: 48-6-herbstlied
+                lineNumber: 102
             -
                 beat: 49
                 id: 48-6-herbstlied
+                lineNumber: 214
         nextDeg: III
     -
         count: 1
@@ -732,6 +914,7 @@ transitions:
             -
                 beat: 14.5
                 id: 48-6-herbstlied
+                lineNumber: 71
         nextDeg: III
     -
         count: 1
@@ -740,6 +923,7 @@ transitions:
             -
                 beat: 20
                 id: 48-6-herbstlied
+                lineNumber: 92
         nextDeg: VI
     -
         count: 1
@@ -748,6 +932,7 @@ transitions:
             -
                 beat: 48.5
                 id: 88-6-der-wandernde-musikant
+                lineNumber: 110
         nextDeg: IV
     -
         count: 1
@@ -756,6 +941,7 @@ transitions:
             -
                 beat: 47
                 id: 59-3-abschied-vom-walde
+                lineNumber: 80
         nextDeg: iii
     -
         count: 2
@@ -764,7 +950,9 @@ transitions:
             -
                 beat: 30
                 id: 59-5-ruhethal
+                lineNumber: 92
             -
                 beat: 103.5
                 id: 88-2-der-glueckliche
+                lineNumber: 235
         nextDeg: I
