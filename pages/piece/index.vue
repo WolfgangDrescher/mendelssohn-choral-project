@@ -47,7 +47,7 @@ const tabItems = [
         <div class="flex flex-col gap-8">
             <Heading>Stücke</Heading>
             <UTabs :items="tabItems">
-                <template #table="{ item }">
+                <template #table>
                     <UTable :rows="pieces" :columns="columns" class="mt-8">
                         <template #audio-data="{ row }">
                             <MidiPlayer :url="row.localRawFile" class="text-2xl"/>
