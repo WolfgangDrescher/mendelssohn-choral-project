@@ -196,7 +196,7 @@ onKeyStroke('ArrowRight', () => {
                 <div v-if="filteredTransition.items" class="flex flex-wrap gap-2 mt-4">
                     <UButton v-for="(item, index) in filteredTransition.items" :key="`${item.id}-${item.beat}`" @click="loadIndex(index)">
                         {{ `${item.id}-${item.beat}` }}
-                        <Modal v-if="openModal === `${item.id}-${item.beat}`" @close="closeModal">
+                        <Modal v-if="openModal === `${item.id}-${item.beat}`" @close="closeModal" :title="`${item.id}-${item.beat}`">
                             <MidiPlayer :url="`/kern/mendelssohn-choral-works/${item.id}.krn`" class="text-2xl" />
                             <VerovioCanvas v-if="modalScoreData"  :data="modalScoreData" :scale="35" :page-margin="50" :key="modalScoreData" />
                             <div class="flex gap-4">
