@@ -6,7 +6,6 @@ const props = defineProps({
         type: Object,
         required: true,
     },
-    filters: Array,
 });
 
 const data = ref(null);
@@ -23,7 +22,6 @@ onMounted(async () => {
 
 const formattedData = computed(() => {
     const filters = [
-        ...props.filters,
         'extract -I text',
     ];
     if (props.sequence.startLine && props.sequence.endLine) {
