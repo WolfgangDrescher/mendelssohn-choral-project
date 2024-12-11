@@ -49,7 +49,7 @@ function resetFilters() {
             {{ filteredSequences.length }} / {{ sequencesData.sequences.length }}
         </div>
         <div class="grid md:grid-cols-2 gap-4">
-            <SequenceScore v-for="sequence in filteredSequences" :key="`${sequence.id}${sequence.startBeat}${sequence.startBeat}`" :sequence="sequence" />
+            <SequenceCard v-for="sequence in filteredSequences" :key="`${sequence.id}${sequence.startBeat}${sequence.startBeat}`" :sequence="sequence" />
         </div>
     </UContainer>
 </template>
