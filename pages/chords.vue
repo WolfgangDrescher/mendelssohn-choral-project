@@ -193,7 +193,7 @@ async function loadScoreData(group) {
                     tokens.forEach((_, tokenIndex) => {
                         const resolvedLineIndex = getResolvedTokenLineIndex(i, tokenIndex, lines);
                         lines[resolvedLineIndex] = lines[resolvedLineIndex].split('\t').map((token, ti) => {
-                            if (ti === tokenIndex &&/^\d+/.test(token)) {
+                            if (ti === tokenIndex &&/^[\[\(]?\d+/.test(token)) {
                                 return `${token}@`;
                             }
                             return token;
