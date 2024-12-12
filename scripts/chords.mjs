@@ -34,7 +34,7 @@ const result = [];
 
 function getBeatWeight(meter, beatWeight4, beatWeight8) {
     if (!meter) return 'error';
-    const denominator = meter.replace(/^\*M\d+\//, '');
+    const denominator = meter.replace(/^(\*M)?\d+\//, '');
     let beat = denominator === '8' ? beatWeight8 : beatWeight4;
     if (beat === '.') return '.'
     beat = parseFloat(beat);
