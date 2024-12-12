@@ -31,19 +31,90 @@ function getFiles(directory, fileList) {
 
 const result = [];
 
+
+function getBeatWeight(meter, beatWeight4, beatWeight8) {
+    if (!meter) return 'error';
+    const denominator = meter.replace(/^\*M\d+\//, '');
+    let beat = denominator === '8' ? beatWeight8 : beatWeight4;
+    if (beat === '.') return '.'
+    beat = parseFloat(beat);
+    if (meter === '2/4') {
+        switch (beat) {
+            case 1: return 'strong';
+            case 2: return 'weak';
+        }
+    } else if (meter === '3/4') {
+        switch (beat) {
+            case 1: return 'strong';
+            case 2: return 'weak';
+            case 3: return 'weak';
+        }
+    } else if (meter === '4/4') {
+        switch (beat) {
+            case 1: return 'strong';
+            case 2: return 'weak';
+            case 3: return 'half-strong';
+            case 4: return 'weak';
+        }
+    } else if (meter === '3/8') {
+        switch (beat) {
+            case 1: return 'strong';
+            case 2: return 'weak';
+            case 3: return 'weak';
+        }
+    } else if (meter === '6/8') {
+        switch (beat) {
+            case 1: return 'strong';
+            case 2: return 'weak';
+            case 3: return 'weak';
+            case 4: return 'half-strong';
+            case 5: return 'weak';
+            case 6: return 'weak';
+        }
+    } else if (meter === '9/8') {
+        switch (beat) {
+            case 1: return 'strong';
+            case 2: return 'weak';
+            case 3: return 'weak';
+            case 4: return 'half-strong';
+            case 5: return 'weak';
+            case 6: return 'weak';
+            case 7: return 'half-strong';
+            case 8: return 'weak';
+            case 9: return 'weak';
+        }
+    }
+    return 'none';
+}
+
 getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
     console.log(id);
-    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | ridx -LGTMId`).toString();
+    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | beat -p -u 8 | beat -p -u 4 | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | ridx -LGTMId`).toString();
     const lines = stdout.trim().split('\n');
 
+    const meterLines = {};
+    const sourceLines = fs.readFileSync(file, 'utf8').split('\n');
+    let currentMeter = null;
+    sourceLines.forEach((line, index) => {
+        if (line.startsWith('*M')) {
+            const match = line.match(/\*M(\d+\/\d+)/);
+            if (match) {
+                currentMeter = match[0];
+            }
+        }
+        meterLines[index + 1] = currentMeter;
+    });
+
     const indexMap = {
-        beat: 0,
-        lineNumber: 1,
-        fb: 2,
-        hint: 3,
-        deg: 4,
+        beatWeight4: 0,
+        beatWeight8: 1,
+        beat: 2,
+        lineNumber: 3,
+        fb: 4,
+        hint: 5,
+        deg: 6,
     }
 
     let {[id]: sequences} = yaml.load(fs.readFileSync(sequencesData, 'utf8'))
@@ -62,6 +133,8 @@ getFiles(pathToKernScores).forEach(file => {
         lineNumber = parseInt(lineNumber, 10);
 
         const isPartOfPedal = !!pedalPoints.filter(pp => beat >= pp.startBeat && beat <= pp.endBeat).length;
+        const currentMeter = meterLines[lineNumber];
+        const beatWeight = getBeatWeight(currentMeter.replace('*M', ''), tokens[indexMap.beatWeight4], tokens[indexMap.beatWeight8]);
 
         if (fb === '.') {
             return;
@@ -75,6 +148,7 @@ getFiles(pathToKernScores).forEach(file => {
             lineNumber,
             id,
             isPartOfPedal,
+            beatWeight,
         });
     });
  
