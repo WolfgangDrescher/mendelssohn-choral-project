@@ -8,8 +8,8 @@ defineProps({
     <div>
         <div v-if="poem.author">{{ poem.author }}</div>
         <div v-if="poem.book">{{ poem.book }}</div>
-        <Subheading>{{ poem.title }}</Subheading>
         <div class="font-serif ml-8">
+            <Subheading>{{ poem.title }}</Subheading>
             <div v-for="item in poem.content">
                 <p v-if="item.type === 'strophe'" class="my-6">
                     <div v-for="verse in item.verses" v-text="verse"></div>
