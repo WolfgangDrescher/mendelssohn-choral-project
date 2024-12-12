@@ -61,6 +61,7 @@ getFiles(pathToKernScores).forEach(file => {
     const config = Object.assign({
         id,
         title: referenceRecords.OTL,
+        urlScan: referenceRecords['URL-scan'],
         op: parseInt(referenceRecords.OPS.replaceAll(/\D/g, '')),
         nr: parseInt(referenceRecords.ONM.replaceAll(/\D/g, '')),
         largerWorkTitle: referenceRecords.OPR,
