@@ -199,12 +199,14 @@ async function loadScoreData(group) {
                     const tokens = lines[i].split('\t');
                     tokens.forEach((_, tokenIndex) => {
                         const resolvedLineIndex = getResolvedTokenLineIndex(i, tokenIndex, lines);
-                        lines[resolvedLineIndex] = lines[resolvedLineIndex].split('\t').map((token, ti) => {
-                            if (ti === tokenIndex &&/^[\[\(]?\d+/.test(token)) {
-                                return `${token}@`;
-                            }
-                            return token;
-                        }).join('\t');
+                        if (resolvedLineIndex) {
+                            lines[resolvedLineIndex] = lines[resolvedLineIndex].split('\t').map((token, ti) => {
+                                if (ti === tokenIndex &&/^[\[\(]?\d+/.test(token)) {
+                                    return `${token}@`;
+                                }
+                                return token;
+                            }).join('\t');
+                        }
                     });
                 }
             }
@@ -263,7 +265,7 @@ function tokenIsDataRecord(line, includeNullToken = false) {
 function getResolvedTokenLineIndex(lineIndex, spineIndex, lines) {
     for (let i = lineIndex; i >= 0; i--) {
         const token = lines[i].split('\t')[spineIndex];
-        if (tokenIsDataRecord(token)) {
+        if (token && tokenIsDataRecord(token)) {
             return i;
         }
     }
