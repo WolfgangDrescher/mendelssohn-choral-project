@@ -5,6 +5,15 @@ const { data: chordsData } = await useAsyncData('chords', () => queryContent('/c
     deep: false,
 });
 
+const { data: pieceData } = await useAsyncData('pieces', () => queryContent('/pieces').find(), {
+    deep: false,
+});
+
+const pieceOptions = pieceData.value?.map(piece => ({
+    id: piece.id,
+    label: `${piece.op} / ${piece.nr}. ${piece.title}`,
+}));
+
 const { t } = useI18n();
 
 const chords = chordsData.value.chords;
@@ -55,12 +64,17 @@ const filteredChords = computed(() => {
             if (beatWeight === null || !beatWeight.length) return true;
             return beatWeight.includes(e.beatWeight);
         };
+        const filterPiece = (piece) => {
+            if (piece === null || !piece.length) return true;
+            return piece.includes(e.id);
+        };
         return filterDeg(filters.deg)
             && filterFb(filters.fb)
             && filterHint(filters.hint)
             && filterSearch(filters.search)
             && filterIgnorePedalPoints(filters.pedalPoint)
             && filterBeatWeight(filters.beatWeight)
+            && filterPiece(filters.piece)
         ;
     });
 });
@@ -73,6 +87,7 @@ const defaultFilters = {
     search: null,
     pedalPoint: 'ignore',
     beatWeight: [],
+    piece: [],
 };
 
 const filters = reactive({
@@ -295,6 +310,9 @@ const beatWeightModalIsOpen = ref(false);
                 <div class="flex flex-wrap gap-4 mb-4">
                     <UFormGroup :label="$t('mode')">
                         <USelectMenu v-model="filters.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]" value-attribute="id" option-attribute="label" size="xs" class="w-40" />
+                    </UFormGroup>
+                    <UFormGroup :label="$t('pieces')">
+                        <USelectMenu v-model="filters.piece" :options="pieceOptions" multiple value-attribute="id" option-attribute="label" size="xs" class="w-40" />
                     </UFormGroup>
                     <UFormGroup :label="$t('deg')">
                         <USelectMenu v-model="filters.deg" :options="uniqueDegs" multiple size="xs" class="w-32" />
