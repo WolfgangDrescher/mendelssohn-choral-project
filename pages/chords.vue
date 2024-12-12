@@ -27,6 +27,7 @@ const uniqueHint = [...new Set(chords.map(chord => chord.hint))].toSorted((a, b)
     }
     return aCount - bCount;
 });
+const uniqueBeatWeights = [...new Set(chords.map(chord => chord.beatWeight))];
 
 const filteredChords = computed(() => {
     return chords.filter(e => {
@@ -50,11 +51,16 @@ const filteredChords = computed(() => {
             if (pedalPoint === null || pedalPoint === 'ignore') return true;
             return (pedalPoint === 'isolate' && e.isPartOfPedal) || (pedalPoint === 'exclude' && !e.isPartOfPedal);
         };
+        const filterBeatWeight = (beatWeight) => {
+            if (beatWeight === null || !beatWeight.length) return true;
+            return beatWeight.includes(e.beatWeight);
+        };
         return filterDeg(filters.deg)
             && filterFb(filters.fb)
             && filterHint(filters.hint)
             && filterSearch(filters.search)
             && filterIgnorePedalPoints(filters.pedalPoint)
+            && filterBeatWeight(filters.beatWeight)
         ;
     });
 });
@@ -66,6 +72,7 @@ const defaultFilters = {
     fb: [],
     search: null,
     pedalPoint: 'ignore',
+    beatWeight: [...uniqueBeatWeights],
 };
 
 const filters = reactive({
@@ -299,6 +306,9 @@ function resetFilters() {
                     </UFormGroup>
                     <UFormGroup :label="$t('pedalPoint')">
                         <USelectMenu v-model="filters.pedalPoint" :options="[{id: 'ignore', label: $t('ignore')},  {id: 'exclude', label: $t('exclude')}, {id: 'isolate', label: $t('isolate')}]" value-attribute="id" option-attribute="label" class="w-32" />
+                    </UFormGroup>
+                    <UFormGroup :label="$t('beatWeight')">
+                        <USelectMenu v-model="filters.beatWeight" :options="uniqueBeatWeights" multiple class="w-32" />
                     </UFormGroup>
                     <UFormGroup label="&nbsp;">
                         <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="resetFilters">
