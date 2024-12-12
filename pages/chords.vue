@@ -213,6 +213,7 @@ async function loadScoreData(group) {
                 if (i === chord.lineNumber - 1) {
                     const tokens = lines[i].split('\t');
                     tokens.forEach((_, tokenIndex) => {
+                        // TODO ignore resolve for weak beats
                         const resolvedLineIndex = getResolvedTokenLineIndex(i, tokenIndex, lines);
                         if (resolvedLineIndex) {
                             lines[resolvedLineIndex] = lines[resolvedLineIndex].split('\t').map((token, ti) => {
