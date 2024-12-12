@@ -78,7 +78,7 @@ const meters = [
             </div>
         </div>
         <div class="mt-6">
-            Zählzeiten die oben nicht aufgelistet sind (z.B. Sechzentel) werden als "none" markiert.
+            Zählzeiten die oben nicht aufgelistet sind (z.B. Sechzehntel) werden als "none" markiert.
         </div>
     </div>
 </template>
