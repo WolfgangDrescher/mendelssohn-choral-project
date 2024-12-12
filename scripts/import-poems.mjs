@@ -99,7 +99,9 @@ execSync(`mkdir -p ${path}`);
                         verses: [],
                     });
                 }
-                poem.content[poem.content.length - 1].verses.push(node.textContent.trim());
+                if (!url.includes('wh1329')) {
+                    poem.content[poem.content.length - 1].verses.push(node.textContent.trim());
+                }
             }
         });
         document.querySelectorAll('table.poem p').forEach(p => {
@@ -109,6 +111,26 @@ execSync(`mkdir -p ${path}`);
                 verses,
             });
         });
+
+        if (poem.content.length <= 1) {
+            document.querySelectorAll('table.poem tr td').forEach(td => {
+                if (td.getAttribute('colspan') === '2') {
+                    const text = td.textContent.trim().replace(/\.$/, '');
+                    poem.content.push({
+                        type: 'heading',
+                        text,
+                    });
+                } else {
+                    const verses = td.textContent.split('\n').map(v => v.trim()).filter(a => a);
+                    if (verses.length) {
+                        poem.content.push({
+                            type: 'strophe',
+                            verses,
+                        });
+                    }
+                }
+            });
+        }
 
         if (!poem.content.length) {
             let contentNodesStarted = false;
@@ -181,6 +203,10 @@ execSync(`mkdir -p ${path}`);
         const filePrefix = poem.author.split(' ').at(-1);
         filename = slugify(`${filePrefix} ${poem.title}`);
     }
+    
+    poem.content = poem.content.filter(item => {
+        return item.type !== 'strophe' || item.verses.length > 1;
+    });
 
     fs.writeFileSync(`${path}${filename}.yaml`, yaml.dump(poem, {
         indent: 4,
