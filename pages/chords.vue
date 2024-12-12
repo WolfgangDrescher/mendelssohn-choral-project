@@ -94,14 +94,6 @@ const filters = reactive({
     ...defaultFilters,
 });
 
-watch(() => filters.mode, (value) => {
-    if (value === 'fb') {
-        filters.hint = [];
-    } else if (value === 'hint') {
-        filters.fb = [];
-    }
-});
-
 const fbGroupedChords = computed(() => {
     return Object.entries(filteredChords.value.reduce((obj, chord) => {
         const index = filters.mode === 'fb' ? chord.fb : chord.hint;
