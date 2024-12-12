@@ -1,0 +1,47 @@
+author: Joseph von Eichendorff
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - Vom Grund bis zu den Gipfeln,
+            - Soweit man sehen kann,
+            - Jetzt blühts in allen Wipfeln,
+            - 'Nun geht das Wandern an:'
+    -
+        type: strophe
+        verses:
+            - Die Quellen von den Klüften,
+            - Die Ström auf grünem Plan,
+            - Die Lerchen hoch in Lüften,
+            - Der Dichter frisch voran.
+    -
+        type: strophe
+        verses:
+            - Und die im Tal verderben
+            - In trüber Sorgen Haft,
+            - Er möcht sie alle werben
+            - Zu dieser Wanderschaft.
+    -
+        type: strophe
+        verses:
+            - Und von den Bergen nieder
+            - Erschallt sein Lied ins Tal,
+            - Und die zerstreuten Brüder
+            - Faßt Heimweh allzumal.
+    -
+        type: strophe
+        verses:
+            - Da wird die Welt so munter
+            - Und nimmt die Reiseschuh,
+            - Sein Liebchen mitten drunter
+            - Die nickt ihm heimlich zu.
+    -
+        type: strophe
+        verses:
+            - Und über Felsenwände
+            - Und auf dem grünen Plan
+            - Das wirrt und jauchzt ohn Ende –
+            - Nun geht das Wandern an!
+title: Allgemeines Wandern
+url: https://www.projekt-gutenberg.org/eichndrf/gedichte/chap002.html

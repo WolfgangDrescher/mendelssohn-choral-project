@@ -1,0 +1,27 @@
+author: Clemens Brentano
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - Singet leise, leise, leise,
+            - Singt ein flüsternd Wiegenlied,
+            - Von dem Monde lernt die Weise,
+            - Der so still am Himmel zieht.
+    -
+        type: strophe
+        verses:
+            - Denn es schlummern in dem Rheine
+            - Jetzt die lieben Kindlein klein,
+            - Ameleya wacht alleine
+            - Weinend in dem Mondenschein.
+    -
+        type: strophe
+        verses:
+            - Singt ein Lied so süß gelinde,
+            - Wie die Quellen auf den Kieseln,
+            - Wie die Bienen um die Linde
+            - Summen, murmeln, flüstern, rieseln.
+title: Singet leise, leise, leise,
+url: https://www.projekt-gutenberg.org/brentano/gedichte/chap056.html
+year: 2017

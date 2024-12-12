@@ -1,0 +1,34 @@
+author: Achim von Arnim und Clemens Brentano
+book: Des Knaben Wunderhorn / I. Band
+content:
+    -
+        type: strophe
+        verses:
+            - So treiben wir den Winter aus,
+            - Durch unsre Stadt zum Thor hinaus,
+            - Mit sein Betrug und Listen,
+            - Den rechten Antichristen.
+    -
+        type: strophe
+        verses:
+            - Wir stürzen ihn von Berg und Thal,
+            - Damit er sich zu tode fall,
+            - Und uns nicht mehr betrüge,
+            - Durch seine späten Züge.
+    -
+        type: strophe
+        verses:
+            - Und nun der Tod das Feld geräumt
+            - So weit und breit der Sommer träumt,
+            - Er träumet in dem Mayen,
+            - Von Blümlein mancherleyen.
+    -
+        type: strophe
+        verses:
+            - Die Blume sproßt aus göttlich Wort,
+            - Und deutet auf viel schönern Ort,
+            - Wer ists der das gelehret?
+            - Gott ists, der hats bescheeret.
+title: Das Todaustreiben
+url: https://www.projekt-gutenberg.org/arnim/wh1/wh1161a.html
+year: 1987

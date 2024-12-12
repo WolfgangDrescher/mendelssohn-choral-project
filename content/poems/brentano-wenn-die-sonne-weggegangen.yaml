@@ -1,0 +1,34 @@
+author: Clemens Brentano
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - Wenn die Sonne weggegangen,
+            - kommt die Dunkelheit heran,
+            - Abendrot hat goldne Wangen,
+            - und die Nacht hat Trauer an.
+    -
+        type: strophe
+        verses:
+            - Seit die Liebe weggegangen,
+            - bin ich nun ein Mohrenkind,
+            - und die roten frohen Wangen
+            - dunkel und verloren sind.
+    -
+        type: strophe
+        verses:
+            - Dunkelheit muß tief verschweigen
+            - alles Wehe, alle Lust;
+            - aber Mond und Sterne zeigen,
+            - was mir wohnet in der Brust.
+    -
+        type: strophe
+        verses:
+            - Wenn die Lippen dir verschweigen
+            - meines Herzens stille Glut,
+            - müssen Blick und Tränen zeigen,
+            - wie die Liebe nimmer ruht.
+title: Wenn die Sonne weggegangen,
+url: https://www.projekt-gutenberg.org/brentano/gedichte/chap117.html
+year: 2017

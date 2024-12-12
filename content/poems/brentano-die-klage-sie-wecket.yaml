@@ -1,0 +1,41 @@
+author: Clemens Brentano
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - Die Klage, sie wecket
+            - Den Toten nicht auf,
+            - Die Liebe nur decket
+            - Den Vorhang dir auf.
+    -
+        type: strophe
+        verses:
+            - Man liebt und was immer
+            - Das Leben belebt,
+            - Mit fassenden Sinnen
+            - Die Augen erhebt.
+    -
+        type: strophe
+        verses:
+            - Das zarte Umfassen,
+            - Es löst sich so bald,
+            - Die Augen erblassen
+            - Es stirbt die Gestalt.
+    -
+        type: strophe
+        verses:
+            - Die Liebe, sie schicket
+            - Die Klage ihr nach
+            - Die Liebe, sie blicket
+            - Den Toten bald wach.
+    -
+        type: strophe
+        verses:
+            - Die Klage, sie wecket
+            - Die Toten nicht auf,
+            - Die Liebe nur decket
+            - Das Leben dir auf.
+title: Die Klage, sie wecket
+url: https://www.projekt-gutenberg.org/brentano/gedichte/chap017.html
+year: 2017

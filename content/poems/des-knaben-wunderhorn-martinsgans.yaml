@@ -1,0 +1,33 @@
+author: Achim von Arnim und Clemens Brentano
+book: Des Knaben Wunderhorn / I. Band
+content:
+    -
+        type: strophe
+        verses:
+            - Nach Gras wir wollen gehn,
+            - Die Vögel singen schön,
+            - Der Gutzgauch frey,
+            - Sein Melodey,
+            - Hallt über Berg und Thal,
+            - Die Mühle klappt zumal;
+            - Der Müller auf der Obermühl,
+            - Der hat der fetten Gänse viel,
+            - Die Gans hat einen Kragen,
+            - Die wolln wir mit uns tragen.
+    -
+        type: strophe
+        verses:
+            - Der beste Vogel, den ich weis,
+            - Das ist die fette Gans,
+            - Sie hat zwei breite Füße,
+            - Dazu den langen Hals,
+            - Und noch ihr Stimmlein süße,
+            - Ihr Füß seyn gel,
+            - Ihr Stimm ist hell,
+            - Der Hals ist lang,
+            - 'Wie ihr Gesang:'
+            - Gickgack, Gickgack, Gickgack, Gickgack,
+            - Wir singen am St. Martins-Tag.
+title: Martinsgans
+url: https://www.projekt-gutenberg.org/arnim/wh1/wh1226b.html
+year: 1987

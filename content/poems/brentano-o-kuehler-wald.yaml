@@ -1,0 +1,42 @@
+author: Clemens Brentano
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - O kühler Wald,
+            - Wo rauschest du,
+            - In dem mein Liebchen geht?
+            - O Widerhall,
+            - Wo lauschest du,
+            - Der gern mein Lied versteht?
+    -
+        type: strophe
+        verses:
+            - O Widerhall,
+            - O sängst du ihr
+            - Die süßen Träume vor,
+            - Die Lieder all,
+            - O bring sie ihr,
+            - Die ich so früh verlor!
+    -
+        type: strophe
+        verses:
+            - Im Herzen tief,
+            - Da rauscht der Wald,
+            - In dem mein Liebchen geht,
+            - In Schmerzen schlief
+            - Der Widerhall,
+            - Die Lieder sind verweht.
+    -
+        type: strophe
+        verses:
+            - Im Walde bin
+            - Ich so allein,
+            - O Liebchen, wandre hier,
+            - Verschallet auch
+            - Manch Lied so rein,
+            - Ich singe andre dir!
+title: O kühler Wald,
+url: https://www.projekt-gutenberg.org/brentano/gedichte/chap125.html
+year: 2017

@@ -1,0 +1,41 @@
+author: Achim von Arnim und Clemens Brentano
+book: Des Knaben Wunderhorn. Dritter Band
+content:
+    -
+        type: strophe
+        verses:
+            - In diesem grünen Wald,
+            - Wir wollen fröhlich singen,
+            - Hört wie es wiederhallt,
+            - Und fröhlich thut erklingen.
+    -
+        type: strophe
+        verses:
+            - Ach wie ein Lieblichkeit
+            - Und holdseliges Leben
+            - Die schöne Sommerzeit
+            - Und helle Sonn thut geben.
+    -
+        type: strophe
+        verses:
+            - Dieweil die Vögel all
+            - In Luft und Freuden schweben;
+            - Voraus die Nachtigall
+            - Ihr Stimmlein thut erheben.
+    -
+        type: strophe
+        verses:
+            - Warum soll uns denn nicht,
+            - Der Sang aus uns erfreuen;
+            - Hört Echo widerspricht,
+            - Und will uns überschreien.
+    -
+        type: strophe
+        verses:
+            - Der Herr vom Himmelsthron
+            - Woll seine Gnade geben,
+            - Daß wir den Sommer schon
+            - Oefter mit Freud erleben.
+title: Wiederhall
+url: https://www.projekt-gutenberg.org/arnim/wh3/wh3071c.html
+year: 1987

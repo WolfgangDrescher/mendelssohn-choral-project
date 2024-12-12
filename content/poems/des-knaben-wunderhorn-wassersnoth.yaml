@@ -1,0 +1,41 @@
+author: Achim von Arnim und Clemens Brentano
+book: Des Knaben Wunderhorn / I. Band
+content:
+    -
+        type: strophe
+        verses:
+            - Zu Koblenz auf der Brücken
+            - Da lag ein tiefer Schnee,
+            - Der Schnee der ist verschmolzen,
+            - Das Wasser fließt in See.
+    -
+        type: strophe
+        verses:
+            - Es fließt in Liebchens Garten,
+            - Da wohnet niemand drein,
+            - Ich kann da lange warten,
+            - Es wehn zwey Bäumelein.
+    -
+        type: strophe
+        verses:
+            - Die sehen mit den Kronen
+            - Noch aus dem Wasser grün,
+            - Mein Liebchen muß drin wohnen,
+            - Ich kann nicht zu ihr hin.
+    -
+        type: strophe
+        verses:
+            - Wenn Gott mich freundlich grüßet
+            - Aus blauer Luft und Thal,
+            - Aus diesem Flusse grüßet,
+            - Mein Liebchen mich zumal.
+    -
+        type: strophe
+        verses:
+            - Sie geht nicht auf der Brücken,
+            - Da gehn viel schöne Fraun,
+            - Sie thun mich viel anblicken,
+            - Ich mag die nicht anschaun.
+title: Wassersnoth
+url: https://www.projekt-gutenberg.org/arnim/wh1/wh1077.html
+year: 1987

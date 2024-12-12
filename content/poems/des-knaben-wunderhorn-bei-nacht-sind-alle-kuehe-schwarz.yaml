@@ -1,0 +1,46 @@
+author: Achim von Arnim und Clemens Brentano
+book: Des Knaben Wunderhorn. Dritter Band
+content:
+    -
+        type: strophe
+        verses:
+            - Bei der Nacht ist so finster im Weg,
+            - Man sieht weder Brücke noch Steg,
+            - Weder Stock noch Stein,
+            - Man stößt sich ans Bein,
+            - Drum geh ich nicht gern allein.
+    -
+        type: strophe
+        verses:
+            - Bei der Nacht ist meine Frau auch so schön,
+            - Bei Tag mag ich nicht mit ihr gehn.
+            - Bei der Nacht so schön!
+            - Kanns gar nicht verstehn,
+            - Mag halters nicht mit ihr gegehn.
+    -
+        type: strophe
+        verses:
+            - Und wann ich wieder heurathen thu,
+            - So nehm ichs Laternel dazu;
+            - Da sieht man beim Licht,
+            - Doch was einer kriegt,
+            - Eine Wüste, die mag ich mehr nicht.
+    -
+        type: strophe
+        verses:
+            - Und wenn ich ein Kindelein krieg,
+            - So muß es so schön seyn als ich,
+            - Sonst g'hört es nicht mein,
+            - Ich gehs halt nicht ein,
+            - Es muß wie ich so schön seyn.
+    -
+        type: strophe
+        verses:
+            - Bei der Nacht hat mich oft was gefreut,
+            - Ich denk halt, 's giebt noch mehr so Leut,
+            - Da schläft man in Ruh,
+            - Und deckt sich brav zu,
+            - Es geht, ich weiß selber nicht wuh!
+title: Bei Nacht sind alle Kühe schwarz
+url: https://www.projekt-gutenberg.org/arnim/wh3/wh3056.html
+year: 1987

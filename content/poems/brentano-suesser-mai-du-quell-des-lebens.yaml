@@ -1,0 +1,41 @@
+author: Clemens Brentano
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - Süßer Mai du Quell des Lebens
+            - Bist so süßer Blumen voll
+            - Liebe sucht auch nicht vergebens
+            - Wem sie Kränze winden soll
+    -
+        type: strophe
+        verses:
+            - Süßer Mai, mit Blumen-Glocken
+            - Läutest du das Fest mir ein
+            - Ich bekränze ihre Locken,
+            - Will ein frommer Gast auch sein
+    -
+        type: strophe
+        verses:
+            - Süßer Mai, zum Liebesmahle
+            - Trägst du Blumen-Kelche ein
+            - Blüten-Säulen stehn im Saale
+            - Drüber wölbt sich Sonnenschein
+    -
+        type: strophe
+        verses:
+            - Süßer Mai, in deinen Kelchen
+            - Küssen fromme Bienen sich
+            - Aber unter allen welchen
+            - Hast du eingefüllt für mich!
+    -
+        type: strophe
+        verses:
+            - Süßer Mai! du bringest nieder
+            - Blume, Blüte, Sonnenschein,
+            - Daß ich wisse, wem die Lieder,
+            - Wem das Herz, das Leben weihn.
+title: Süßer Mai du Quell des Lebens
+url: https://www.projekt-gutenberg.org/brentano/gedichte/chap044.html
+year: 2017

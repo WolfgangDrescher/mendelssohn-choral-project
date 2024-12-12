@@ -1,0 +1,13 @@
+author: Clemens Brentano
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - (Für Flöte, Klarinette, Waldhorn und Fagott)
+    -
+        type: strophe
+        verses: []
+title: Phantasie
+url: https://www.projekt-gutenberg.org/brentano/gedichte/chap004.html
+year: 2017

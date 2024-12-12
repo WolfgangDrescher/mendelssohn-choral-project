@@ -1,0 +1,27 @@
+author: Achim von Arnim und Clemens Brentano
+book: Des Knaben Wunderhorn. Dritter Band
+content:
+    -
+        type: strophe
+        verses:
+            - Es fliegen zwei Schwalben ins Nachbar sein Haus,
+            - Sie fliegen bald hoch und bald nieder;
+            - Aufs Jahr, da kommen sie wieder,
+            - Und suchen ihr voriges Haus.
+    -
+        type: strophe
+        verses:
+            - Sie gehen jezt fort ins neue Land,
+            - Und ziehen jezt eilig hinüber;
+            - Doch kommen sie wieder herüber,
+            - Das ist einem jeden bekannt.
+    -
+        type: strophe
+        verses:
+            - Und kommen sie wieder zu uns zurück,
+            - Der Baur geht ihnen entgegen;
+            - Sie bringen ihm vielmahl den Segen,
+            - Sie bringen ihm Wohlstand und Glück.
+title: Die Schwalben
+url: https://www.projekt-gutenberg.org/arnim/wh3/wh3061.html
+year: 1987

@@ -1,0 +1,41 @@
+author: Clemens Brentano
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - Lieb und Leid im leichten Leben
+            - Sich erheben, abwärts schweben,
+            - Alles will das Herz umfangen,
+            - Nur Verlangen, nie erlangen,
+    -
+        type: strophe
+        verses:
+            - In dem Spiegel all ihr Bilder,
+            - Blicket milder, blicket wilder,
+            - Kann doch Jugend nichts versäumen
+            - Fort zu träumen, fort zu schäumen.
+    -
+        type: strophe
+        verses:
+            - Frühling soll mit süßen Blicken
+            - Mich entzücken und berücken,
+            - Sommer mich mit Frucht, und Mirten,
+            - Reich bewirten, froh umgürten.
+    -
+        type: strophe
+        verses:
+            - Herbst du sollst mich Haushalt lehren,
+            - Zu entbehren, zu begehren,
+            - Und du Winter lehr mich sterben,
+            - Mich verderben, Frühling erben,
+    -
+        type: strophe
+        verses:
+            - Wasser fallen um zu springen,
+            - Um zu klingen, um zu singen,
+            - Schweig ich stille, wie und wo?
+            - Trüb und froh, nur so, so!
+title: Lieb und Leid im leichten Leben
+url: https://www.projekt-gutenberg.org/brentano/gedichte/chap037.html
+year: 2017

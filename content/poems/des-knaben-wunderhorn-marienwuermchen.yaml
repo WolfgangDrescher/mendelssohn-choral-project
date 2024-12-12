@@ -1,0 +1,33 @@
+author: Achim von Arnim und Clemens Brentano
+book: Des Knaben Wunderhorn / I. Band
+content:
+    -
+        type: strophe
+        verses:
+            - Marienwürmchen setze dich,
+            - Auf meine Hand, auf meine Hand,
+            - Ich thu dir nichts zu Leide.
+            - Es soll dir nichts zu Leid geschehn,
+            - Will nur deine bunte Flügel sehn,
+            - Bunte Flügel, meine Freude.
+    -
+        type: strophe
+        verses:
+            - Marienwürmchen fliege weg,
+            - Dein Häuschen brennt, die Kinder schrein
+            - So sehre, wie so sehre.
+            - Die böse Spinne spinnt sie ein,
+            - Marienwürmchen flieg hinein,
+            - Deine Kinder schreien sehre.
+    -
+        type: strophe
+        verses:
+            - Marienwürmchen fliege hin
+            - Zu Nachbars Kind, zu Nachbars Kind,
+            - Sie thun dir nichts zu Leide;
+            - Es soll dir da kein Leid geschehn,
+            - Sie wollen deine bunte Flügel sehn,
+            - Und grüß sie alle beyde.
+title: Marienwürmchen
+url: https://www.projekt-gutenberg.org/arnim/wh1/wh1235b.html
+year: 1987

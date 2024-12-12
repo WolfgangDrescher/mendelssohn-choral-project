@@ -1,0 +1,34 @@
+author: Clemens Brentano
+book: Gedichte
+content:
+    -
+        type: strophe
+        verses:
+            - Die Liebe lehrt
+            - Mich lieblich reden,
+            - Da Lieblichkeit
+            - Mich lieben lehrte.
+    -
+        type: strophe
+        verses:
+            - Arm bin ich nicht
+            - In Deinen Armen,
+            - Umarmst du mich
+            - Du süße Armut.
+    -
+        type: strophe
+        verses:
+            - Wie reich bin ich
+            - In Deinem Reiche,
+            - Der Liebe Reichtum
+            - Reichst du mir.
+    -
+        type: strophe
+        verses:
+            - O Lieblichkeit!
+            - O reiche Armut!
+            - Umarme mich
+            - In Liebesarmen.
+title: Die Liebe lehrt
+url: https://www.projekt-gutenberg.org/brentano/gedichte/chap033.html
+year: 2017

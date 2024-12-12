@@ -1,0 +1,34 @@
+author: Achim von Arnim und Clemens Brentano
+book: Des Knaben Wunderhorn. Dritter Band
+content:
+    -
+        type: strophe
+        verses:
+            - Dort oben auf dem Berge,
+            - Da steht ein hohes Haus,
+            - Da fliegen alle Morgen,
+            - Zwey Turteltäublein raus.
+    -
+        type: strophe
+        verses:
+            - Ach wenn ich nur ein Täublein wär!
+            - Wollt fliegen aus und ein,
+            - Wollt fliegen alle Morgen!
+            - Zu meinem Brüderlein.
+    -
+        type: strophe
+        verses:
+            - Ein Haus wollt ich mir bauen,
+            - Ein Stock von grünem Klee,
+            - Mit Buchsbaum wollt ichs decken,
+            - Und rothen Nägelein.
+    -
+        type: strophe
+        verses:
+            - Und wenn das Haus gebauet wär,
+            - Bescheert mir Gott was n'ein,
+            - Ein kleines, kleines Kindelein,
+            - Das soll mein Täublein seyn.
+title: Ach wenn ich doch ein Täublein wär
+url: https://www.projekt-gutenberg.org/arnim/wh3/whkl093d.html
+year: 1987
