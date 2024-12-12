@@ -2,9 +2,33 @@ author: Achim von Arnim und Clemens Brentano
 book: Des Knaben Wunderhorn / I. Band
 content:
     -
+        text: Knabe
+        type: heading
+    -
         type: strophe
         verses:
-            - Knabe.
+            - Blühe liebes Veilchen,
+            - Das so lieblich roch,
+            - Blühe noch ein Weilchen,
+            - Werde schöner noch.
+            - Weist du was ich denke,
+            - Liebchen zum Geschenke,
+            - Pflück ich Veilchen dich,
+            - Veilchen freue dich!
+    -
+        text: Veilchen
+        type: heading
+    -
+        type: strophe
+        verses:
+            - Brich mich stilles Veilchen,
+            - Bin die Liebste dein,
+            - Und in einem Weilchen
+            - Werd ich schöner seyn!
+            - Weist du, was ich denke,
+            - Wenn ich duftend schwenke
+            - 'Meinen Duft um dich:'
+            - Knabe liebe mich!
 title: Knabe und Veilchen
 url: https://www.projekt-gutenberg.org/arnim/wh1/wh1329.html
 year: 1987
