@@ -283,6 +283,8 @@ onKeyStroke('ArrowRight', () => {
 function resetFilters() {
     Object.assign(filters, defaultFilters);
 }
+
+const beatWeightModalIsOpen = ref(false);
 </script>
 
 <template>
@@ -311,6 +313,14 @@ function resetFilters() {
                     </UFormGroup>
                     <UFormGroup :label="$t('beatWeight')">
                         <USelectMenu v-model="filters.beatWeight" :options="uniqueBeatWeights" multiple class="w-32" />
+                        <template #help>
+                            <Modal v-if="beatWeightModalIsOpen" @close="beatWeightModalIsOpen = false" :title="$t('beatWeightInfo')">
+                                <BeatWeightInfo />
+                            </Modal>
+                            <UButton size="xs" color="yellow" variant="link" @click="beatWeightModalIsOpen = true" icon="i-heroicons-information-circle" class="p-0">
+                                {{ $t('beatWeightInfo') }}
+                            </UButton>
+                        </template>
                     </UFormGroup>
                     <UFormGroup label="&nbsp;">
                         <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="resetFilters">
