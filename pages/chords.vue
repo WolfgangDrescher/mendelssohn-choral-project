@@ -72,7 +72,7 @@ const defaultFilters = {
     fb: [],
     search: null,
     pedalPoint: 'ignore',
-    beatWeight: [...uniqueBeatWeights],
+    beatWeight: [],
 };
 
 const filters = reactive({
