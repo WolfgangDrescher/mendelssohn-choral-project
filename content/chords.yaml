@@ -2321,155 +2321,155 @@ chords:
     - {beat: 52.5, fb: 6 4 2, hint: M6 A4 A2, deg: '6', lineNumber: 231, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
     - {beat: 52.75, fb: 6 3, hint: M6 M3, deg: '6', lineNumber: 232, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
     - {beat: 53, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 234, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
-    - {beat: 59, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 254, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
+    - {beat: 59, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 254, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
     - {beat: 60.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 255, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 61, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 257, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 62, fb: '3', hint: M3, deg: '1', lineNumber: 258, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 63, fb: 7 5, hint: m7 P5, deg: '1', lineNumber: 259, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
+    - {beat: 61, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 257, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
+    - {beat: 62, fb: '3', hint: M3, deg: '1', lineNumber: 258, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 63, fb: 7 5, hint: m7 P5, deg: '1', lineNumber: 259, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: half-strong}
     - {beat: 64.5, fb: 7 5, hint: m7 P5, deg: '1', lineNumber: 260, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 65, fb: 7 5, hint: m7 P5, deg: '1', lineNumber: 262, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 67, fb: 7 6 3, hint: m7 M6 M3, deg: '1', lineNumber: 263, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 68, fb: 7 5 3, hint: m7 P5 M3, deg: '1', lineNumber: 264, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 69, fb: 6 4, hint: M6 P4, deg: '1', lineNumber: 266, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 70, fb: 6 4, hint: M6 P4, deg: '1', lineNumber: 267, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 71, fb: 6 4 2, hint: m6 P4 M2, deg: '1', lineNumber: 268, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
+    - {beat: 65, fb: 7 5, hint: m7 P5, deg: '1', lineNumber: 262, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
+    - {beat: 67, fb: 7 6 3, hint: m7 M6 M3, deg: '1', lineNumber: 263, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: half-strong}
+    - {beat: 68, fb: 7 5 3, hint: m7 P5 M3, deg: '1', lineNumber: 264, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 69, fb: 6 4, hint: M6 P4, deg: '1', lineNumber: 266, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
+    - {beat: 70, fb: 6 4, hint: M6 P4, deg: '1', lineNumber: 267, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 71, fb: 6 4 2, hint: m6 P4 M2, deg: '1', lineNumber: 268, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: half-strong}
     - {beat: 72.5, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 269, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 73, fb: 5 4, hint: P5 P4, deg: '1', lineNumber: 271, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 74, fb: 7 5 4, hint: M7 P5 P4, deg: '1', lineNumber: 272, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 75, fb: '3', hint: M3, deg: '1', lineNumber: 273, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
+    - {beat: 73, fb: 5 4, hint: P5 P4, deg: '1', lineNumber: 271, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
+    - {beat: 74, fb: 7 5 4, hint: M7 P5 P4, deg: '1', lineNumber: 272, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 75, fb: '3', hint: M3, deg: '1', lineNumber: 273, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: half-strong}
     - {beat: 76.5, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 274, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 77, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 276, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 77, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 276, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
     - {beat: 78.5, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 277, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 79, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 278, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 79, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 278, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 80.5, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 279, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 81, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 281, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 83, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 282, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 84, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 283, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 85, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 285, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 81, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 281, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 83, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 282, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 84, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 283, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 85, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 285, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
     - {beat: 86.5, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 286, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 87, fb: 5 4, hint: P5 P4, deg: '5', lineNumber: 287, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 88, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 288, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 89, fb: 7 4 2, hint: M7 P4 M2, deg: '1', lineNumber: 290, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 90, fb: '3', hint: M3, deg: '1', lineNumber: 291, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 91, fb: '3', hint: M3, deg: '4', lineNumber: 293, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 87, fb: 5 4, hint: P5 P4, deg: '5', lineNumber: 287, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 88, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 288, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 89, fb: 7 4 2, hint: M7 P4 M2, deg: '1', lineNumber: 290, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 90, fb: '3', hint: M3, deg: '1', lineNumber: 291, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 91, fb: '3', hint: M3, deg: '4', lineNumber: 293, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 92.5, fb: 5 3, hint: P5 m3, deg: '2', lineNumber: 294, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 93, fb: 5 3, hint: P5 m3, deg: '2', lineNumber: 296, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 93, fb: 5 3, hint: P5 m3, deg: '2', lineNumber: 296, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
     - {beat: 94.5, fb: 5 3, hint: d5 m3, deg: '7', lineNumber: 297, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 95, fb: 5 3, hint: d5 m3, deg: '7', lineNumber: 298, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 95, fb: 5 3, hint: d5 m3, deg: '7', lineNumber: 298, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 96.5, fb: 6 4 3, hint: m6 P4 m3, deg: '6', lineNumber: 299, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 97, fb: 6 4 3, hint: m6 P4 m3, deg: '6', lineNumber: 301, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 99, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 302, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 100, fb: 7 4, hint: m7 P4, deg: '5', lineNumber: 303, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 101, fb: 9 7 3, hint: M9 m7 M3, deg: '5', lineNumber: 305, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
+    - {beat: 97, fb: 6 4 3, hint: m6 P4 m3, deg: '6', lineNumber: 301, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 99, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 302, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: half-strong}
+    - {beat: 100, fb: 7 4, hint: m7 P4, deg: '5', lineNumber: 303, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 101, fb: 9 7 3, hint: M9 m7 M3, deg: '5', lineNumber: 305, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
     - {beat: 102.5, fb: 9 7 3, hint: M9 m7 M3, deg: '5', lineNumber: 306, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 103, fb: 6 3, hint: M6 M3, deg: '5', lineNumber: 307, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 104, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 308, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 105, fb: 6 5 4, hint: M6 P5 P4, deg: '5', lineNumber: 310, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 106, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 311, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 107, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 312, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 108, fb: 7 4, hint: m7 P4, deg: '5', lineNumber: 313, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 109, fb: 9 7 3, hint: M9 m7 M3, deg: '5', lineNumber: 315, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
+    - {beat: 103, fb: 6 3, hint: M6 M3, deg: '5', lineNumber: 307, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: half-strong}
+    - {beat: 104, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 308, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 105, fb: 6 5 4, hint: M6 P5 P4, deg: '5', lineNumber: 310, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
+    - {beat: 106, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 311, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 107, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 312, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: half-strong}
+    - {beat: 108, fb: 7 4, hint: m7 P4, deg: '5', lineNumber: 313, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 109, fb: 9 7 3, hint: M9 m7 M3, deg: '5', lineNumber: 315, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
     - {beat: 110.5, fb: 9 7 3, hint: M9 m7 M3, deg: '5', lineNumber: 316, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 111, fb: 6 3, hint: M6 M3, deg: '5', lineNumber: 317, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 112, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 318, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 113, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 320, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 114, fb: '3', hint: M3, deg: '1', lineNumber: 321, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: none}
-    - {beat: 119, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 327, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 111, fb: 6 3, hint: M6 M3, deg: '5', lineNumber: 317, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: half-strong}
+    - {beat: 112, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 318, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 113, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 320, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: strong}
+    - {beat: 114, fb: '3', hint: M3, deg: '1', lineNumber: 321, id: 48-6-herbstlied, isPartOfPedal: true, beatWeight: weak}
+    - {beat: 119, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 327, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 120.5, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 328, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 121, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 330, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 123, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 331, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 121, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 330, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 123, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 331, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 124.5, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 332, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 125, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 334, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 127, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 335, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 125, fb: 6 5 3, hint: M6 d5 m3, deg: '2', lineNumber: 334, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 127, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 335, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 128.5, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 336, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 129, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 338, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 131, fb: 6 3, hint: m6 m3, deg: 7+, lineNumber: 339, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 132, fb: 5 3, hint: d5 m3, deg: 7+, lineNumber: 340, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 133, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 342, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 134, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 343, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 135, fb: 5 3, hint: d5 m3, deg: '2', lineNumber: 345, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 129, fb: 6 4, hint: m6 P4, deg: '1', lineNumber: 338, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 131, fb: 6 3, hint: m6 m3, deg: 7+, lineNumber: 339, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 132, fb: 5 3, hint: d5 m3, deg: 7+, lineNumber: 340, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 133, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 342, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 134, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 343, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 135, fb: 5 3, hint: d5 m3, deg: '2', lineNumber: 345, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 136.5, fb: 7 5 3, hint: m7 d5 m3, deg: '2', lineNumber: 346, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 137, fb: 7 4, hint: m7 P4, deg: '5', lineNumber: 348, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 138, fb: 7 3, hint: m7 M3, deg: '5', lineNumber: 349, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 139, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 350, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 137, fb: 7 4, hint: m7 P4, deg: '5', lineNumber: 348, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 138, fb: 7 3, hint: m7 M3, deg: '5', lineNumber: 349, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 139, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 350, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 140.5, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 351, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 141, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 353, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 141, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 353, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
     - {beat: 142.5, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 354, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 143, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 355, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 143, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 355, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 144.5, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 356, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 145, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 358, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 147, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 359, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 148, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 360, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 149, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 362, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 145, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 358, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 147, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 359, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 148, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 360, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 149, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 362, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
     - {beat: 150.5, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 363, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 151, fb: 5 4, hint: P5 P4, deg: '5', lineNumber: 364, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 152, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 365, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 153, fb: 6 4 2, hint: m6 P4 M2, deg: '6', lineNumber: 367, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 154, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 368, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 155, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 369, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 156, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 370, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 157, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 372, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 151, fb: 5 4, hint: P5 P4, deg: '5', lineNumber: 364, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 152, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 365, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 153, fb: 6 4 2, hint: m6 P4 M2, deg: '6', lineNumber: 367, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 154, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 368, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 155, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 369, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 156, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 370, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 157, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 372, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
     - {beat: 158.5, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 373, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 159, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 374, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 160, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 375, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 161, fb: 6 5 2, hint: M6 P5 M2, deg: '4', lineNumber: 377, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 162, fb: 6 4 2, hint: M6 A4 M2, deg: '4', lineNumber: 378, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 163, fb: 6 4, hint: M6 A4, deg: '4', lineNumber: 379, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 164, fb: 6 4 2, hint: M6 A4 M2, deg: '4', lineNumber: 380, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 167, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 383, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 168, fb: 5 3, hint: P5 M3, deg: '3', lineNumber: 384, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 169, fb: 7 3, hint: M7 M3, deg: '4', lineNumber: 386, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 170, fb: 6 3, hint: M6 M3, deg: '4', lineNumber: 387, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 171, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 388, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 172, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 389, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 173, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 391, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 175, fb: 6 3, hint: m6 m3, deg: 5+, lineNumber: 392, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 176, fb: 7 5 3, hint: d7 d5 m3, deg: 5+, lineNumber: 393, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 177, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 395, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 183, fb: 6 3, hint: m6 M3, deg: '3', lineNumber: 400, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 184, fb: 7 5 3, hint: m7 P5 M3, deg: '3', lineNumber: 401, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 185, fb: '3', hint: m3, deg: '6', lineNumber: 403, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 186, fb: 6 5 3, hint: M6 P5 m3, deg: '2', lineNumber: 404, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 187, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 405, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 188, fb: 6 3, hint: M6 M3, deg: '4', lineNumber: 406, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 189, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 408, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 191, fb: 6 3, hint: M6 M3, deg: '5', lineNumber: 409, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 192, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 410, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 193, fb: '3', hint: M3, deg: '1', lineNumber: 412, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 195, fb: 5 3, hint: P5 M3, deg: r, lineNumber: 413, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 196, fb: 6 4, hint: M6 P4, deg: r, lineNumber: 414, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 159, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 374, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 160, fb: 6 5 3, hint: M6 P5 M3, deg: '4', lineNumber: 375, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 161, fb: 6 5 2, hint: M6 P5 M2, deg: '4', lineNumber: 377, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 162, fb: 6 4 2, hint: M6 A4 M2, deg: '4', lineNumber: 378, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 163, fb: 6 4, hint: M6 A4, deg: '4', lineNumber: 379, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 164, fb: 6 4 2, hint: M6 A4 M2, deg: '4', lineNumber: 380, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 167, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 383, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 168, fb: 5 3, hint: P5 M3, deg: '3', lineNumber: 384, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 169, fb: 7 3, hint: M7 M3, deg: '4', lineNumber: 386, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 170, fb: 6 3, hint: M6 M3, deg: '4', lineNumber: 387, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 171, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 388, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 172, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 389, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 173, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 391, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 175, fb: 6 3, hint: m6 m3, deg: 5+, lineNumber: 392, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 176, fb: 7 5 3, hint: d7 d5 m3, deg: 5+, lineNumber: 393, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 177, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 395, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 183, fb: 6 3, hint: m6 M3, deg: '3', lineNumber: 400, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 184, fb: 7 5 3, hint: m7 P5 M3, deg: '3', lineNumber: 401, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 185, fb: '3', hint: m3, deg: '6', lineNumber: 403, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 186, fb: 6 5 3, hint: M6 P5 m3, deg: '2', lineNumber: 404, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 187, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 405, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 188, fb: 6 3, hint: M6 M3, deg: '4', lineNumber: 406, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 189, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 408, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 191, fb: 6 3, hint: M6 M3, deg: '5', lineNumber: 409, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 192, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 410, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 193, fb: '3', hint: M3, deg: '1', lineNumber: 412, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 195, fb: 5 3, hint: P5 M3, deg: r, lineNumber: 413, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 196, fb: 6 4, hint: M6 P4, deg: r, lineNumber: 414, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
     - {beat: 196.5, fb: 6 4, hint: M6 P4, deg: r, lineNumber: 415, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 197, fb: 7 5, hint: m7 P5, deg: r, lineNumber: 417, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 198, fb: 7 2, hint: m7 M2, deg: r, lineNumber: 418, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 199, fb: '6', hint: M6, deg: '5', lineNumber: 419, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 200, fb: 7 5, hint: m7 P5, deg: '5', lineNumber: 420, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 197, fb: 7 5, hint: m7 P5, deg: r, lineNumber: 417, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 198, fb: 7 2, hint: m7 M2, deg: r, lineNumber: 418, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 199, fb: '6', hint: M6, deg: '5', lineNumber: 419, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 200, fb: 7 5, hint: m7 P5, deg: '5', lineNumber: 420, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
     - {beat: 200.5, fb: 7 5, hint: m7 P5, deg: '5', lineNumber: 421, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 201, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 423, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 203, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 424, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 204, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 425, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 201, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 423, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 203, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 424, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 204, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 425, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
     - {beat: 204.5, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 426, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 205, fb: 7 5, hint: m7 P5, deg: r, lineNumber: 428, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 206, fb: 7 2, hint: m7 M2, deg: '5', lineNumber: 429, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 207, fb: 7 5, hint: m7 P5, deg: '6', lineNumber: 430, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 208, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 431, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 209, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 433, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 210, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 434, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 215, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 439, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 205, fb: 7 5, hint: m7 P5, deg: r, lineNumber: 428, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 206, fb: 7 2, hint: m7 M2, deg: '5', lineNumber: 429, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 207, fb: 7 5, hint: m7 P5, deg: '6', lineNumber: 430, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 208, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 431, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 209, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 433, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 210, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 434, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 215, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 439, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 216.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 440, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 217, fb: '3', hint: M3, deg: '1', lineNumber: 442, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 219, fb: '3', hint: M3, deg: '1', lineNumber: 443, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 217, fb: '3', hint: M3, deg: '1', lineNumber: 442, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 219, fb: '3', hint: M3, deg: '1', lineNumber: 443, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 220.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 444, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 223, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 447, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 223, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 447, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
     - {beat: 224.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 448, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 225, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 450, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 227, fb: 6 5 3, hint: m6 d5 m3, deg: 5+, lineNumber: 451, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 229, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 453, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 231, fb: 9 6 3, hint: M9 M6 M3, deg: '4', lineNumber: 454, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 232, fb: 6 3, hint: M6 M3, deg: '4', lineNumber: 455, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 233, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 457, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 237, fb: 7 6 3, hint: m7 M6 M3, deg: '5', lineNumber: 459, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 239, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 460, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
-    - {beat: 241, fb: '3', hint: M3, deg: '1', lineNumber: 462, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: none}
+    - {beat: 225, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 450, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 227, fb: 6 5 3, hint: m6 d5 m3, deg: 5+, lineNumber: 451, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 229, fb: 5 3, hint: P5 m3, deg: '6', lineNumber: 453, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 231, fb: 9 6 3, hint: M9 M6 M3, deg: '4', lineNumber: 454, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 232, fb: 6 3, hint: M6 M3, deg: '4', lineNumber: 455, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: weak}
+    - {beat: 233, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 457, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 237, fb: 7 6 3, hint: m7 M6 M3, deg: '5', lineNumber: 459, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
+    - {beat: 239, fb: 7 5 3, hint: m7 P5 M3, deg: '5', lineNumber: 460, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: half-strong}
+    - {beat: 241, fb: '3', hint: M3, deg: '1', lineNumber: 462, id: 48-6-herbstlied, isPartOfPedal: false, beatWeight: strong}
     - {beat: 0, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 19, id: 59-1-im-gruenen, isPartOfPedal: true, beatWeight: strong}
     - {beat: 0.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 20, id: 59-1-im-gruenen, isPartOfPedal: true, beatWeight: weak}
     - {beat: 1, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 21, id: 59-1-im-gruenen, isPartOfPedal: true, beatWeight: weak}

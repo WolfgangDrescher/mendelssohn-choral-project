@@ -49,7 +49,7 @@ function getBeatWeight(meter, beatWeight4, beatWeight8) {
             case 2: return 'weak';
             case 3: return 'weak';
         }
-    } else if (meter === '4/4') {
+    } else if (meter === '4/4' || meter === '2/2') {
         switch (beat) {
             case 1: return 'strong';
             case 2: return 'weak';
