@@ -35,15 +35,15 @@ getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
     console.log(id);
-    const stdout = execSync(`cat ${file} | lnnr | beat -cp | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | ridx -LGTMId`).toString();
+    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | ridx -LGTMId`).toString();
     const lines = stdout.trim().split('\n');
 
     const indexMap = {
         beat: 0,
-        fb: 1,
-        hint: 2,
-        deg: 3,
-        lineNumber: 4,
+        lineNumber: 1,
+        fb: 2,
+        hint: 3,
+        deg: 4,
     }
 
     let {[id]: sequences} = yaml.load(fs.readFileSync(sequencesData, 'utf8'))
