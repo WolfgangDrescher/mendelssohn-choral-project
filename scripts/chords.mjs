@@ -38,7 +38,9 @@ function getBeatWeight(tsig, beat, ) {
     if (tsig === '2/4') {
         switch (beat) {
             case '1': return 'strong';
-            case '2': return 'weak';
+            case '1+1/2': return 'weak';
+            case '2': return 'half-strong';
+            case '2+1/2': return 'weak';
         }
     } else if (tsig === '3/4') {
         switch (beat) {

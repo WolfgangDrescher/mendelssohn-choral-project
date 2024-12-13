@@ -11,8 +11,8 @@
 const meters = [
     {
         meter: '2/4',
-        basis: 4,
-        beats: [['1', 'strong'], ['2', 'weak']],
+        basis: 8,
+        beats: [['1', 'strong'], ['1+1/2', 'weak'], ['2', 'half-strong'], ['2+1/2', 'weak']],
     },
     {
         meter: '3/4',
