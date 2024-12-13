@@ -48,3 +48,5 @@ github: GitHub
 meterWeight: Zählzeiten
 meterWeightInfo: Taktarteigenschaften
 explanation: Erklärung
+hintInfo: Erklärung der exakten Intervalle
+moreDetailsOnUrl: Weitere Informationen auf {url}

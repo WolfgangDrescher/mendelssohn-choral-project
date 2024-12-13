@@ -293,6 +293,7 @@ function resetFilters() {
 }
 
 const meterWeightModalIsOpen = ref(false);
+const hintInfoModalIsOpen = ref(false);
 </script>
 
 <template>
@@ -315,6 +316,14 @@ const meterWeightModalIsOpen = ref(false);
                     </UFormGroup>
                     <UFormGroup :label="$t('hint')">
                         <USelectMenu v-model="filters.hint" :options="uniqueHint" multiple searchable size="xs" class="w-32" />
+                        <template #help>
+                            <Modal v-if="hintInfoModalIsOpen" @close="hintInfoModalIsOpen = false" :title="$t('hintInfo')">
+                                <HintDescription />
+                            </Modal>
+                            <UButton size="xs" color="yellow" variant="link" @click="hintInfoModalIsOpen = true" icon="i-heroicons-information-circle" class="p-0">
+                                {{ $t('explanation') }}
+                            </UButton>
+                        </template>
                     </UFormGroup>
                     <UFormGroup :label="$t('intervalSearch')" :help="$t('largeFiguresFirst')">
                         <UInput v-model="filters.search" size="xs" class="w-32" />
@@ -339,7 +348,6 @@ const meterWeightModalIsOpen = ref(false);
                         </UButton>
                     </UFormGroup>
                 </div>
-                <HintDescription class="my-4" />
             </div>
 
             <div class="my-4">
