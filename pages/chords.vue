@@ -36,7 +36,7 @@ const uniqueHint = [...new Set(chords.map(chord => chord.hint))].toSorted((a, b)
     }
     return aCount - bCount;
 });
-const uniqueBeatWeights = [...new Set(chords.map(chord => chord.beatWeight))];
+const uniqueBeatWeights = [...new Set(chords.map(chord => chord.meterWeight))];
 
 const filteredChords = computed(() => {
     return chords.filter(e => {
@@ -60,9 +60,9 @@ const filteredChords = computed(() => {
             if (pedalPoint === null || pedalPoint === 'ignore') return true;
             return (pedalPoint === 'isolate' && e.isPartOfPedal) || (pedalPoint === 'exclude' && !e.isPartOfPedal);
         };
-        const filterBeatWeight = (beatWeight) => {
-            if (beatWeight === null || !beatWeight.length) return true;
-            return beatWeight.includes(e.beatWeight);
+        const filterBeatWeight = (meterWeight) => {
+            if (meterWeight === null || !meterWeight.length) return true;
+            return meterWeight.includes(e.meterWeight);
         };
         const filterPiece = (piece) => {
             if (piece === null || !piece.length) return true;
@@ -73,7 +73,7 @@ const filteredChords = computed(() => {
             && filterHint(filters.hint)
             && filterSearch(filters.search)
             && filterIgnorePedalPoints(filters.pedalPoint)
-            && filterBeatWeight(filters.beatWeight)
+            && filterBeatWeight(filters.meterWeight)
             && filterPiece(filters.piece)
         ;
     });
@@ -86,7 +86,7 @@ const defaultFilters = {
     fb: [],
     search: null,
     pedalPoint: 'ignore',
-    beatWeight: [],
+    meterWeight: [],
     piece: [],
 };
 
@@ -292,7 +292,7 @@ function resetFilters() {
     Object.assign(filters, defaultFilters);
 }
 
-const beatWeightModalIsOpen = ref(false);
+const meterWeightModalIsOpen = ref(false);
 </script>
 
 <template>
@@ -322,14 +322,14 @@ const beatWeightModalIsOpen = ref(false);
                     <UFormGroup :label="$t('pedalPoint')">
                         <USelectMenu v-model="filters.pedalPoint" :options="[{id: 'ignore', label: $t('ignore')},  {id: 'exclude', label: $t('exclude')}, {id: 'isolate', label: $t('isolate')}]" value-attribute="id" option-attribute="label" class="w-32" />
                     </UFormGroup>
-                    <UFormGroup :label="$t('beatWeight')">
-                        <USelectMenu v-model="filters.beatWeight" :options="uniqueBeatWeights" multiple class="w-32" />
+                    <UFormGroup :label="$t('meterWeight')">
+                        <USelectMenu v-model="filters.meterWeight" :options="uniqueBeatWeights" multiple class="w-32" />
                         <template #help>
-                            <Modal v-if="beatWeightModalIsOpen" @close="beatWeightModalIsOpen = false" :title="$t('beatWeightInfo')">
-                                <BeatWeightInfo />
+                            <Modal v-if="meterWeightModalIsOpen" @close="meterWeightModalIsOpen = false" :title="$t('meterWeightInfo')">
+                                <MeterWeightInfo />
                             </Modal>
-                            <UButton size="xs" color="yellow" variant="link" @click="beatWeightModalIsOpen = true" icon="i-heroicons-information-circle" class="p-0">
-                                {{ $t('beatWeightInfo') }}
+                            <UButton size="xs" color="yellow" variant="link" @click="meterWeightModalIsOpen = true" icon="i-heroicons-information-circle" class="p-0">
+                                {{ $t('explanation') }}
                             </UButton>
                         </template>
                     </UFormGroup>

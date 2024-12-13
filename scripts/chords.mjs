@@ -126,7 +126,7 @@ getFiles(pathToKernScores).forEach(file => {
         lineNumber = parseInt(lineNumber, 10);
 
         const isPartOfPedal = !!pedalPoints.filter(pp => beat >= pp.startBeat && beat <= pp.endBeat).length;
-        const beatWeight = getBeatWeight(tokens[indexMap.meterTsig], tokens[indexMap.meterBeat]);
+        const meterWeight = getBeatWeight(tokens[indexMap.meterTsig], tokens[indexMap.meterBeat]);
 
         if (fb === '.') {
             return;
@@ -140,7 +140,7 @@ getFiles(pathToKernScores).forEach(file => {
             lineNumber,
             id,
             isPartOfPedal,
-            beatWeight,
+            meterWeight,
         });
     });
  

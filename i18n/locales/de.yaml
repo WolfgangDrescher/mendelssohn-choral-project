@@ -45,5 +45,6 @@ transitions: Übergänge
 showInScore: In Partitur anzeigen
 digitizedOriginal: Digitalisat
 github: GitHub
-beatWeight: Zählzeiten
-beatWeightInfo: Erklärung
+meterWeight: Zählzeiten
+meterWeightInfo: Taktarteigenschaften
+explanation: Erklärung
