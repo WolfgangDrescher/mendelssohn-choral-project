@@ -130,7 +130,7 @@ getFiles(pathToKernScores).forEach(file => {
         const isPartOfPedal = !!pedalPoints.filter(pp => beat >= pp.startBeat && beat <= pp.endBeat).length;
         const meterWeight = getBeatWeight(tokens[indexMap.meterTsig], tokens[indexMap.meterBeat]);
 
-        if (fb === '.') {
+        if (fb === '.'/*|| meterBeat === '.'*/) {
             return;
         }
 
