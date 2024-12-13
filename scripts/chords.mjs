@@ -32,56 +32,60 @@ function getFiles(directory, fileList) {
 const result = [];
 
 
-function getBeatWeight(meter, beatWeight4, beatWeight8) {
-    if (!meter) return 'error';
-    const denominator = meter.replace(/^(\*M)?\d+\//, '');
-    let beat = denominator === '8' ? beatWeight8 : beatWeight4;
+function getBeatWeight(tsig, beat, ) {
+    if (!tsig) return 'error';
     if (beat === '.') return '.'
-    beat = parseFloat(beat);
-    if (meter === '2/4') {
+    if (tsig === '2/4') {
         switch (beat) {
-            case 1: return 'strong';
-            case 2: return 'weak';
+            case '1': return 'strong';
+            case '2': return 'weak';
         }
-    } else if (meter === '3/4') {
+    } else if (tsig === '3/4') {
         switch (beat) {
-            case 1: return 'strong';
-            case 2: return 'weak';
-            case 3: return 'weak';
+            case '1': return 'strong';
+            case '2': return 'weak';
+            case '3': return 'weak';
         }
-    } else if (meter === '4/4' || meter === '2/2') {
+    } else if (tsig === '4/4') {
         switch (beat) {
-            case 1: return 'strong';
-            case 2: return 'weak';
-            case 3: return 'half-strong';
-            case 4: return 'weak';
+            case '1': return 'strong';
+            case '2': return 'weak';
+            case '3': return 'half-strong';
+            case '4': return 'weak';
         }
-    } else if (meter === '3/8') {
+    } else if (tsig === '2/2') {
         switch (beat) {
-            case 1: return 'strong';
-            case 2: return 'weak';
-            case 3: return 'weak';
+            case '1': return 'strong';
+            case '1+1/2': return 'weak';
+            case '2': return 'half-strong';
+            case '2+1/2': return 'weak';
         }
-    } else if (meter === '6/8') {
+    } else if (tsig === '3/8') {
         switch (beat) {
-            case 1: return 'strong';
-            case 2: return 'weak';
-            case 3: return 'weak';
-            case 4: return 'half-strong';
-            case 5: return 'weak';
-            case 6: return 'weak';
+            case '1': return 'strong';
+            case '2': return 'weak';
+            case '3': return 'weak';
         }
-    } else if (meter === '9/8') {
+    } else if (tsig === '6/8') {
         switch (beat) {
-            case 1: return 'strong';
-            case 2: return 'weak';
-            case 3: return 'weak';
-            case 4: return 'half-strong';
-            case 5: return 'weak';
-            case 6: return 'weak';
-            case 7: return 'half-strong';
-            case 8: return 'weak';
-            case 9: return 'weak';
+            case '1': return 'strong';
+            case '1+1/3': return 'weak';
+            case '1+2/3': return 'weak';
+            case '2': return 'half-strong';
+            case '2+1/3': return 'weak';
+            case '2+2/3': return 'weak';
+        }
+    } else if (tsig === '9/8') {
+        switch (beat) {
+            case '1': return 'strong';
+            case '1+1/3': return 'weak';
+            case '1+2/3': return 'weak';
+            case '2': return 'half-strong';
+            case '2+1/3': return 'weak';
+            case '2+2/3': return 'weak';
+            case '3': return 'half-strong';
+            case '3+1/3': return 'weak';
+            case '3+2/3': return 'weak';
         }
     }
     return 'none';
@@ -91,25 +95,12 @@ getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
     console.log(id);
-    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | beat -p -u 8 | beat -p -u 4 | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | ridx -LGTMId`).toString();
+    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | composite | meter -tL | shed -s 2 -e "s/beat/beat-composite/X" | shed -s 3 -e "s/tsig/tsig-composite/X" | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern-comp' | extractxx -I '**cdata-beat' | extractxx -I '**cdata-tsig' | ridx -LGTMId`).toString();
     const lines = stdout.trim().split('\n');
 
-    const meterLines = {};
-    const sourceLines = fs.readFileSync(file, 'utf8').split('\n');
-    let currentMeter = null;
-    sourceLines.forEach((line, index) => {
-        if (line.startsWith('*M')) {
-            const match = line.match(/\*M(\d+\/\d+)/);
-            if (match) {
-                currentMeter = match[0];
-            }
-        }
-        meterLines[index + 1] = currentMeter;
-    });
-
     const indexMap = {
-        beatWeight4: 0,
-        beatWeight8: 1,
+        meterBeat: 0,
+        meterTsig: 1,
         beat: 2,
         lineNumber: 3,
         fb: 4,
@@ -126,6 +117,8 @@ getFiles(pathToKernScores).forEach(file => {
         let beat = tokens[indexMap.beat];
         const fb = tokens[indexMap.fb];
         const hint = tokens[indexMap.hint];
+        const meterBeat = tokens[indexMap.meterBeat];
+        const meterTsig = tokens[indexMap.meterTsig];
         const deg = tokens[indexMap.deg].split(' ')[0].replace('_', '');
         let lineNumber = tokens[indexMap.lineNumber];
         
@@ -133,8 +126,7 @@ getFiles(pathToKernScores).forEach(file => {
         lineNumber = parseInt(lineNumber, 10);
 
         const isPartOfPedal = !!pedalPoints.filter(pp => beat >= pp.startBeat && beat <= pp.endBeat).length;
-        const currentMeter = meterLines[lineNumber];
-        const beatWeight = getBeatWeight(currentMeter.replace('*M', ''), tokens[indexMap.beatWeight4], tokens[indexMap.beatWeight8]);
+        const beatWeight = getBeatWeight(tokens[indexMap.meterTsig], tokens[indexMap.meterBeat]);
 
         if (fb === '.') {
             return;
