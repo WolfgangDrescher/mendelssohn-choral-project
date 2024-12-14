@@ -97,7 +97,7 @@ getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
     console.log(id);
-    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | composite | meter -tL | shed -s 2 -e "s/beat/beat-composite/X" | shed -s 3 -e "s/tsig/tsig-composite/X" | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern-comp' | extractxx -I '**cdata-beat' | extractxx -I '**cdata-tsig' | ridx -LGTMId`).toString();
+    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | composite | meter -tLr | shed -s 2 -e "s/beat/beat-composite/X" | shed -s 3 -e "s/tsig/tsig-composite/X" | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern-comp' | extractxx -I '**cdata-beat' | extractxx -I '**cdata-tsig' | ridx -LGTMId`).toString();
     const lines = stdout.trim().split('\n');
 
     const indexMap = {
@@ -119,7 +119,7 @@ getFiles(pathToKernScores).forEach(file => {
         let beat = tokens[indexMap.beat];
         const fb = tokens[indexMap.fb];
         const hint = tokens[indexMap.hint];
-        const meterBeat = tokens[indexMap.meterBeat];
+        const meterBeat = tokens[indexMap.meterBeat].replace('r', '');
         const meterTsig = tokens[indexMap.meterTsig];
         const deg = tokens[indexMap.deg].split(' ')[0].replace('_', '');
         let lineNumber = tokens[indexMap.lineNumber];
@@ -128,7 +128,7 @@ getFiles(pathToKernScores).forEach(file => {
         lineNumber = parseInt(lineNumber, 10);
 
         const isPartOfPedal = !!pedalPoints.filter(pp => beat >= pp.startBeat && beat <= pp.endBeat).length;
-        const meterWeight = getBeatWeight(tokens[indexMap.meterTsig], tokens[indexMap.meterBeat]);
+        const meterWeight = getBeatWeight(meterTsig, meterBeat);
 
         if (fb === '.'/*|| meterBeat === '.'*/) {
             return;
