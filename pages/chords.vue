@@ -54,8 +54,10 @@ const filteredChords = computed(() => {
         };
         const filterSearch = (str) => {
             if (str === null || !str.length) return true;
-            const searchArr = str.split(' ');
-            return searchArr.every(fb => e.hint.split(' ').some((hintPart) => hintPart.includes(fb)));
+            const searchArr2 = str.split(' ').map(part => part.replace('9', '2'));
+            const searchArr9 = str.split(' ').map(part => part.replace('2', '9'));
+            return searchArr2.every(fb => e.hint.split(' ').some((hintPart) => hintPart.includes(fb)))
+                || searchArr9.every(fb => e.hint.split(' ').some((hintPart) => hintPart.includes(fb)));
         };
         const filterIgnorePedalPoints = (pedalPoint) => {
             if (pedalPoint === null || pedalPoint === 'ignore') return true;
