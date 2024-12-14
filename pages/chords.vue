@@ -52,9 +52,10 @@ const filteredChords = computed(() => {
             if (hint === null || !hint.length) return true;
             return hint.includes(e.hint);
         };
-        const filterSearch = (searchStr) => {
-            if (searchStr === null || !searchStr.length) return true;
-            return e.fb.includes(searchStr) || e.hint.includes(searchStr);
+        const filterSearch = (str) => {
+            if (str === null || !str.length) return true;
+            const searchArr = str.split(' ');
+            return searchArr.every(fb => e.hint.split(' ').some((hintPart) => hintPart.includes(fb)));
         };
         const filterIgnorePedalPoints = (pedalPoint) => {
             if (pedalPoint === null || pedalPoint === 'ignore') return true;
@@ -294,6 +295,7 @@ function resetFilters() {
 
 const meterWeightModalIsOpen = ref(false);
 const hintInfoModalIsOpen = ref(false);
+const searchInfoModalIsOpen = ref(false);
 </script>
 
 <template>
@@ -325,8 +327,21 @@ const hintInfoModalIsOpen = ref(false);
                             </UButton>
                         </template>
                     </UFormGroup>
-                    <UFormGroup :label="$t('intervalSearch')" :help="$t('largeFiguresFirst')">
+                    <UFormGroup :label="$t('intervalSearch')">
                         <UInput v-model="filters.search" size="xs" class="w-32" />
+                        <template #help>
+                            <Modal v-if="searchInfoModalIsOpen" @close="searchInfoModalIsOpen = false" :title="$t('searchInfo')">
+                                <ul class="list-disc pl-4">
+                                    <li>6 5</li>
+                                    <li>A6 5</li>
+                                    <li>m3 4 M6</li>
+                                </ul>
+                                <HintDescription />
+                            </Modal>
+                            <UButton size="xs" color="yellow" variant="link" @click="searchInfoModalIsOpen = true" icon="i-heroicons-information-circle" class="p-0">
+                                {{ $t('examples') }}
+                            </UButton>
+                        </template>
                     </UFormGroup>
                     <UFormGroup :label="$t('pedalPoint')">
                         <USelectMenu v-model="filters.pedalPoint" :options="[{id: 'ignore', label: $t('ignore')},  {id: 'exclude', label: $t('exclude')}, {id: 'isolate', label: $t('isolate')}]" value-attribute="id" option-attribute="label" class="w-32" />

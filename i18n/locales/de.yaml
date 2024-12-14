@@ -37,7 +37,6 @@ pedalPoint: Orgelpunkt
 exclude: Ausschliessen
 isolate: Isolieren
 ignore: Ignorieren
-largeFiguresFirst: Grosse Zahlen zuerst
 showKeys: Tonarten anzeigen
 hideSequences: Sequenzen ausblenden
 minimap: Minimap
@@ -50,3 +49,5 @@ meterWeightInfo: Taktarteigenschaften
 explanation: Erklärung
 hintInfo: Erklärung der exakten Intervalle
 moreDetailsOnUrl: Weitere Informationen auf {url}
+examples: Beispiele
+searchInfo: Beispiele für Intervallsuche
