@@ -77,6 +77,12 @@ test('next deg', () => {
     expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 43).nextDeg).toBe('3+');
     expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 44).nextDeg).toBe('3+');
 
+    // same (reduced) fb figure repeated
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 25).nextDeg).toBe('5');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 26).nextDeg).toBe('5');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 27).nextDeg).toBe('1');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 28.5).nextDeg).toBe('1');
+    
     // last chord
     expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 81).nextDeg).toBe(null);
 });

@@ -97,7 +97,7 @@ getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
     console.log(id);
-    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx --resolve-null -t | composite | meter -tLr | shed -s 2 -e "s/beat/beat-composite/X" | shed -s 3 -e "s/tsig/tsig-composite/X" | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern-comp' | extractxx -I '**cdata-beat' | extractxx -I '**cdata-tsig' | ridx -LGTMId`).toString().trim();
+    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnlr | fb -cnl --hint | degx --resolve-null -t | composite | meter -tLr | shed -s 2 -e "s/beat/beat-composite/X" | shed -s 3 -e "s/tsig/tsig-composite/X" | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern-comp' | extractxx -I '**cdata-beat' | extractxx -I '**cdata-tsig' | ridx -LGTMId`).toString().trim();
 
     const voiceExchangeDeg = {};
     const fbstdout = execSync(`cat ${file} | lnnr -p | fb -mic | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | ridx -LGTMId | sed '/~/!d'`).toString().trim();
@@ -115,11 +115,12 @@ getFiles(pathToKernScores).forEach(file => {
         beat: 2,
         lineNumber: 3,
         fb: 4,
-        hint: 5,
-        degBass: 6,
-        degTenor: 7,
-        degAlto: 8,
-        degSoprano: 9,
+        fbReduced: 5,
+        hint: 6,
+        degBass: 7,
+        degTenor: 8,
+        degAlto: 9,
+        degSoprano: 10,
     };
 
     let {[id]: sequences} = yaml.load(fs.readFileSync(sequencesData, 'utf8'))
@@ -130,6 +131,7 @@ getFiles(pathToKernScores).forEach(file => {
         const tokens = line.split('\t');
         let beat = tokens[indexMap.beat];
         const fb = tokens[indexMap.fb];
+        const fbReduced = tokens[indexMap.fbReduced];
         const hint = tokens[indexMap.hint];
         const meterBeat = tokens[indexMap.meterBeat].replace('r', '');
         const meterTsig = tokens[indexMap.meterTsig];
@@ -174,6 +176,7 @@ getFiles(pathToKernScores).forEach(file => {
             isPartOfPedal,
             meterWeight,
             nextDeg: null,
+            fbReduced,
             // voiceExchange,
         });
     });
@@ -183,13 +186,15 @@ getFiles(pathToKernScores).forEach(file => {
 for (let i = 0; i < result.length; i++) {
     const item = result[i];
     let ni = i + 1;
-    while (result[ni] && result[ni].id === item.id && result[ni] && result[ni].fb === item.fb && result[ni].deg === item.deg) {
+    while (result[ni] && result[ni].id === item.id && result[ni] && result[ni].fbReduced === item.fbReduced && result[ni].deg === item.deg) {
         ni++;
     }
     if (result[ni] && result[ni]?.id === item.id) {
         item.nextDeg = result[ni].deg ?? null;
     }
 }
+
+result.forEach(elem => delete elem.fbReduced);
 
 fs.writeFileSync(dataFile, yaml.dump({chords: result}, {
     indent: 4,
