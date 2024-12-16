@@ -404,12 +404,12 @@ chords:
     - {beat: 35.5, fb: '3', hint: M3, deg: '5', lineNumber: 109, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 36, fb: 7 2, hint: m7 M2, deg: '5', lineNumber: 110, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 36.5, fb: '6', hint: M6, deg: '5', lineNumber: 111, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: weak}
-    - {beat: 37, fb: 6 2, hint: M6 M2, deg: '5', lineNumber: 113, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: strong}
+    - {beat: 37, fb: 6 2, hint: M6 M2, deg: '4', lineNumber: 113, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: strong}
     - {beat: 37.5, fb: 7 2, hint: m7 M2, deg: '5', lineNumber: 114, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 38, fb: 7 5, hint: m7 P5, deg: '6', lineNumber: 115, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 38.5, fb: 6 5 3, hint: m6 d5 m3, deg: '7', lineNumber: 116, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 39, fb: '3', hint: M3, deg: '1', lineNumber: 118, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: strong}
-    - {beat: 39.5, fb: 6 3, hint: m6 m3, deg: '5', lineNumber: 119, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: weak}
+    - {beat: 39.5, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 119, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 40, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 120, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 40.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 121, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 41, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 123, id: 100-3-fruehlingslied, isPartOfPedal: false, meterWeight: strong}
@@ -1592,7 +1592,7 @@ chords:
     - {beat: 74, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 138, id: 48-1-fruehlingsahnung, isPartOfPedal: false, meterWeight: weak}
     - {beat: 74.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 139, id: 48-1-fruehlingsahnung, isPartOfPedal: false, meterWeight: weak}
     - {beat: 75, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 141, id: 48-1-fruehlingsahnung, isPartOfPedal: false, meterWeight: strong}
-    - {beat: 76.5, fb: 6 3, hint: m6 m3, deg: '2', lineNumber: 142, id: 48-1-fruehlingsahnung, isPartOfPedal: false, meterWeight: half-strong}
+    - {beat: 76.5, fb: 6 3, hint: m6 m3, deg: '7', lineNumber: 142, id: 48-1-fruehlingsahnung, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 78, fb: 6 4 3, hint: M6 P4 m3, deg: '6', lineNumber: 145, id: 48-1-fruehlingsahnung, isPartOfPedal: false, meterWeight: strong}
     - {beat: 81, fb: 6 5 3, hint: m6 d5 m3, deg: 4+, lineNumber: 150, id: 48-1-fruehlingsahnung, isPartOfPedal: false, meterWeight: strong}
     - {beat: 84, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 155, id: 48-1-fruehlingsahnung, isPartOfPedal: false, meterWeight: strong}
@@ -1940,7 +1940,7 @@ chords:
     - {beat: 61.5, fb: 7 5 3, hint: m7 P5 m3, deg: '6', lineNumber: 128, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: weak}
     - {beat: 62, fb: 6 3, hint: m6 m3, deg: '7', lineNumber: 129, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: none}
     - {beat: 62.5, fb: '3', hint: M3, deg: '1', lineNumber: 130, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: half-strong}
-    - {beat: 63.5, fb: 5 3, hint: P5 M3, deg: '6', lineNumber: 132, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: weak}
+    - {beat: 63.5, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 132, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: weak}
     - {beat: 64.5, fb: '3', hint: M3, deg: '4', lineNumber: 134, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: strong}
     - {beat: 65.5, fb: 6 3, hint: m6 m3, deg: '3', lineNumber: 135, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: weak}
     - {beat: 66, fb: 5 3, hint: P5 M3, deg: '4', lineNumber: 136, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: none}
@@ -1972,7 +1972,7 @@ chords:
     - {beat: 81.5, fb: '3', hint: M3, deg: '1', lineNumber: 167, id: 48-4-lerchengesang, isPartOfPedal: false, meterWeight: weak}
     - {beat: 82, fb: 4 2, hint: P4 M2, deg: '1', lineNumber: 168, id: 48-4-lerchengesang, isPartOfPedal: true, meterWeight: none}
     - {beat: 82.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 169, id: 48-4-lerchengesang, isPartOfPedal: true, meterWeight: half-strong}
-    - {beat: 83, fb: 6 4, hint: M6 P4, deg: '1', lineNumber: 170, id: 48-4-lerchengesang, isPartOfPedal: true, meterWeight: none}
+    - {beat: 83, fb: 6 4, hint: M6 P4, deg: '5', lineNumber: 170, id: 48-4-lerchengesang, isPartOfPedal: true, meterWeight: none}
     - {beat: 84, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 172, id: 48-4-lerchengesang, isPartOfPedal: true, meterWeight: none}
     - {beat: 84.5, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 174, id: 48-4-lerchengesang, isPartOfPedal: true, meterWeight: strong}
     - {beat: 85, fb: 5 3, hint: P5 M3, deg: '1', lineNumber: 175, id: 48-4-lerchengesang, isPartOfPedal: true, meterWeight: none}
@@ -3262,13 +3262,13 @@ chords:
     - {beat: 25, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 78, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 26, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 79, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 27, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 80, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
-    - {beat: 27.5, fb: 5 3, hint: P5 m3, deg: '3', lineNumber: 81, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
-    - {beat: 28, fb: 6 5 3, hint: m6 d5 m3, deg: '2', lineNumber: 83, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: strong}
+    - {beat: 27.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 81, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
+    - {beat: 28, fb: 6 5 3, hint: m6 d5 m3, deg: 7+, lineNumber: 83, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: strong}
     - {beat: 29, fb: 7 3, hint: m7 M3, deg: '5', lineNumber: 84, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 29.5, fb: 7 3, hint: m7 M3, deg: '5', lineNumber: 85, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
     - {beat: 30, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 86, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 30.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 87, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
-    - {beat: 31, fb: 5 3, hint: P5 m3, deg: '3', lineNumber: 88, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
+    - {beat: 31, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 88, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 31.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 89, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
     - {beat: 32, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 91, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: strong}
     - {beat: 33, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 92, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
@@ -3406,13 +3406,13 @@ chords:
     - {beat: 137.5, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 314, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
     - {beat: 138, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 315, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 139, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 316, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
-    - {beat: 139.5, fb: 5 3, hint: P5 m3, deg: '3', lineNumber: 317, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
-    - {beat: 140, fb: 6 5 3, hint: m6 d5 m3, deg: '2', lineNumber: 319, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: strong}
+    - {beat: 139.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 317, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
+    - {beat: 140, fb: 6 5 3, hint: m6 d5 m3, deg: 7+, lineNumber: 319, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: strong}
     - {beat: 141, fb: 7 3, hint: m7 M3, deg: '5', lineNumber: 320, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 141.5, fb: 7 3, hint: m7 M3, deg: '5', lineNumber: 321, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
     - {beat: 142, fb: 6 4, hint: m6 P4, deg: '5', lineNumber: 322, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 142.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 323, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
-    - {beat: 143, fb: 5 3, hint: P5 m3, deg: '3', lineNumber: 324, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
+    - {beat: 143, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 324, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
     - {beat: 143.5, fb: 5 3, hint: P5 m3, deg: '1', lineNumber: 325, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: none}
     - {beat: 144, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 328, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: strong}
     - {beat: 145, fb: 5 3, hint: P5 M3, deg: '5', lineNumber: 329, id: 59-6-jagdlied, isPartOfPedal: false, meterWeight: weak}
@@ -3715,8 +3715,8 @@ chords:
     - {beat: 27, fb: 6 5 3, hint: m6 d5 m3, deg: 4+, lineNumber: 80, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 27.5, fb: '3', hint: m3, deg: 4+, lineNumber: 81, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: weak}
     - {beat: 28, fb: '3', hint: m3, deg: 4+, lineNumber: 82, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: weak}
-    - {beat: 28.5, fb: 7 3, hint: m7 M3, deg: 4+, lineNumber: 84, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: strong}
-    - {beat: 29.5, fb: 7 3, hint: m7 M3, deg: 4+, lineNumber: 85, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: weak}
+    - {beat: 28.5, fb: 7 3, hint: m7 M3, deg: '2', lineNumber: 84, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: strong}
+    - {beat: 29.5, fb: 7 3, hint: m7 M3, deg: '2', lineNumber: 85, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: weak}
     - {beat: 30, fb: 4 2, hint: A4 M2, deg: '4', lineNumber: 86, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: half-strong}
     - {beat: 30.5, fb: 9 4 3, hint: M9 A4 M3, deg: '4', lineNumber: 87, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: weak}
     - {beat: 31, fb: 4 2, hint: A4 M2, deg: '4', lineNumber: 88, id: 88-2-der-glueckliche, isPartOfPedal: false, meterWeight: weak}

@@ -98,6 +98,15 @@ getFiles(pathToKernScores).forEach(file => {
     const id = getIdFromFilename(file);
     console.log(id);
     const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx --resolve-null -t | composite | meter -tLr | shed -s 2 -e "s/beat/beat-composite/X" | shed -s 3 -e "s/tsig/tsig-composite/X" | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern-comp' | extractxx -I '**cdata-beat' | extractxx -I '**cdata-tsig' | ridx -LGTMId`).toString().trim();
+
+    const voiceExchangeDeg = {};
+    const fbstdout = execSync(`cat ${file} | lnnr -p | fb -mic | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | ridx -LGTMId | sed '/~/!d'`).toString().trim();
+    if (fbstdout.includes('~')) {
+        fbstdout.split('\n').forEach(line => {
+            const tokens = line.split('\t');
+            voiceExchangeDeg[tokens[0]] = tokens.findIndex(part => part.startsWith('~'));
+        });
+    }
     const lines = stdout.trim().split('\n');
 
     const indexMap = {
@@ -149,6 +158,12 @@ getFiles(pathToKernScores).forEach(file => {
             return;
         }
 
+        let voiceExchange = false;
+        if (voiceExchangeDeg[lineNumber]) {
+            deg = degTokenList[voiceExchangeDeg[lineNumber] - 1].split(' ')[0].replace('_', '');
+            voiceExchange = true;
+        }
+
         result.push({
             beat,
             fb,
@@ -158,6 +173,7 @@ getFiles(pathToKernScores).forEach(file => {
             id,
             isPartOfPedal,
             meterWeight,
+            // voiceExchange,
         });
     });
  
