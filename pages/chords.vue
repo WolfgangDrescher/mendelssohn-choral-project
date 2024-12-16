@@ -71,6 +71,10 @@ const filteredChords = computed(() => {
             if (piece === null || !piece.length) return true;
             return piece.includes(e.id);
         };
+        const filterNextDeg = (nextDeg) => {
+            if (nextDeg === null || !nextDeg.length) return true;
+            return nextDeg.includes(e.nextDeg);
+        };
         return filterDeg(filters.deg)
             && filterFb(filters.fb)
             && filterHint(filters.hint)
@@ -78,6 +82,7 @@ const filteredChords = computed(() => {
             && filterIgnorePedalPoints(filters.pedalPoint)
             && filterBeatWeight(filters.meterWeight)
             && filterPiece(filters.piece)
+            && filterNextDeg(filters.nextDeg)
         ;
     });
 });
@@ -85,6 +90,7 @@ const filteredChords = computed(() => {
 const defaultFilters = {
     mode: 'fb',
     deg: [],
+    nextDeg: [],
     hint: [],
     fb: [],
     search: null,
@@ -108,6 +114,14 @@ const fbGroupedChords = computed(() => {
 const degGroupedChords = computed(() => {
     return Object.entries(filteredChords.value.reduce((obj, chord) => {
         const index = chord.deg;
+        obj[index] = (obj[index] ?? 0) + 1;
+        return obj;
+    }, {})).sort((a, b) => b[1] - a[1]);;
+});
+
+const nextDegGroupedChords = computed(() => {
+    return Object.entries(filteredChords.value.reduce((obj, chord) => {
+        const index = chord.nextDeg;
         obj[index] = (obj[index] ?? 0) + 1;
         return obj;
     }, {})).sort((a, b) => b[1] - a[1]);;
@@ -155,6 +169,42 @@ const degConfig = computed(() => ({
         datasets: [{
             label: t('deg'),
             data: degGroupedChords.value.map(i => ({ x: i[0], y: i[1] })),
+        }],
+    },
+    options: {
+        interaction: {
+            mode: 'nearest',
+            axis: 'x',
+            intersect: false,
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                // display: false,
+                onClick: (e) => e.stopPropagation(),
+            },
+            tooltip: {
+                yAlign: 'bottom',
+            },
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0,
+                },
+            },
+        },
+    },
+}));
+
+const nextDegConfig = computed(() => ({
+    type: 'bar',
+    data: {
+        datasets: [{
+            label: t('nextDeg'),
+            data: nextDegGroupedChords.value.map(i => ({ x: i[0], y: i[1] })),
         }],
     },
     options: {
@@ -315,6 +365,9 @@ const searchInfoModalIsOpen = ref(false);
                     <UFormGroup :label="$t('deg')">
                         <USelectMenu v-model="filters.deg" :options="uniqueDegs" multiple size="xs" class="w-32" />
                     </UFormGroup>
+                    <UFormGroup :label="$t('nextDeg')">
+                        <USelectMenu v-model="filters.nextDeg" :options="uniqueDegs" multiple size="xs" class="w-32" />
+                    </UFormGroup>
                     <UFormGroup :label="$t('fb')">
                         <USelectMenu v-model="filters.fb" :options="uniqueFb" multiple searchable size="xs" class="w-32" />
                     </UFormGroup>
@@ -371,7 +424,7 @@ const searchInfoModalIsOpen = ref(false);
                 {{ filteredChords.length }} / {{ chords.length }}
             </div>
 
-            <div class="grid md:grid-cols-3 gap-4">
+            <div class="grid md:grid-cols-4 gap-4">
                 <div class="col-span-2">
                     <div class="h-[300px]">
                         <Chart :config="fbConfig" @chart-click="(chart, event) => chartClickHandler(filters.mode, chart, event)" />
@@ -380,6 +433,11 @@ const searchInfoModalIsOpen = ref(false);
                 <div>
                     <div class="h-[300px]">
                         <Chart :config="degConfig" @chart-click="(chart, event) => chartClickHandler('deg', chart, event)" />
+                    </div>
+                </div>
+                <div>
+                    <div class="h-[300px]">
+                        <Chart :config="nextDegConfig" @chart-click="(chart, event) => chartClickHandler('nextDeg', chart, event)" />
                     </div>
                 </div>
             </div>

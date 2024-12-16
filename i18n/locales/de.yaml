@@ -22,6 +22,7 @@ vhv: VHV
 view: Ansehen
 mode: Modus
 deg: Bassstufe
+nextDeg: Nächste Bassstufe
 chords: Akkorde
 fb: Bezifferung
 hint: Intervalle
