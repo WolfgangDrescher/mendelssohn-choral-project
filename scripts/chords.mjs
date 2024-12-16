@@ -120,7 +120,7 @@ getFiles(pathToKernScores).forEach(file => {
         degTenor: 7,
         degAlto: 8,
         degSoprano: 9,
-    }
+    };
 
     let {[id]: sequences} = yaml.load(fs.readFileSync(sequencesData, 'utf8'))
     sequences ??= [];
@@ -173,11 +173,23 @@ getFiles(pathToKernScores).forEach(file => {
             id,
             isPartOfPedal,
             meterWeight,
+            nextDeg: null,
             // voiceExchange,
         });
     });
  
 });
+
+for (let i = 0; i < result.length; i++) {
+    const item = result[i];
+    let ni = i + 1;
+    while (result[ni] && result[ni].id === item.id && result[ni] && result[ni].fb === item.fb && result[ni].deg === item.deg) {
+        ni++;
+    }
+    if (result[ni] && result[ni]?.id === item.id) {
+        item.nextDeg = result[ni].deg ?? null;
+    }
+}
 
 fs.writeFileSync(dataFile, yaml.dump({chords: result}, {
     indent: 4,

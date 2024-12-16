@@ -61,3 +61,22 @@ test('lowest deg', () => {
     expect(chords.find(e => e.id === '88-3-hirtenlied' && e.beat === 90.5).deg).toBe('1');
     expect(chords.find(e => e.id === '88-4-die-waldvoegelein' && e.beat === 61).deg).toBe('5');
 }); 
+
+test('next deg', () => {
+    // orgelpunkt
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 5).nextDeg).toBe('5');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 7).nextDeg).toBe('5');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 8).nextDeg).toBe('5');
+
+    // exact chord repeated
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 12.5).nextDeg).toBe('3');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 11).nextDeg).toBe('3');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 41).nextDeg).toBe('3+');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 42).nextDeg).toBe('3+');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 42.75).nextDeg).toBe('3+');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 43).nextDeg).toBe('3+');
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 44).nextDeg).toBe('3+');
+
+    // last chord
+    expect(chords.find(e => e.id === '59-3-abschied-vom-walde' && e.beat === 81).nextDeg).toBe(null);
+});
