@@ -97,7 +97,7 @@ getFiles(pathToKernScores).forEach(file => {
 
     const id = getIdFromFilename(file);
     console.log(id);
-    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx -k 1 --resolve-null -t | composite | meter -tLr | shed -s 2 -e "s/beat/beat-composite/X" | shed -s 3 -e "s/tsig/tsig-composite/X" | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern-comp' | extractxx -I '**cdata-beat' | extractxx -I '**cdata-tsig' | ridx -LGTMId`).toString();
+    const stdout = execSync(`cat ${file} | lnnr -p | beat -cp | fb -cnl | fb -cnl --hint | degx --resolve-null -t | composite | meter -tLr | shed -s 2 -e "s/beat/beat-composite/X" | shed -s 3 -e "s/tsig/tsig-composite/X" | extractxx -I '**kern' | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern-comp' | extractxx -I '**cdata-beat' | extractxx -I '**cdata-tsig' | ridx -LGTMId`).toString().trim();
     const lines = stdout.trim().split('\n');
 
     const indexMap = {
@@ -107,7 +107,10 @@ getFiles(pathToKernScores).forEach(file => {
         lineNumber: 3,
         fb: 4,
         hint: 5,
-        deg: 6,
+        degBass: 6,
+        degTenor: 7,
+        degAlto: 8,
+        degSoprano: 9,
     }
 
     let {[id]: sequences} = yaml.load(fs.readFileSync(sequencesData, 'utf8'))
@@ -121,11 +124,23 @@ getFiles(pathToKernScores).forEach(file => {
         const hint = tokens[indexMap.hint];
         const meterBeat = tokens[indexMap.meterBeat].replace('r', '');
         const meterTsig = tokens[indexMap.meterTsig];
-        const deg = tokens[indexMap.deg].split(' ')[0].replace('_', '');
+        let deg = null;
         let lineNumber = tokens[indexMap.lineNumber];
         
         beat = parseFloat(beat);
         lineNumber = parseInt(lineNumber, 10);
+
+        let degSpineIndex = 0;
+        const degTokenList = [
+            tokens[indexMap.degBass],
+            tokens[indexMap.degTenor],
+            tokens[indexMap.degAlto],
+            tokens[indexMap.degSoprano],
+        ];
+        while ((deg === 'r' ||  deg === null) && degSpineIndex < degTokenList.length) {
+            deg = degTokenList[degSpineIndex].split(' ')[0].replace('_', '');
+            degSpineIndex++;
+        }
 
         const isPartOfPedal = !!pedalPoints.filter(pp => beat >= pp.startBeat && beat <= pp.endBeat).length;
         const meterWeight = getBeatWeight(meterTsig, meterBeat);
