@@ -30,14 +30,14 @@ const columns = [
 
 const tabItems = [
     {
-        slot: 'cards',
-        label: t('scores'),
-        icon: 'i-heroicons-view-columns',
-    },
-    {
         slot: 'table',
         label: t('table'),
         icon: 'i-heroicons-table-cells',
+    },
+    {
+        slot: 'cards',
+        label: t('scores'),
+        icon: 'i-heroicons-view-columns',
     },
 ];
 </script>
