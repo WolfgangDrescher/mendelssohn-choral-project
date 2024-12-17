@@ -38,74 +38,12 @@ const uniqueHint = [...new Set(chords.map(chord => chord.hint))].toSorted((a, b)
 });
 const uniqueBeatWeights = [...new Set(chords.map(chord => chord.meterWeight))];
 
-const filteredChords = computed(() => {
-    return chords.filter(e => {
-        const filterDeg = (deg) => {
-            if (deg === null || !deg.length) return true;
-            return deg.includes(e.deg);
-        };
-        const filterFb = (fb) => {
-            if (fb === null || !fb.length) return true;
-            return fb.includes(e.fb);
-        };
-        const filterHint = (hint) => {
-            if (hint === null || !hint.length) return true;
-            return hint.includes(e.hint);
-        };
-        const filterSearch = (str) => {
-            if (str === null || !str.length) return true;
-            const searchArr2 = str.split(' ').map(part => part.replace('9', '2'));
-            const searchArr9 = str.split(' ').map(part => part.replace('2', '9'));
-            return searchArr2.every(fb => e.hint.split(' ').some((hintPart) => hintPart.includes(fb)))
-                || searchArr9.every(fb => e.hint.split(' ').some((hintPart) => hintPart.includes(fb)));
-        };
-        const filterIgnorePedalPoints = (pedalPoint) => {
-            if (pedalPoint === null || pedalPoint === 'ignore') return true;
-            return (pedalPoint === 'isolate' && e.isPartOfPedal) || (pedalPoint === 'exclude' && !e.isPartOfPedal);
-        };
-        const filterBeatWeight = (meterWeight) => {
-            if (meterWeight === null || !meterWeight.length) return true;
-            return meterWeight.includes(e.meterWeight);
-        };
-        const filterPiece = (piece) => {
-            if (piece === null || !piece.length) return true;
-            return piece.includes(e.id);
-        };
-        const filterNextDeg = (nextDeg) => {
-            if (nextDeg === null || !nextDeg.length) return true;
-            return nextDeg.includes(e.nextDeg);
-        };
-        return filterDeg(filters.deg)
-            && filterFb(filters.fb)
-            && filterHint(filters.hint)
-            && filterSearch(filters.search)
-            && filterIgnorePedalPoints(filters.pedalPoint)
-            && filterBeatWeight(filters.meterWeight)
-            && filterPiece(filters.piece)
-            && filterNextDeg(filters.nextDeg)
-        ;
-    });
-});
-
-const defaultFilters = {
-    mode: 'fb',
-    deg: [],
-    nextDeg: [],
-    hint: [],
-    fb: [],
-    search: null,
-    pedalPoint: 'ignore',
-    meterWeight: [],
-    piece: [],
-};
-
-const filters = reactive({
-    ...defaultFilters,
-});
+const { filters, filteredChords, resetFilters } = useChordFilter(chords);
+const viewFbMode = ref('fb');
 
 const fbGroupedChords = computed(() => {
     return Object.entries(filteredChords.value.reduce((obj, chord) => {
-        const index = filters.mode === 'fb' ? chord.fb : chord.hint;
+        const index = viewFbMode.value === 'fb' ? chord.fb : chord.hint;
         obj[index] = (obj[index] ?? 0) + 1;
         return obj;
     }, {})).sort((a, b) => b[1] - a[1]);;
@@ -131,7 +69,7 @@ const fbConfig = computed(() => ({
     type: 'bar',
     data: {
         datasets: [{
-            label: filters.mode === 'fb' ? t('fb') : t('exactIntervals'),
+            label: viewFbMode.value === 'fb' ? t('fb') : t('exactIntervals'),
             data: fbGroupedChords.value.map(i => ({ x: i[0], y: i[1] })),
         }],
     },
@@ -341,10 +279,6 @@ onKeyStroke('ArrowRight', () => {
     if (activeIndex !== null) loadIndex(activeIndex + 1);
 });
 
-function resetFilters() {
-    Object.assign(filters, defaultFilters);
-}
-
 const meterWeightModalIsOpen = ref(false);
 const hintInfoModalIsOpen = ref(false);
 const searchInfoModalIsOpen = ref(false);
@@ -357,7 +291,7 @@ const searchInfoModalIsOpen = ref(false);
             <div>
                 <div class="flex flex-wrap gap-x-4 gap-y-2 mb-4">
                     <UFormGroup :label="$t('mode')">
-                        <USelectMenu v-model="filters.mode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]" value-attribute="id" option-attribute="label" size="xs" class="w-40" />
+                        <USelectMenu v-model="viewFbMode" :options="[{id: 'fb', label: $t('figuredBassNumbers')}, {id: 'hint', label: $t('exactIntervals')}]" value-attribute="id" option-attribute="label" size="xs" class="w-40" />
                     </UFormGroup>
                     <UFormGroup :label="$t('pieces')">
                         <USelectMenu v-model="filters.piece" :options="pieceOptions" multiple searchable value-attribute="id" option-attribute="label" size="xs" class="w-40" />
@@ -427,7 +361,7 @@ const searchInfoModalIsOpen = ref(false);
             <div class="grid md:grid-cols-4 gap-4">
                 <div class="col-span-2">
                     <div class="h-[300px]">
-                        <Chart :config="fbConfig" @chart-click="(chart, event) => chartClickHandler(filters.mode, chart, event)" />
+                        <Chart :config="fbConfig" @chart-click="(chart, event) => chartClickHandler(viewFbMode, chart, event)" />
                     </div>
                 </div>
                 <div>
