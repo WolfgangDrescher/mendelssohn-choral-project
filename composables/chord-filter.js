@@ -58,10 +58,14 @@ function filterHint(chord, hint) {
 
 function filterSearch(chord, str) {
     if (str === null || !str.length) return true;
-    const searchArr2 = str.split(' ').map(part => part.replace('9', '2'));
-    const searchArr9 = str.split(' ').map(part => part.replace('2', '9'));
-    return searchArr2.every(fb => chord.hint.split(' ').some((hintPart) => hintPart.includes(fb)))
-        || searchArr9.every(fb => chord.hint.split(' ').some((hintPart) => hintPart.includes(fb)));
+    const searchStrings = str.split(',').map(s => s.trim());
+    return searchStrings.some(searchStr => {
+        const strParts = searchStr.split(' ').map(s => s.trim()).filter(s => s);
+        const searchArr2 = strParts.map(part => part.replace('9', '2'));
+        const searchArr9 = strParts.map(part => part.replace('2', '9'));
+        return searchArr2.every(fb => chord.hint.split(' ').some((hintPart) => hintPart.includes(fb)))
+            || searchArr9.every(fb => chord.hint.split(' ').some((hintPart) => hintPart.includes(fb)));
+    });
 }
 
 function filterIgnorePedalPoints(chord, pedalPoint) {
