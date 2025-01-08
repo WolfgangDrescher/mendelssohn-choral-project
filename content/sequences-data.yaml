@@ -122,6 +122,11 @@
         labels: [orgelpunkt]
         startBeat: 21
         endBeat: 30
+    -
+        labels: [fauxbourdon]
+        startBeat: 31
+        endBeat: 34
+
 48-3-fruehlingsfeier:
     -
         labels: [gymel, dezimensatz]
