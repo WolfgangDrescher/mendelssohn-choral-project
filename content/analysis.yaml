@@ -2,18 +2,18 @@
     -
         deg: '5'
         id: 100-1-andenken
-        lineNumber: 71
-        myankLines: 61-75
-    -
-        deg: '5'
-        id: 100-1-andenken
         lineNumber: 72
-        myankLines: 66-79
+        myankLines: 62-76
     -
         deg: '5'
         id: 100-1-andenken
-        lineNumber: 75
-        myankLines: 69-81
+        lineNumber: 73
+        myankLines: 67-80
+    -
+        deg: '5'
+        id: 100-1-andenken
+        lineNumber: 76
+        myankLines: 70-82
     -
         deg: '1'
         id: 100-2-lob-des-fruehlings
@@ -47,23 +47,23 @@
     -
         deg: .
         id: 100-3-fruehlingslied
-        lineNumber: 136
-        myankLines: 126-136
+        lineNumber: 138
+        myankLines: 128-138
     -
         deg: '5'
         id: 100-4-im-wald
-        lineNumber: 45
-        myankLines: 39-49
+        lineNumber: 46
+        myankLines: 40-50
     -
         deg: '5'
         id: 100-4-im-wald
-        lineNumber: 47
-        myankLines: 42-51
+        lineNumber: 48
+        myankLines: 43-52
     -
         deg: '1'
         id: 41-1-im-walde
-        lineNumber: 29
-        myankLines: 19-38
+        lineNumber: 30
+        myankLines: 20-39
     -
         deg: '1'
         id: 41-6-auf-dem-see
@@ -102,28 +102,28 @@
     -
         deg: '4'
         id: 48-2-die-primel
-        lineNumber: 30
-        myankLines: 19-41
+        lineNumber: 31
+        myankLines: 20-42
     -
         deg: '1'
         id: 48-2-die-primel
-        lineNumber: 90
-        myankLines: 76-103
+        lineNumber: 91
+        myankLines: 77-104
     -
         deg: .
         id: 48-2-die-primel
-        lineNumber: 92
-        myankLines: 77-105
+        lineNumber: 93
+        myankLines: 78-106
     -
         deg: '1'
         id: 48-2-die-primel
-        lineNumber: 104
-        myankLines: 90-117
+        lineNumber: 105
+        myankLines: 91-118
     -
         deg: .
         id: 48-2-die-primel
-        lineNumber: 106
-        myankLines: 92-118
+        lineNumber: 107
+        myankLines: 93-119
     -
         deg: '1'
         id: 48-6-herbstlied
@@ -152,53 +152,53 @@
     -
         deg: '1'
         id: 59-1-im-gruenen
-        lineNumber: 33
-        myankLines: 27-38
-    -
-        deg: '1'
-        id: 59-1-im-gruenen
         lineNumber: 34
-        myankLines: 28-38
+        myankLines: 28-39
+    -
+        deg: '1'
+        id: 59-1-im-gruenen
+        lineNumber: 35
+        myankLines: 29-39
     -
         deg: .
         id: 59-1-im-gruenen
-        lineNumber: 105
-        myankLines: 99-112
+        lineNumber: 106
+        myankLines: 100-113
     -
         deg: '5'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 63
-        myankLines: 55-74
+        lineNumber: 64
+        myankLines: 56-75
     -
         deg: .
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 186
-        myankLines: 173-199
+        lineNumber: 187
+        myankLines: 174-200
     -
         deg: '1'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 200
-        myankLines: 186-211
+        lineNumber: 201
+        myankLines: 187-212
     -
         deg: '1'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 304
-        myankLines: 292-316
+        lineNumber: 305
+        myankLines: 293-317
     -
         deg: '5'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 406
-        myankLines: 398-417
+        lineNumber: 407
+        myankLines: 399-418
     -
         deg: '5'
         id: 59-3-abschied-vom-walde
-        lineNumber: 31
-        myankLines: 27-34
+        lineNumber: 32
+        myankLines: 28-35
     -
         deg: '5'
         id: 59-3-abschied-vom-walde
-        lineNumber: 93
-        myankLines: 89-96
+        lineNumber: 94
+        myankLines: 90-97
     -
         deg: '4'
         id: 59-4-die-nachtigall
@@ -227,28 +227,28 @@
     -
         deg: '1'
         id: 88-3-hirtenlied
-        lineNumber: 207
-        myankLines: 196-216
+        lineNumber: 209
+        myankLines: 198-218
     -
         deg: .
         id: 88-5-deutschland
-        lineNumber: 37
-        myankLines: 30-49
+        lineNumber: 38
+        myankLines: 31-50
     -
         deg: .
         id: 88-5-deutschland
-        lineNumber: 74
-        myankLines: 67-81
+        lineNumber: 75
+        myankLines: 68-82
     -
         deg: '2'
         id: 88-5-deutschland
-        lineNumber: 205
-        myankLines: 194-208
+        lineNumber: 206
+        myankLines: 195-209
     -
         deg: '5'
         id: 88-6-der-wandernde-musikant
         lineNumber: 5
-        myankLines: 144-160
+        myankLines: 145-161
 deg3-69:
     -
         deg: '3'
@@ -258,29 +258,29 @@ deg3-69:
     -
         deg: '3'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 34
-        myankLines: 25-43
+        lineNumber: 35
+        myankLines: 26-44
     -
         deg: '3'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 377
-        myankLines: 368-386
+        lineNumber: 378
+        myankLines: 369-387
     -
         deg: '3'
         id: 59-3-abschied-vom-walde
-        lineNumber: 86
-        myankLines: 80-89
+        lineNumber: 87
+        myankLines: 81-90
 deg4-7:
     -
         deg: '4'
         id: 100-1-andenken
-        lineNumber: 144
-        myankLines: 138-151
+        lineNumber: 147
+        myankLines: 141-154
     -
         deg: '4'
         id: 100-1-andenken
-        lineNumber: 146
-        myankLines: 139-155
+        lineNumber: 149
+        myankLines: 142-158
     -
         deg: '4'
         id: 100-2-lob-des-fruehlings
@@ -294,8 +294,8 @@ deg4-7:
     -
         deg: '4'
         id: 100-4-im-wald
-        lineNumber: 181
-        myankLines: 176-184
+        lineNumber: 182
+        myankLines: 177-185
     -
         deg: '4'
         id: 41-6-auf-dem-see
@@ -309,18 +309,18 @@ deg4-7:
     -
         deg: '4'
         id: 48-2-die-primel
-        lineNumber: 30
-        myankLines: 19-41
+        lineNumber: 31
+        myankLines: 20-42
     -
         deg: '4'
         id: 48-2-die-primel
-        lineNumber: 32
-        myankLines: 20-43
+        lineNumber: 33
+        myankLines: 21-44
     -
         deg: '4'
         id: 48-2-die-primel
-        lineNumber: 128
-        myankLines: 118-130
+        lineNumber: 129
+        myankLines: 119-131
     -
         deg: '4'
         id: 48-3-fruehlingsfeier
@@ -339,23 +339,23 @@ deg4-7:
     -
         deg: '4'
         id: 48-5-morgengebet
-        lineNumber: 81
-        myankLines: 73-89
+        lineNumber: 82
+        myankLines: 74-90
     -
         deg: '4'
         id: 48-5-morgengebet
-        lineNumber: 124
-        myankLines: 116-131
+        lineNumber: 126
+        myankLines: 118-133
     -
         deg: '4'
         id: 48-5-morgengebet
-        lineNumber: 151
-        myankLines: 143-157
+        lineNumber: 153
+        myankLines: 145-159
     -
         deg: '4'
         id: 48-5-morgengebet
-        lineNumber: 166
-        myankLines: 158-174
+        lineNumber: 168
+        myankLines: 160-176
     -
         deg: '4'
         id: 48-6-herbstlied
@@ -379,53 +379,53 @@ deg4-7:
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 104
-        myankLines: 95-113
+        lineNumber: 105
+        myankLines: 96-114
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 112
-        myankLines: 102-120
+        lineNumber: 113
+        myankLines: 103-121
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 248
-        myankLines: 236-255
+        lineNumber: 249
+        myankLines: 237-256
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 251
-        myankLines: 240-258
+        lineNumber: 252
+        myankLines: 241-259
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 331
-        myankLines: 318-341
+        lineNumber: 332
+        myankLines: 319-342
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 343
-        myankLines: 330-355
+        lineNumber: 344
+        myankLines: 331-356
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 447
-        myankLines: 438-456
+        lineNumber: 448
+        myankLines: 439-457
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 455
-        myankLines: 445-463
+        lineNumber: 456
+        myankLines: 446-464
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
-        lineNumber: 44
-        myankLines: 39-46
+        lineNumber: 45
+        myankLines: 40-47
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
-        lineNumber: 89
-        myankLines: 84-91
+        lineNumber: 90
+        myankLines: 85-92
     -
         deg: '4'
         id: 59-4-die-nachtigall
@@ -464,54 +464,54 @@ deg4-7:
     -
         deg: '4'
         id: 88-3-hirtenlied
-        lineNumber: 79
-        myankLines: 60-5
+        lineNumber: 80
+        myankLines: 61-5
     -
         deg: '4'
         id: 88-5-deutschland
-        lineNumber: 95
-        myankLines: 88-100
+        lineNumber: 96
+        myankLines: 89-101
     -
         deg: '4'
         id: 88-5-deutschland
-        lineNumber: 203
-        myankLines: 193-208
+        lineNumber: 204
+        myankLines: 194-209
 deg4-down:
     -
         deg: '4'
         id: 100-1-andenken
-        lineNumber: 47
-        myankLines: 40-53
+        lineNumber: 48
+        myankLines: 41-54
     -
         deg: '4'
         id: 100-1-andenken
-        lineNumber: 157
-        myankLines: 149-164
-    -
-        deg: '4'
-        id: 100-1-andenken
-        lineNumber: 158
-        myankLines: 150-166
-    -
-        deg: '4'
-        id: 41-4-auf-ihrem-grab
-        lineNumber: 70
-        myankLines: 63-74
-    -
-        deg: '4'
-        id: 41-4-auf-ihrem-grab
-        lineNumber: 98
-        myankLines: 89-102
-    -
-        deg: '4'
-        id: 41-4-auf-ihrem-grab
         lineNumber: 160
-        myankLines: 153-165
+        myankLines: 152-167
+    -
+        deg: '4'
+        id: 100-1-andenken
+        lineNumber: 161
+        myankLines: 153-169
     -
         deg: '4'
         id: 41-4-auf-ihrem-grab
-        lineNumber: 191
-        myankLines: 182-196
+        lineNumber: 71
+        myankLines: 64-75
+    -
+        deg: '4'
+        id: 41-4-auf-ihrem-grab
+        lineNumber: 99
+        myankLines: 90-103
+    -
+        deg: '4'
+        id: 41-4-auf-ihrem-grab
+        lineNumber: 162
+        myankLines: 155-167
+    -
+        deg: '4'
+        id: 41-4-auf-ihrem-grab
+        lineNumber: 193
+        myankLines: 184-198
     -
         deg: '4'
         id: 48-3-fruehlingsfeier
@@ -535,68 +535,68 @@ deg4-down:
     -
         deg: '4'
         id: 59-1-im-gruenen
-        lineNumber: 51
-        myankLines: 44-56
+        lineNumber: 52
+        myankLines: 45-57
     -
         deg: '4'
         id: 59-1-im-gruenen
-        lineNumber: 56
-        myankLines: 48-61
+        lineNumber: 57
+        myankLines: 49-62
     -
         deg: '4'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 364
-        myankLines: 348-372
-    -
-        deg: '4'
-        id: 59-3-abschied-vom-walde
-        lineNumber: 33
-        myankLines: 28-36
+        lineNumber: 365
+        myankLines: 349-373
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
         lineNumber: 34
-        myankLines: 31-37
+        myankLines: 29-37
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
-        lineNumber: 60
-        myankLines: 54-66
+        lineNumber: 35
+        myankLines: 32-38
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
-        lineNumber: 66
-        myankLines: 59-69
+        lineNumber: 61
+        myankLines: 55-67
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
         lineNumber: 67
-        myankLines: 61-73
+        myankLines: 60-70
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
-        lineNumber: 72
-        myankLines: 66-76
+        lineNumber: 68
+        myankLines: 62-74
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
         lineNumber: 73
-        myankLines: 67-78
+        myankLines: 67-77
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
         lineNumber: 74
-        myankLines: 68-78
+        myankLines: 68-79
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
         lineNumber: 75
-        myankLines: 68-78
+        myankLines: 69-79
     -
         deg: '4'
         id: 59-3-abschied-vom-walde
         lineNumber: 76
-        myankLines: 69-80
+        myankLines: 69-79
+    -
+        deg: '4'
+        id: 59-3-abschied-vom-walde
+        lineNumber: 77
+        myankLines: 70-81
     -
         deg: '4'
         id: 59-4-die-nachtigall
@@ -686,24 +686,24 @@ deg5-246:
     -
         deg: '5'
         id: 59-3-abschied-vom-walde
-        lineNumber: 42
-        myankLines: 39-46
+        lineNumber: 43
+        myankLines: 40-47
 deg5-457:
     -
         deg: '5'
         id: 100-4-im-wald
-        lineNumber: 184
-        myankLines: 178-186
+        lineNumber: 185
+        myankLines: 179-187
     -
         deg: '5'
         id: 100-4-im-wald
-        lineNumber: 186
-        myankLines: 184-186
+        lineNumber: 187
+        myankLines: 185-187
     -
         deg: '5'
         id: 41-1-im-walde
-        lineNumber: 69
-        myankLines: 57-78
+        lineNumber: 70
+        myankLines: 58-79
     -
         deg: '5'
         id: 48-3-fruehlingsfeier
@@ -722,8 +722,8 @@ deg5-457:
     -
         deg: '5'
         id: 59-3-abschied-vom-walde
-        lineNumber: 122
-        myankLines: 115-125
+        lineNumber: 123
+        myankLines: 116-126
     -
         deg: '5'
         id: 59-5-ruhethal
@@ -732,29 +732,29 @@ deg5-457:
     -
         deg: '5'
         id: 59-6-jagdlied
-        lineNumber: 430
-        myankLines: 423-432
+        lineNumber: 432
+        myankLines: 425-434
     -
         deg: '5'
         id: 88-1-neujahrslied
-        lineNumber: 35
-        myankLines: 30-36
+        lineNumber: 36
+        myankLines: 31-37
     -
         deg: '5'
         id: 88-1-neujahrslied
-        lineNumber: 48
-        myankLines: 41-53
+        lineNumber: 49
+        myankLines: 42-54
 deg5-67:
     -
         deg: '5'
         id: 100-1-andenken
-        lineNumber: 121
-        myankLines: 113-128
+        lineNumber: 122
+        myankLines: 114-130
     -
         deg: '5'
         id: 100-1-andenken
-        lineNumber: 239
-        myankLines: 230-240
+        lineNumber: 242
+        myankLines: 233-243
     -
         deg: '5'
         id: 100-2-lob-des-fruehlings
@@ -768,28 +768,28 @@ deg5-67:
     -
         deg: '5'
         id: 100-4-im-wald
-        lineNumber: 79
-        myankLines: 73-83
+        lineNumber: 80
+        myankLines: 74-84
     -
         deg: '5'
         id: 100-4-im-wald
-        lineNumber: 102
-        myankLines: 96-106
+        lineNumber: 103
+        myankLines: 97-107
     -
         deg: '5'
         id: 100-4-im-wald
-        lineNumber: 145
-        myankLines: 139-149
+        lineNumber: 146
+        myankLines: 140-150
     -
         deg: '5'
         id: 41-2-entflieh-mit-mir
-        lineNumber: 32
-        myankLines: 24-39
+        lineNumber: 33
+        myankLines: 25-40
     -
         deg: '5'
         id: 41-2-entflieh-mit-mir
-        lineNumber: 34
-        myankLines: 26-41
+        lineNumber: 35
+        myankLines: 27-42
     -
         deg: '5'
         id: 41-6-auf-dem-see
@@ -808,8 +808,8 @@ deg5-67:
     -
         deg: '5'
         id: 88-1-neujahrslied
-        lineNumber: 128
-        myankLines: 123-130
+        lineNumber: 130
+        myankLines: 125-132
     -
         deg: '5'
         id: 88-2-der-glueckliche
@@ -823,24 +823,24 @@ deg5-67:
     -
         deg: '5'
         id: 88-4-die-waldvoegelein
-        lineNumber: 183
-        myankLines: 177-184
+        lineNumber: 185
+        myankLines: 179-186
 deg5-m6:
     -
         deg: '5'
         id: 100-1-andenken
-        lineNumber: 167
-        myankLines: 161-173
+        lineNumber: 170
+        myankLines: 164-176
     -
         deg: '5'
         id: 100-3-fruehlingslied
-        lineNumber: 119
-        myankLines: 109-128
+        lineNumber: 121
+        myankLines: 111-130
     -
         deg: '5'
         id: 100-4-im-wald
-        lineNumber: 176
-        myankLines: 171-179
+        lineNumber: 177
+        myankLines: 172-180
     -
         deg: '5'
         id: 48-6-herbstlied
@@ -849,18 +849,18 @@ deg5-m6:
     -
         deg: '5'
         id: 59-3-abschied-vom-walde
-        lineNumber: 110
-        myankLines: 104-113
+        lineNumber: 111
+        myankLines: 105-114
     -
         deg: '5'
         id: 59-6-jagdlied
-        lineNumber: 264
-        myankLines: 260-266
+        lineNumber: 266
+        myankLines: 262-268
     -
         deg: '5'
         id: 88-1-neujahrslied
-        lineNumber: 128
-        myankLines: 123-130
+        lineNumber: 130
+        myankLines: 125-132
     -
         deg: '5'
         id: 88-2-der-glueckliche
@@ -870,33 +870,33 @@ deg5-m6:
         deg: '5'
         id: 88-3-hirtenlied
         lineNumber: 5
-        myankLines: 77-111
+        myankLines: 78-112
     -
         deg: '5'
         id: 88-5-deutschland
-        lineNumber: 97
-        myankLines: 90-100
+        lineNumber: 98
+        myankLines: 91-101
     -
         deg: '5'
         id: 88-5-deutschland
-        lineNumber: 105
-        myankLines: 100-109
+        lineNumber: 106
+        myankLines: 101-110
     -
         deg: '5'
         id: 88-5-deutschland
-        lineNumber: 107
-        myankLines: 102-NaN
+        lineNumber: 108
+        myankLines: 103-NaN
     -
         deg: '5'
         id: 88-6-der-wandernde-musikant
-        lineNumber: 80
-        myankLines: 73-86
+        lineNumber: 81
+        myankLines: 74-87
 deg6-35:
     -
         deg: '6'
         id: 100-1-andenken
-        lineNumber: 182
-        myankLines: 173-188
+        lineNumber: 185
+        myankLines: 176-191
     -
         deg: '6'
         id: 100-2-lob-des-fruehlings
@@ -940,108 +940,108 @@ deg6-35:
     -
         deg: '6'
         id: 100-3-fruehlingslied
-        lineNumber: 99
-        myankLines: 89-106
+        lineNumber: 101
+        myankLines: 91-108
     -
         deg: '6'
         id: 100-4-im-wald
-        lineNumber: 179
-        myankLines: 176-184
+        lineNumber: 180
+        myankLines: 177-185
     -
         deg: '6'
         id: 41-1-im-walde
-        lineNumber: 61
-        myankLines: 49-71
+        lineNumber: 62
+        myankLines: 50-72
     -
         deg: '6'
         id: 41-1-im-walde
-        lineNumber: 98
-        myankLines: 89-106
+        lineNumber: 99
+        myankLines: 90-107
     -
         deg: '6'
         id: 41-1-im-walde
-        lineNumber: 104
-        myankLines: 95-113
+        lineNumber: 105
+        myankLines: 96-114
     -
         deg: '6'
         id: 41-2-entflieh-mit-mir
-        lineNumber: 53
-        myankLines: 44-59
+        lineNumber: 54
+        myankLines: 45-60
     -
         deg: '6'
         id: 41-2-entflieh-mit-mir
-        lineNumber: 77
-        myankLines: 68-84
+        lineNumber: 78
+        myankLines: 69-85
     -
         deg: '6'
         id: 41-3-es-fiel-ein-reif
-        lineNumber: 114
-        myankLines: 110-119
+        lineNumber: 117
+        myankLines: 113-122
     -
         deg: '6'
         id: 41-5-mailied
-        lineNumber: 37
-        myankLines: 29-45
+        lineNumber: 38
+        myankLines: 30-46
     -
         deg: '6'
         id: 41-5-mailied
-        lineNumber: 46
-        myankLines: 37-54
+        lineNumber: 47
+        myankLines: 38-55
     -
         deg: '6'
         id: 41-5-mailied
-        lineNumber: 66
-        myankLines: 59-72
-    -
-        deg: '6'
-        id: 41-5-mailied
-        lineNumber: 160
-        myankLines: 151-165
-    -
-        deg: '6'
-        id: 41-5-mailied
-        lineNumber: 161
-        myankLines: 153-165
+        lineNumber: 67
+        myankLines: 60-73
     -
         deg: '6'
         id: 41-5-mailied
         lineNumber: 162
-        myankLines: 154-166
+        myankLines: 152-167
+    -
+        deg: '6'
+        id: 41-5-mailied
+        lineNumber: 163
+        myankLines: 154-167
     -
         deg: '6'
         id: 41-5-mailied
         lineNumber: 164
-        myankLines: 157-167
-    -
-        deg: '6'
-        id: 41-5-mailied
-        lineNumber: 165
-        myankLines: 160-169
+        myankLines: 155-168
     -
         deg: '6'
         id: 41-5-mailied
         lineNumber: 166
-        myankLines: 161-171
+        myankLines: 158-169
     -
         deg: '6'
         id: 41-5-mailied
         lineNumber: 167
-        myankLines: 162-172
+        myankLines: 162-171
     -
         deg: '6'
         id: 41-5-mailied
-        lineNumber: 257
-        myankLines: 250-265
+        lineNumber: 168
+        myankLines: 163-174
     -
         deg: '6'
         id: 41-5-mailied
-        lineNumber: 266
-        myankLines: 257-274
+        lineNumber: 169
+        myankLines: 164-175
     -
         deg: '6'
         id: 41-5-mailied
-        lineNumber: 286
-        myankLines: 279-292
+        lineNumber: 260
+        myankLines: 253-268
+    -
+        deg: '6'
+        id: 41-5-mailied
+        lineNumber: 269
+        myankLines: 260-277
+    -
+        deg: '6'
+        id: 41-5-mailied
+        lineNumber: 289
+        myankLines: 282-295
     -
         deg: '6'
         id: 41-6-auf-dem-see
@@ -1090,18 +1090,18 @@ deg6-35:
     -
         deg: '6'
         id: 48-5-morgengebet
-        lineNumber: 25
-        myankLines: 20-29
+        lineNumber: 26
+        myankLines: 21-30
     -
         deg: '6'
         id: 48-5-morgengebet
-        lineNumber: 106
-        myankLines: 100-110
+        lineNumber: 108
+        myankLines: 102-112
     -
         deg: '6'
         id: 48-5-morgengebet
-        lineNumber: 129
-        myankLines: 122-135
+        lineNumber: 131
+        myankLines: 124-137
     -
         deg: '6'
         id: 48-6-herbstlied
@@ -1140,18 +1140,13 @@ deg6-35:
     -
         deg: '6'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 209
-        myankLines: 196-218
-    -
-        deg: '6'
-        id: 59-2-fruehzeitiger-fruehling
         lineNumber: 210
-        myankLines: 197-220
+        myankLines: 197-219
     -
         deg: '6'
         id: 59-2-fruehzeitiger-fruehling
         lineNumber: 211
-        myankLines: 199-221
+        myankLines: 198-221
     -
         deg: '6'
         id: 59-2-fruehzeitiger-fruehling
@@ -1165,13 +1160,18 @@ deg6-35:
     -
         deg: '6'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 242
-        myankLines: 230-251
+        lineNumber: 214
+        myankLines: 202-224
     -
         deg: '6'
         id: 59-2-fruehzeitiger-fruehling
-        lineNumber: 246
-        myankLines: 234-254
+        lineNumber: 243
+        myankLines: 231-252
+    -
+        deg: '6'
+        id: 59-2-fruehzeitiger-fruehling
+        lineNumber: 247
+        myankLines: 235-255
     -
         deg: '6'
         id: 59-4-die-nachtigall
@@ -1196,57 +1196,57 @@ deg6-35:
         deg: '6'
         id: 59-6-jagdlied
         lineNumber: 6
-        myankLines: 233-250
-    -
-        deg: '6'
-        id: 59-6-jagdlied
-        lineNumber: 248
-        myankLines: 237-251
+        myankLines: 235-252
     -
         deg: '6'
         id: 59-6-jagdlied
         lineNumber: 250
-        myankLines: 7-254
+        myankLines: 239-253
     -
         deg: '6'
         id: 59-6-jagdlied
-        lineNumber: 253
-        myankLines: 248-255
+        lineNumber: 252
+        myankLines: 7-256
     -
         deg: '6'
         id: 59-6-jagdlied
-        lineNumber: 370
-        myankLines: 365-371
+        lineNumber: 255
+        myankLines: 250-257
     -
         deg: '6'
         id: 59-6-jagdlied
-        lineNumber: 371
-        myankLines: 366-373
+        lineNumber: 372
+        myankLines: 367-373
     -
         deg: '6'
         id: 59-6-jagdlied
         lineNumber: 373
-        myankLines: 370-375
+        myankLines: 368-375
     -
         deg: '6'
         id: 59-6-jagdlied
-        lineNumber: 401
-        myankLines: 396-404
+        lineNumber: 375
+        myankLines: 372-377
     -
         deg: '6'
         id: 59-6-jagdlied
-        lineNumber: 454
-        myankLines: 449-457
+        lineNumber: 403
+        myankLines: 398-406
     -
         deg: '6'
         id: 59-6-jagdlied
-        lineNumber: 522
-        myankLines: 517-525
+        lineNumber: 456
+        myankLines: 451-459
     -
         deg: '6'
         id: 59-6-jagdlied
-        lineNumber: 535
-        myankLines: 530-538
+        lineNumber: 524
+        myankLines: 519-527
+    -
+        deg: '6'
+        id: 59-6-jagdlied
+        lineNumber: 537
+        myankLines: 532-540
     -
         deg: '6'
         id: 88-2-der-glueckliche
@@ -1260,23 +1260,18 @@ deg6-35:
     -
         deg: '6'
         id: 88-4-die-waldvoegelein
-        lineNumber: 56
-        myankLines: 48-64
-    -
-        deg: '6'
-        id: 88-4-die-waldvoegelein
         lineNumber: 58
         myankLines: 50-66
     -
         deg: '6'
         id: 88-4-die-waldvoegelein
-        lineNumber: 62
-        myankLines: 53-68
+        lineNumber: 60
+        myankLines: 52-68
     -
         deg: '6'
         id: 88-4-die-waldvoegelein
-        lineNumber: 65
-        myankLines: 56-72
+        lineNumber: 64
+        myankLines: 55-70
     -
         deg: '6'
         id: 88-4-die-waldvoegelein
@@ -1284,21 +1279,26 @@ deg6-35:
         myankLines: 58-74
     -
         deg: '6'
+        id: 88-4-die-waldvoegelein
+        lineNumber: 69
+        myankLines: 60-76
+    -
+        deg: '6'
         id: 88-5-deutschland
         lineNumber: 6
-        myankLines: 193-208
+        myankLines: 194-209
     -
         deg: '6'
         id: 88-6-der-wandernde-musikant
-        lineNumber: 64
-        myankLines: 54-72
+        lineNumber: 65
+        myankLines: 55-73
     -
         deg: '6'
         id: 88-6-der-wandernde-musikant
-        lineNumber: 83
-        myankLines: 74-89
+        lineNumber: 84
+        myankLines: 75-90
     -
         deg: '6'
         id: 88-6-der-wandernde-musikant
-        lineNumber: 165
-        myankLines: 158-168
+        lineNumber: 166
+        myankLines: 159-169

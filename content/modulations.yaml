@@ -2,73 +2,73 @@
     -
         deg: I
         endBeat: 13
-        endLine: 40
+        endLine: 41
         key: D
         startBeat: 0
-        startLine: 18
+        startLine: 19
     -
         deg: ii
         endBeat: 15.5
-        endLine: 44
+        endLine: 45
         key: e
         startBeat: 13
-        startLine: 40
+        startLine: 41
     -
         deg: I
         endBeat: 60
-        endLine: 127
+        endLine: 129
         key: D
         startBeat: 15.5
-        startLine: 44
+        startLine: 45
     -
         deg: vi
         endBeat: 73.5
-        endLine: 155
+        endLine: 158
         key: b
         startBeat: 60
-        startLine: 127
+        startLine: 129
     -
         deg: iii
         endBeat: 87.5
-        endLine: 181
+        endLine: 184
         key: f#
         startBeat: 73.5
-        startLine: 155
+        startLine: 158
     -
         deg: V
         endBeat: 99.5
-        endLine: 203
+        endLine: 206
         key: A
         startBeat: 87.5
-        startLine: 181
+        startLine: 184
     -
         deg: vi
         endBeat: 102.5
-        endLine: 209
+        endLine: 212
         key: b
         startBeat: 99.5
-        startLine: 203
+        startLine: 206
     -
         deg: I
         endBeat: 111.5
-        endLine: 226
+        endLine: 229
         key: D
         startBeat: 102.5
-        startLine: 209
+        startLine: 212
     -
         deg: vi
         endBeat: 114.5
-        endLine: 233
+        endLine: 236
         key: b
         startBeat: 111.5
-        startLine: 226
+        startLine: 229
     -
         deg: I
         endBeat: 120.5
         endLine: 20
         key: D
         startBeat: 114.5
-        startLine: 233
+        startLine: 236
 100-2-lob-des-fruehlings:
     -
         deg: I
@@ -144,317 +144,317 @@
     -
         deg: I
         endBeat: 17
-        endLine: 61
+        endLine: 63
         key: D
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: vi
         endBeat: 26
-        endLine: 86
+        endLine: 88
         key: b
         startBeat: 17
-        startLine: 61
+        startLine: 63
     -
         deg: I
         endBeat: 48
         endLine: 6
         key: D
         startBeat: 26
-        startLine: 86
+        startLine: 88
 100-4-im-wald:
     -
         deg: I
         endBeat: 48
-        endLine: 85
+        endLine: 86
         key: D
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: V
         endBeat: 77
-        endLine: 128
+        endLine: 129
         key: A
         startBeat: 48
-        startLine: 85
+        startLine: 86
     -
         deg: I
         endBeat: 115
-        endLine: 176
+        endLine: 177
         key: D
         startBeat: 77
-        startLine: 128
+        startLine: 129
     -
         deg: vi
         endBeat: 119
-        endLine: 181
+        endLine: 182
         key: b
         startBeat: 115
-        startLine: 176
+        startLine: 177
     -
         deg: I
         endBeat: 128
         endLine: 10
         key: D
         startBeat: 119
-        startLine: 181
+        startLine: 182
 41-1-im-walde:
     -
         deg: I
         endBeat: 16
-        endLine: 61
+        endLine: 62
         key: A
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: iii
         endBeat: 20.5
-        endLine: 75
+        endLine: 76
         key: c#
         startBeat: 16
-        startLine: 61
+        startLine: 62
     -
         deg: vi
         endBeat: 24.5
-        endLine: 84
+        endLine: 85
         key: f#
         startBeat: 20.5
-        startLine: 75
+        startLine: 76
     -
         deg: I
         endBeat: 44
         endLine: 8
         key: A
         startBeat: 24.5
-        startLine: 84
+        startLine: 85
 41-2-entflieh-mit-mir:
     -
         deg: I
         endBeat: 15
-        endLine: 48
+        endLine: 49
         key: E
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: vi
         endBeat: 18.5
-        endLine: 56
+        endLine: 57
         key: c#
         startBeat: 15
-        startLine: 48
+        startLine: 49
     -
         deg: I
         endBeat: 27
-        endLine: 72
+        endLine: 73
         key: E
         startBeat: 18.5
-        startLine: 56
+        startLine: 57
     -
         deg: vi
         endBeat: 31.5
-        endLine: 82
+        endLine: 83
         key: c#
         startBeat: 27
-        startLine: 72
+        startLine: 73
     -
         deg: I
         endBeat: 42
         endLine: 10
         key: E
         startBeat: 31.5
-        startLine: 82
+        startLine: 83
 41-3-es-fiel-ein-reif:
     -
         deg: i
         endBeat: 19
-        endLine: 47
+        endLine: 48
         key: a
         startBeat: 0
-        startLine: 20
+        startLine: 21
     -
         deg: III
         endBeat: 24
-        endLine: 53
+        endLine: 54
         key: C
         startBeat: 19
-        startLine: 47
+        startLine: 48
     -
         deg: i
         endBeat: 51
-        endLine: 92
+        endLine: 94
         key: a
         startBeat: 24
-        startLine: 53
+        startLine: 54
     -
         deg: III
         endBeat: 56
-        endLine: 99
+        endLine: 101
         key: C
         startBeat: 51
-        startLine: 92
+        startLine: 94
     -
         deg: i
         endBeat: 83
-        endLine: 138
+        endLine: 141
         key: a
         startBeat: 56
-        startLine: 99
+        startLine: 101
     -
         deg: III
         endBeat: 88
-        endLine: 144
+        endLine: 147
         key: C
         startBeat: 83
-        startLine: 138
+        startLine: 141
     -
         deg: i
         endBeat: 96
         endLine: 14
         key: a
         startBeat: 88
-        startLine: 144
+        startLine: 147
 41-4-auf-ihrem-grab:
     -
         deg: I
         endBeat: 4
-        endLine: 28
+        endLine: 29
         key: E
         startBeat: 0
-        startLine: 20
+        startLine: 21
     -
         deg: V
         endBeat: 7.5
-        endLine: 36
+        endLine: 37
         key: B
         startBeat: 4
-        startLine: 28
+        startLine: 29
     -
         deg: I
         endBeat: 16
-        endLine: 56
+        endLine: 57
         key: E
         startBeat: 7.5
-        startLine: 36
+        startLine: 37
     -
         deg: V
         endBeat: 24
-        endLine: 70
+        endLine: 71
         key: B
         startBeat: 16
-        startLine: 56
+        startLine: 57
     -
         deg: I
         endBeat: 32
-        endLine: 82
+        endLine: 83
         key: E
         startBeat: 24
-        startLine: 70
+        startLine: 71
     -
         deg: V
         endBeat: 40
-        endLine: 98
+        endLine: 99
         key: B
         startBeat: 32
-        startLine: 82
+        startLine: 83
     -
         deg: I
         endBeat: 52
-        endLine: 117
+        endLine: 119
         key: E
         startBeat: 40
-        startLine: 98
+        startLine: 99
     -
         deg: V
         endBeat: 55.5
-        endLine: 125
+        endLine: 127
         key: B
         startBeat: 52
-        startLine: 117
+        startLine: 119
     -
         deg: I
         endBeat: 63.5
-        endLine: 144
+        endLine: 146
         key: E
         startBeat: 55.5
-        startLine: 125
+        startLine: 127
     -
         deg: V
         endBeat: 72
-        endLine: 160
+        endLine: 162
         key: B
         startBeat: 63.5
-        startLine: 144
+        startLine: 146
     -
         deg: I
         endBeat: 79.5
-        endLine: 173
+        endLine: 175
         key: E
         startBeat: 72
-        startLine: 160
+        startLine: 162
     -
         deg: V
         endBeat: 88
-        endLine: 191
+        endLine: 193
         key: B
         startBeat: 79.5
-        startLine: 173
+        startLine: 175
     -
         deg: I
         endBeat: 96
         endLine: 26
         key: E
         startBeat: 88
-        startLine: 191
+        startLine: 193
 41-5-mailied:
     -
         deg: I
         endBeat: 18.5
-        endLine: 59
+        endLine: 60
         key: B-
         startBeat: 0
-        startLine: 20
+        startLine: 21
     -
         deg: V
         endBeat: 32
-        endLine: 85
+        endLine: 86
         key: F
         startBeat: 18.5
-        startLine: 59
+        startLine: 60
     -
         deg: I
         endBeat: 72
-        endLine: 160
+        endLine: 162
         key: B-
         startBeat: 32
-        startLine: 85
+        startLine: 86
     -
         deg: iii
         endBeat: 136
-        endLine: 242
+        endLine: 245
         key: d
         startBeat: 72
-        startLine: 160
+        startLine: 162
     -
         deg: I
         endBeat: 154.5
-        endLine: 279
+        endLine: 282
         key: B-
         startBeat: 136
-        startLine: 242
+        startLine: 245
     -
         deg: V
         endBeat: 168
-        endLine: 304
+        endLine: 307
         key: F
         startBeat: 154.5
-        startLine: 279
+        startLine: 282
     -
         deg: I
         endBeat: 208
         endLine: 14
         key: B-
         startBeat: 168
-        startLine: 304
+        startLine: 307
 41-6-auf-dem-see:
     -
         deg: I
@@ -615,24 +615,24 @@
     -
         deg: I
         endBeat: 13
-        endLine: 60
+        endLine: 61
         key: A
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: ii
         endBeat: 19
-        endLine: 75
+        endLine: 76
         key: b
         startBeat: 13
-        startLine: 60
+        startLine: 61
     -
         deg: I
         endBeat: 38
         endLine: 6
         key: A
         startBeat: 19
-        startLine: 75
+        startLine: 76
 48-3-fruehlingsfeier:
     -
         deg: I
@@ -751,59 +751,59 @@
     -
         deg: I
         endBeat: 13
-        endLine: 39
+        endLine: 40
         key: C
         startBeat: 0
-        startLine: 20
+        startLine: 21
     -
         deg: vi
         endBeat: 22
-        endLine: 56
+        endLine: 57
         key: a
         startBeat: 13
-        startLine: 39
+        startLine: 40
     -
         deg: V
         endBeat: 25
-        endLine: 63
+        endLine: 64
         key: G
         startBeat: 22
-        startLine: 56
+        startLine: 57
     -
         deg: I
         endBeat: 61
-        endLine: 122
+        endLine: 124
         key: C
         startBeat: 25
-        startLine: 63
+        startLine: 64
     -
         deg: ii
         endBeat: 65
-        endLine: 129
+        endLine: 131
         key: d
         startBeat: 61
-        startLine: 122
+        startLine: 124
     -
         deg: vi
         endBeat: 70
-        endLine: 140
+        endLine: 142
         key: a
         startBeat: 65
-        startLine: 129
+        startLine: 131
     -
         deg: V
         endBeat: 73
-        endLine: 147
+        endLine: 149
         key: G
         startBeat: 70
-        startLine: 140
+        startLine: 142
     -
         deg: I
         endBeat: 97
         endLine: 16
         key: C
         startBeat: 73
-        startLine: 147
+        startLine: 149
 48-6-herbstlied:
     -
         deg: i
@@ -914,187 +914,187 @@
     -
         deg: I
         endBeat: 20
-        endLine: 51
+        endLine: 52
         key: A
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: V
         endBeat: 36
-        endLine: 76
+        endLine: 77
         key: E
         startBeat: 20
-        startLine: 51
+        startLine: 52
     -
         deg: ii
         endBeat: 45
-        endLine: 87
+        endLine: 88
         key: b
         startBeat: 36
-        startLine: 76
+        startLine: 77
     -
         deg: I
         endBeat: 63
         endLine: 8
         key: A
         startBeat: 45
-        startLine: 87
+        startLine: 88
 59-2-fruehzeitiger-fruehling:
     -
         deg: I
         endBeat: 18
-        endLine: 62
+        endLine: 63
         key: G
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: IV
         endBeat: 30
-        endLine: 89
+        endLine: 90
         key: C
         startBeat: 18
-        startLine: 62
+        startLine: 63
     -
         deg: ii
         endBeat: 36
-        endLine: 102
+        endLine: 103
         key: a
         startBeat: 30
-        startLine: 89
+        startLine: 90
     -
         deg: I
         endBeat: 61
-        endLine: 170
+        endLine: 171
         key: G
         startBeat: 36
-        startLine: 102
+        startLine: 103
     -
         deg: vi
         endBeat: 73
-        endLine: 209
+        endLine: 210
         key: e
         startBeat: 61
-        startLine: 170
+        startLine: 171
     -
         deg: iii
         endBeat: 96
-        endLine: 273
+        endLine: 274
         key: b
         startBeat: 73
-        startLine: 209
+        startLine: 210
     -
         deg: IV
         endBeat: 109
-        endLine: 315
+        endLine: 316
         key: C
         startBeat: 96
-        startLine: 273
+        startLine: 274
     -
         deg: ii
         endBeat: 114
-        endLine: 329
+        endLine: 330
         key: a
         startBeat: 109
-        startLine: 315
+        startLine: 316
     -
         deg: I
         endBeat: 142
-        endLine: 405
+        endLine: 406
         key: G
         startBeat: 114
-        startLine: 329
+        startLine: 330
     -
         deg: IV
         endBeat: 154
-        endLine: 432
+        endLine: 433
         key: C
         startBeat: 142
-        startLine: 405
+        startLine: 406
     -
         deg: ii
         endBeat: 160
-        endLine: 445
+        endLine: 446
         key: a
         startBeat: 154
-        startLine: 432
+        startLine: 433
     -
         deg: I
         endBeat: 172
-        endLine: 476
+        endLine: 477
         key: G
         startBeat: 160
-        startLine: 445
+        startLine: 446
     -
         deg: IV
         endBeat: 182.5
-        endLine: 505
+        endLine: 506
         key: C
         startBeat: 172
-        startLine: 476
+        startLine: 477
     -
         deg: I
         endBeat: 196
         endLine: 28
         key: G
         startBeat: 182.5
-        startLine: 505
+        startLine: 506
 59-3-abschied-vom-walde:
     -
         deg: I
         endBeat: 33
-        endLine: 59
+        endLine: 60
         key: E-
         startBeat: 0
-        startLine: 20
+        startLine: 21
     -
         deg: V
         endBeat: 37
-        endLine: 66
+        endLine: 67
         key: B-
         startBeat: 33
-        startLine: 59
+        startLine: 60
     -
         deg: vi
         endBeat: 41
-        endLine: 72
+        endLine: 73
         key: c
         startBeat: 37
-        startLine: 66
+        startLine: 67
     -
         deg: vii
         endBeat: 47
-        endLine: 80
+        endLine: 81
         key: d
         startBeat: 41
-        startLine: 72
+        startLine: 73
     -
         deg: iii
         endBeat: 49
-        endLine: 84
+        endLine: 85
         key: g
         startBeat: 47
-        startLine: 80
+        startLine: 81
     -
         deg: I
         endBeat: 67
-        endLine: 107
+        endLine: 108
         key: E-
         startBeat: 49
-        startLine: 84
+        startLine: 85
     -
         deg: vi
         endBeat: 75
-        endLine: 118
+        endLine: 119
         key: c
         startBeat: 67
-        startLine: 107
+        startLine: 108
     -
         deg: I
         endBeat: 85
         endLine: 16
         key: E-
         startBeat: 75
-        startLine: 118
+        startLine: 119
 59-4-die-nachtigall:
     -
         deg: I
@@ -1199,102 +1199,102 @@
     -
         deg: III
         endBeat: 81
-        endLine: 216
+        endLine: 218
         key: D
         startBeat: 59
         startLine: 4
     -
         deg: i
         endBeat: 156
-        endLine: 349
+        endLine: 351
         key: b
         startBeat: 81
-        startLine: 216
+        startLine: 218
     -
         deg: I
         endBeat: 328
         endLine: 8
         key: B
         startBeat: 156
-        startLine: 349
+        startLine: 351
 88-1-neujahrslied:
     -
         deg: I
         endBeat: 16
-        endLine: 39
+        endLine: 40
         key: E-
         startBeat: 0
-        startLine: 21
+        startLine: 22
     -
         deg: vi
         endBeat: 24
-        endLine: 52
+        endLine: 53
         key: c
         startBeat: 16
-        startLine: 39
+        startLine: 40
     -
         deg: ii
         endBeat: 35
-        endLine: 68
+        endLine: 69
         key: f
         startBeat: 24
-        startLine: 52
+        startLine: 53
     -
         deg: V
         endBeat: 36
-        endLine: 71
+        endLine: 72
         key: B-
         startBeat: 35
-        startLine: 68
+        startLine: 69
     -
         deg: I
         endBeat: 52
-        endLine: 89
+        endLine: 91
         key: E-
         startBeat: 36
-        startLine: 71
+        startLine: 72
     -
         deg: IV
         endBeat: 60
-        endLine: 99
+        endLine: 101
         key: A-
         startBeat: 52
-        startLine: 89
+        startLine: 91
     -
         deg: I
         endBeat: 70
-        endLine: 109
+        endLine: 111
         key: E-
         startBeat: 60
-        startLine: 99
+        startLine: 101
     -
         deg: vi
         endBeat: 78
-        endLine: 120
+        endLine: 122
         key: c
         startBeat: 70
-        startLine: 109
+        startLine: 111
     -
         deg: ii
         endBeat: 91
-        endLine: 136
+        endLine: 138
         key: f
         startBeat: 78
-        startLine: 120
+        startLine: 122
     -
         deg: V
         endBeat: 92
-        endLine: 139
+        endLine: 141
         key: B-
         startBeat: 91
-        startLine: 136
+        startLine: 138
     -
         deg: I
         endBeat: 108
         endLine: 22
         key: E-
         startBeat: 92
-        startLine: 139
+        startLine: 141
 88-2-der-glueckliche:
     -
         deg: I
@@ -1359,7 +1359,7 @@
         endLine: 16
         key: g
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: III
         endBeat: 21.5
@@ -1370,171 +1370,171 @@
     -
         deg: i
         endBeat: 28
-        endLine: 120
+        endLine: 122
         key: g
         startBeat: 21.5
         startLine: 8
     -
         deg: I
         endBeat: 35.5
-        endLine: 141
+        endLine: 143
         key: G
         startBeat: 28
-        startLine: 120
+        startLine: 122
     -
         deg: V
         endBeat: 43.5
-        endLine: 165
+        endLine: 167
         key: D
         startBeat: 35.5
-        startLine: 141
+        startLine: 143
     -
         deg: IV
         endBeat: 50
-        endLine: 183
+        endLine: 185
         key: C
         startBeat: 43.5
-        startLine: 165
+        startLine: 167
     -
         deg: I
         endBeat: 63.5
-        endLine: 222
+        endLine: 224
         key: G
         startBeat: 50
-        startLine: 183
+        startLine: 185
     -
         deg: V
         endBeat: 71.5
-        endLine: 245
+        endLine: 247
         key: D
         startBeat: 63.5
-        startLine: 222
+        startLine: 224
     -
         deg: IV
         endBeat: 78
-        endLine: 262
+        endLine: 264
         key: C
         startBeat: 71.5
-        startLine: 245
+        startLine: 247
     -
         deg: I
         endBeat: 92.5
         endLine: 20
         key: G
         startBeat: 78
-        startLine: 262
+        startLine: 264
 88-4-die-waldvoegelein:
     -
         deg: I
         endBeat: 24.5
-        endLine: 70
+        endLine: 72
         key: F
         startBeat: 0
-        startLine: 20
+        startLine: 21
     -
         deg: V
         endBeat: 32.5
-        endLine: 89
+        endLine: 91
         key: C
         startBeat: 24.5
-        startLine: 70
+        startLine: 72
     -
         deg: I
         endBeat: 54.5
-        endLine: 130
+        endLine: 132
         key: F
         startBeat: 32.5
-        startLine: 89
+        startLine: 91
     -
         deg: V
         endBeat: 63.5
-        endLine: 141
+        endLine: 143
         key: C
         startBeat: 54.5
-        startLine: 130
+        startLine: 132
     -
         deg: I
         endBeat: 88
         endLine: 10
         key: F
         startBeat: 63.5
-        startLine: 141
+        startLine: 143
 88-5-deutschland:
     -
         deg: i
         endBeat: 23
-        endLine: 66
+        endLine: 67
         key: a
         startBeat: 0
-        startLine: 20
+        startLine: 21
     -
         deg: III
         endBeat: 40
-        endLine: 94
+        endLine: 95
         key: C
         startBeat: 23
-        startLine: 66
+        startLine: 67
     -
         deg: i
         endBeat: 96
         endLine: 6
         key: a
         startBeat: 40
-        startLine: 94
+        startLine: 95
 88-6-der-wandernde-musikant:
     -
         deg: I
         endBeat: 27.5
-        endLine: 72
+        endLine: 73
         key: E-
         startBeat: 0
-        startLine: 19
+        startLine: 20
     -
         deg: V
         endBeat: 32
-        endLine: 80
+        endLine: 81
         key: B-
         startBeat: 27.5
-        startLine: 72
+        startLine: 73
     -
         deg: iii
         endBeat: 35
-        endLine: 86
+        endLine: 87
         key: g
         startBeat: 32
-        startLine: 80
+        startLine: 81
     -
         deg: V
         endBeat: 42
-        endLine: 97
+        endLine: 98
         key: B-
         startBeat: 35
-        startLine: 86
+        startLine: 87
     -
         deg: v
         endBeat: 48.5
-        endLine: 110
+        endLine: 111
         key: b-
         startBeat: 42
-        startLine: 97
+        startLine: 98
     -
         deg: IV
         endBeat: 60.5
-        endLine: 131
+        endLine: 132
         key: A-
         startBeat: 48.5
-        startLine: 110
+        startLine: 111
     -
         deg: ii
         endBeat: 68
-        endLine: 143
+        endLine: 144
         key: f
         startBeat: 60.5
-        startLine: 131
+        startLine: 132
     -
         deg: I
         endBeat: 105.5
         endLine: 16
         key: E-
         startBeat: 68
-        startLine: 143
+        startLine: 144
